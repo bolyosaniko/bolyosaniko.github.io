@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Bolyós Anikó
-email: bmilan1985@gmail.com
+email: bolyos.aniko@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is the personal website of Anikó Bolyós.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -28,7 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  jekyll
 
 # Build settings
-theme: minima
+markdown: kramdown
 plugins:
   - jekyll-feed
 
