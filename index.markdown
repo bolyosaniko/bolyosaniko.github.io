@@ -2,7 +2,6 @@
 layout: page
 ---
 
-# Főoldal
+## Bemutatkozás
 
 Hello World!
-

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: LovelyHome;
+    src: url('/assets/fonts/Lovely\ Home.ttf');
+}
+
+.header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: LovelyHome;
+    font-size: 48pt;
+}
