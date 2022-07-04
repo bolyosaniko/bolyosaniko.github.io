@@ -1,7 +1,6 @@
 ---
 layout: page
+title: Bemutatkozás
 ---
 
-## Bemutatkozás
-
-Hello World!
+Ezen az oldalon magamról írok

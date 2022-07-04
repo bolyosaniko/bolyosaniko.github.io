@@ -1,7 +1,7 @@
 ---
 layout: page
-title: A podcast
+title: A podcastom
 permalink: /podcast/
 ---
 
-## A podcastról
+Pár szó a podcastomról és link az oldalra.

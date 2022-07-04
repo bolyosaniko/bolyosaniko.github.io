@@ -1,7 +1,7 @@
 ---
 layout: page
-title: A blog
+title: A blogom
 permalink: /blog/
 ---
 
-## A blogról
+Pár szó a blogomról és link az oldalra.

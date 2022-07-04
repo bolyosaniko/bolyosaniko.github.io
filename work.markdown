@@ -4,4 +4,4 @@ title: A munkám
 permalink: /work/
 ---
 
-## A munkámról
+Ide leírom mivel foglalkozom
