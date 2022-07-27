@@ -80,7 +80,7 @@ h6,
 }
 
 .my-navbar {
-    background-color: #e3f2fd;
+    /* background-color: #e3f2fd; */
 }
 
 /* Alignment of navbar container */
@@ -103,9 +103,9 @@ h6,
     width: 100%;
     height: 100px;
     padding: 40px 0;
-    color: #999;
+    /* color: #999; */
     text-align: center;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     border-top: 1px solid #e5e5e5;
 }
 

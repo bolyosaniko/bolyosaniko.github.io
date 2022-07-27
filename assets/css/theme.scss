@@ -1,0 +1,15 @@
+--- 
+---
+/* Content below */
+
+$primary: purple;
+
+@import 'bootstrap/bootstrap';
+
+.my-navbar {
+    background-color: $purple-100;
+}
+
+.footer {
+    background-color: $purple-100;
+}

@@ -1,6 +1,12 @@
 ---
-layout: page
-title: Bemutatkozás
+layout: home
+title: Főoldal
+feedback:
+- Foo bar baz qux
+  bal baa baaaaaa
+- Apa cuka funda
+  luka
+- Egyszer volt, hol nem volt
 ---
 
-Ezen az oldalon magamról írok
+Ez a tartalom nincs megjelenítve, a "feedback" listát használja a home.html.
