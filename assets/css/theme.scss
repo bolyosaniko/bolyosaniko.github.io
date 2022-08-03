@@ -2,14 +2,150 @@
 ---
 /* Content below */
 
+
+/*
+ * Override bootstrap's primary color.
+ * This must be placed before the bootstrap import line.
+ */
 $primary: purple;
 
 @import 'bootstrap/bootstrap';
+
+/* 
+ * Fonts
+ */
+
+ @font-face {
+    font-family: LovelyHome;
+    src: url('/assets/fonts/Lovely\ Home.ttf');
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url('/assets/fonts/MYRIADPRO-REGULAR.OTF');
+}
+
+@font-face {
+    font-family: Bitter;
+    src: url('/assets/fonts/Bitter-Regular.ttf');
+}
+
+/* 
+ * Variables
+ */
+
+$header-text-color: #333;
+$text-color: #555;
+$border-color: #e5e5e5;
+
+/* 
+ * Globals
+ */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: MyriadPro;
+    color: $text-color;
+    margin-bottom: 100px;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    margin-top: 0;
+    font-family: Bitter;
+    color: $header-text-color;
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+/* 
+ * Classes
+ */
+
+.header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: LovelyHome;
+    font-size: 150%;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 3px #666;
+    background-image: url(/assets/img/watercolor-background_23.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid $border-color;
+}
+
+.header h1 {
+    font-family: LovelyHome;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: normal;
+}
 
 .my-navbar {
     background-color: $purple-100;
 }
 
+/* Alignment of navbar container */
+.my-navbar-container {
+    padding-left: .4rem;
+}
+
+.page-title {
+    margin-bottom: 0.5em;
+}
+
+.main {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.carousel-rect {
+    width: 100%;
+    height: 100%;
+    fill: $purple-100;
+}
+
+.carousel-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: $text-color;
+    font-size: 100%;
+}
+
 .footer {
     background-color: $purple-100;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 56px;
+    padding-top: 16px;
+    text-align: center;
+    border-top: 1px solid $border-color;
 }
+
+.footer p:last-child {
+    margin-bottom: 0;
+} 
