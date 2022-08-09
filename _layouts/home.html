@@ -28,7 +28,14 @@ layout: default
               <rect class="carousel-rect" rx="15"></rect>
               <foreignObject class="carousel-text" x="15%" y="15%" width="70%" height="70%">
                 <div xmlns="http://www.w3.org/1999/xhtml">
-                  <p>{{ fb }}</p>
+                  <div class="container-fluid">
+                    <div class="row align-items-center">
+                      <div>{{ fb.content }}</div>
+                    </div>
+                    <div class="row">
+                      <div class="col feedback-author">&#8212; {{ fb.author }}</div>
+                    </div>
+                  </div>
                 </div>
               </foreignObject>
             </svg>
@@ -41,7 +48,14 @@ layout: default
               <rect class="carousel-rect" rx="15"></rect>
               <foreignObject class="carousel-text" x="15%" y="15%" width="70%" height="70%">
                 <div xmlns="http://www.w3.org/1999/xhtml">
-                  <p>{{ fb }}</p>
+                  <div class="container-fluid">
+                    <div class="row align-items-center">
+                      <div>{{ fb.content }}</div>
+                    </div>
+                    <div class="row">
+                      <div class="col feedback-author">&#8212; {{ fb.author }}</div>
+                    </div>
+                  </div>
                 </div>
               </foreignObject>
             </svg>
