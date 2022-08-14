@@ -22,4 +22,6 @@ feedback:
   author: Katie Belo Dos Santos
 ---
 
-Ez a tartalom nincs megjelenítve, a "feedback" listát használja a home.html.
+Bolyós Anikó vagyok. Szeretett hivatásom a léleksegítés, illetve iránymutatás azoknak, akik egy kicsit elakadva érzik magukat az útjuk során. Abban hiszek, hogy a munkásságomhoz a folyamatos fejlődés mellett a tapasztalatok is elengedhetetlenek, ezért mindenkitől, aki megtisztel a bizalmával, magam is sokat tanulok. Mindannyian mások vagyunk, viszont egy a közös bennünk: szeretetre és megértésre vágyunk. Mindig teljes szívvel, odaadással és kellő alázattal végzem a munkám, és így is várom a kedves vendégeimet személyesen és az online térben.
+
+![](/assets/img/aniko.jpg)

@@ -64,6 +64,10 @@ h6, .h6 {
     color: $header-text-color;
 }
 
+p img {
+    max-width: 100%;
+}
+
 /*
  * Override Bootstrap's default container.
  */
