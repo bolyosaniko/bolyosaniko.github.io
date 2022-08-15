@@ -25,9 +25,9 @@ Csak elindulni nehéz, de ha szánunk magunkra időt és energiát, akkor csodá
 
 ![](/assets/img/szinelemzes.jpg)
 
+A színezést egy webes alkalmazás segítségével is el lehet végezni távolról, ami [itt található](https://chroma-therapy.herokuapp.com/){:target="_blank"}.
 
 Állok kedves vendégeim rendelkezésére bizalommal, akik személyesen Angliában, illetve online formában is megtalálhatnak engem az oldalamon keresztül. Angol nyelven is vállalok megkeresést, amely esetében, kellemes tapasztalatok alapján, az országhatár sem jelent akadályt.
 
-Szeretettel:
-
+Szeretettel:<br/>
 Bolyós Anikó

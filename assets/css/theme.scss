@@ -26,8 +26,8 @@ $primary: purple;
 }
 
 @font-face {
-    font-family: Bitter;
-    src: url('/assets/fonts/Bitter-Regular.ttf');
+    font-family: Lora;
+    src: url('/assets/fonts/Lora-Bold.ttf');
 }
 
 /* 
@@ -60,13 +60,14 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
     margin-top: 0;
-    font-family: Bitter;
+    font-family: Lora;
     color: $header-text-color;
 }
 
 p img {
     max-width: 100%;
 }
+
 
 /*
  * Override Bootstrap's default container.
@@ -163,4 +164,16 @@ p img {
 
 .footer p:last-child {
     margin-bottom: 0;
-} 
+}
+
+#fb-logo {
+    max-width: 23px;
+}
+
+#msgr-logo {
+    max-width: 23px;
+}
+
+#insta-logo {
+    max-width: 23px;
+}
