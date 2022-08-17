@@ -131,18 +131,9 @@ p img {
     margin-bottom: 2em;
 }
 
-.carousel-rect {
-    width: 100%;
-    height: 100%;
-    fill: $purple-100;
-}
-
-.carousel-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    fill: $text-color;
-    font-size: 100%;
+.feedback {
+    background-color: $purple-100;
+    border-radius: 15px;
 }
 
 .feedback-author {
