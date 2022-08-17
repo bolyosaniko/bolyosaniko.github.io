@@ -18,3 +18,5 @@ Ezért is kezdtem el a férjemmel, Milánnal együtt megosztani a történetünk
 - [Pocket Casts](https://pca.st/ax44rp9o){:target="_blank"}
 - [Breaker](https://www.breaker.audio/egyutt-az-uton){:target="_blank"}
 - [RadioPublic](https://radiopublic.com/egytt-az-ton-699rMZ){:target="_blank"}
+
+<img id="fb-logo" src="/assets/img/facebook_logo_icon.png" /> [Együtt Az Úton a Facebookon](https://www.facebook.com/egyuttazuton){:target="_blank"}<br/>
