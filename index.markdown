@@ -37,6 +37,9 @@ feedback:
 - content: |
     Thank you so much for inviting me to this amazing page. Two years ago I would have just passed on this because I never believed in cards. But today, am all excited because of my personal experiences I’ve had with the cards, thanks to you. I hope everyone gets to give this a try even if it’s for curiosity sake. Love you ❤️
   author: Ruby Oteng
+- content: |
+    I underwent the color analysis with Anikó and it was amazing it helped me to know more about myself. I totally recommend her services. She is highly professional and an incredible and lovely Woman.
+  author: Maria Isabel Pinto
 ---
 
 Bolyós Anikó vagyok. Szeretett hivatásom a léleksegítés, illetve iránymutatás azoknak, akik egy kicsit elakadva érzik magukat az útjuk során. Abban hiszek, hogy a munkásságomhoz a folyamatos fejlődés mellett a tapasztalatok is elengedhetetlenek, ezért mindenkitől, aki megtisztel a bizalmával, magam is sokat tanulok. Mindannyian mások vagyunk, viszont egy a közös bennünk: szeretetre és megértésre vágyunk. Mindig teljes szívvel, odaadással és kellő alázattal végzem a munkám, és így is várom a kedves vendégeimet személyesen és az online térben.
