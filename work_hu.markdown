@@ -1,7 +1,9 @@
 ---
 layout: page
 title: A munkám
-permalink: /work/
+permalink: /munkam/
+lang: hu
+ref: work
 ---
 
 A spirituális úton megközelített iránymutatásom során cigány- és Lenormand kártyák használatával nyújtok segítséget a kedves vendégeimnek. Racionálisabb, ám mégis intuítív módon megközelítve pedig egyedi színelemzések készítésével, illetve a számok világának tudományával, a numerológiával is foglalkozom. A színek segítenek feltárni lelki, fizikai, illetve szellemi állapotunkat. Megmutatják, hogy vajon mit hozunk magunkkal, és hogy milyen képességek rejlenek bennünk, amelyekkel tudatos úton megkönnyíthetjük az életünket. A numerológia szintén ebben támogat bennünket. Az egyik legjobb önismereti út, amellyel teljes képet kaphatunk a személyiségünkről, illetve, hogy milyen energiákat hozunk magunkkal születésünk óta.

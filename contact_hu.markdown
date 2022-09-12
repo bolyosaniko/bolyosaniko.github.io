@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Elérhetőségeim
-permalink: /contact/
+permalink: /elerhetosegeim/
+lang: hu
+ref: contact
 ---
 
 ☎️ +44 785 797 8600 <br/>

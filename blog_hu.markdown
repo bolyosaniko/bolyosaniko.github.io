@@ -1,7 +1,9 @@
 ---
 layout: page
 title: A blogom
-permalink: /blog/
+permalink: /blogom/
+lang: hu
+ref: blog
 ---
 
 Elsősorban az írásaimat, tapasztalataimat szeretném megosztani, és inspirálni, motiválni a kedves olvasókat. A lelkemből merítkezem, és ez számomra öngyógyítás is egyben. A fő vágyam pedig azt szemléltetni, hogy nem csak az elméleti tudás szükséges a fejlődésünkhöz, hanem az életbeli tapasztalások is, amelyekkel igazi bölcsességre tehetünk szert. Hiszen csak abból tudunk meríteni, amit már átéltünk, és levontuk a megfelelő tanításokat. Emellett pedig a hivatásom is a szívem csücske, amelyről szeretnék itt is írni. 
