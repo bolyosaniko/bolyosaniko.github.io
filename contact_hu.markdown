@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elérhetőségeim
+title: Hol találsz meg?
 permalink: /elerhetosegeim/
 lang: hu
 ref: contact

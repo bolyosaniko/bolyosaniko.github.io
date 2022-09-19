@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A munkám
+title: Mivel foglalkozom?
 permalink: /munkam/
 lang: hu
 ref: work
@@ -8,7 +8,7 @@ ref: work
 
 A spirituális úton megközelített iránymutatásom során cigány- és Lenormand kártyák használatával nyújtok segítséget a kedves vendégeimnek. Racionálisabb, ám mégis intuítív módon megközelítve pedig egyedi színelemzések készítésével, illetve a számok világának tudományával, a numerológiával is foglalkozom. A színek segítenek feltárni lelki, fizikai, illetve szellemi állapotunkat. Megmutatják, hogy vajon mit hozunk magunkkal, és hogy milyen képességek rejlenek bennünk, amelyekkel tudatos úton megkönnyíthetjük az életünket. A numerológia szintén ebben támogat bennünket. Az egyik legjobb önismereti út, amellyel teljes képet kaphatunk a személyiségünkről, illetve, hogy milyen energiákat hozunk magunkkal születésünk óta.
 
-Fontos kiemelnem, hogy nem csak a jövő feltérképezése a fő cél, hanem, hogy milyen döntéseket, lépéseket szükséges megtenni azért, hogy eljuthassunk oda, ahova igazán szeretnénk. Sokszor nem látjuk tisztán az emberi kapcsolatainkat sem, pedig ez is nagyon fontos része az életünknek. Lényeges, hogy milyen a minket körülvevő környezet. Mi magunk irányítjuk az életünket és nekünk is kell meghoznunk az ehhez megfelelő döntéseket. Ebben nyújtok én segítséget, hogy objektív szemléletmódommal, rálátásommal átbeszéljük, mi lehetne a legoptimálisabb irány az adott kérdést illetően. Sok esetben felszínen van már a válasz, csak egy megerősítés, de nagyon fontos, hogy nem megmondás szükséges. A fő célom az, hogy rávezessem az embereket arra, amit már valójában ők maguk is tudnak, éreznek, csak eddig még nem került felszínre, vagy bizonytalanok az adott helyzettel kapcsolatban. Mindenkinek ott van a szabad akarata, a döntés a saját kezében van, ezt minden körülmények között tiszteletben is tartom.
+Fontos kiemelnem, hogy nem csak a jövő feltérképezése a fő cél, hanem, hogy milyen döntéseket, lépéseket szükséges megtenni azért, hogy eljuthassunk oda, ahova igazán szeretnénk. Sokszor nem látjuk tisztán az emberi kapcsolatainkat sem, pedig ez is nagyon fontos része az életünknek. Lényeges, hogy milyen a minket körülvevő környezet. Mi magunk irányítjuk az életünket és nekünk is kell meghoznunk az ehhez megfelelő döntéseket. Ebben nyújtok én segítséget, hogy objektív szemléletmódommal, rálátásommal átbeszéljük, mi lehetne az optimális irány az adott kérdést illetően. Sok esetben felszínen van már a válasz, csak egy megerősítés, de nagyon fontos, hogy nem megmondás szükséges. A fő célom az, hogy rávezessem az embereket arra, amit már valójában ők maguk is tudnak, éreznek, csak eddig még nem került felszínre, vagy bizonytalanok az adott helyzettel kapcsolatban. Mindenkinek ott van a szabad akarata, a döntés a saját kezében van, ezt minden körülmények között tiszteletben is tartom.
 
 ![](/assets/img/ciganykartya.jpg)
 

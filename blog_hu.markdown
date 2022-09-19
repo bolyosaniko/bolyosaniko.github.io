@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A blogom
+title: Miről szeretek írni?
 permalink: /blogom/
 lang: hu
 ref: blog

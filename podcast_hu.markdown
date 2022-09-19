@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A podcastom
+title: Miről szeretek beszélni?
 permalink: /podcastom/
 lang: hu
 ref: podcast
