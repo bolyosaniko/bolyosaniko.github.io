@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="hu" xmlns="http://www.w3.org/1999/html">
+<html lang="{{ page.lang }}" xmlns="http://www.w3.org/1999/html">
 
 {% include head.html %}
 
-  <body>
+<body>
 
-{% include header.html %}
+  {% include header.html %}
 
-{{ content }}
+  {{ content }}
 
-{% include footer.html %}
+  {% include footer.html %}
 
   <script src="/assets/js/bootstrap.min.js"></script>
 
-  </body>
+</body>
 
 </html>
-

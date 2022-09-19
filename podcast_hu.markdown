@@ -1,7 +1,9 @@
 ---
 layout: page
-title: A podcastom
-permalink: /podcast/
+title: Miről szeretek beszélni?
+permalink: /podcastom/
+lang: hu
+ref: podcast
 ---
 
 Számomra az apró sikerek is nagy ajándéknak számítanak. Ahhoz, hogy végig rendületlenül tudjak örülni mindennek, amit elérek, vagy éppen meglepetésként érkezik az életembe, ahhoz az összes apró lépés eredményességét becsülnöm kell. Csak így maradhatunk alázatosak, és így lehet szívünkben derű ebben a hosszú lélekfejlődésben. És ide tartozik az, hogy másoknak is tudjunk őszintén, szívvel örülni. Hiszen ez is csak emel minket, ha másoknak is jó, nem csak nekünk. Együtt örülni, támogatva egymást az egyik legfelemelőbb érzés, amely átlendíthet minket egy nehéz, rögös úton. Illetve az érzés, hogy együttműködhetünk másokkal, nem csak az én számít, hogy én elérjek valamit. Másokkal is lehet ötletelni, alkotni, fejlődni egy közös küldetésben. Az összetartozás érzése csodákra képes. 

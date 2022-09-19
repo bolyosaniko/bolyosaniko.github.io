@@ -36,6 +36,55 @@ plugins:
 sass:
   sass_dir: _sass
 
+# Site defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Translation settings
+t:
+  hu:
+    flag: hu_flag_64.png
+    home:
+      name: Bemutatkozás
+      url: /
+      greetings: Kedves látogató!
+      feedback: Vendégeim írták...
+    work:
+      name: Munkám
+      url: /munkam/
+    blog:
+      name: Blogom
+      url: /blogom/
+    podcast:
+      name: Podcastom
+      url: /podcastom/
+    contact:
+      name: Elérhetőségeim
+      url: /elerhetosegeim/
+  en:
+    flag: uk_flag_64.png
+    home:
+      name: Home
+      url: /home/
+      greetings: Dear visitor,
+      feedback: Some feedback I was given...
+    work:
+      name: Work
+      url: /work/
+    blog:
+      name: Blog
+      url: /blog/
+    podcast:
+      name: Podcast
+      url: /podcast/
+    contact:
+      name: Contact
+      url: /contact/
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
