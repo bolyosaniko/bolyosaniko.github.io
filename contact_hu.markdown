@@ -14,4 +14,4 @@ ref: contact
 
 <img id="fb-logo" src="/assets/img/facebook_logo_icon.png" /> [Együtt Az Úton a Facebookon](https://www.facebook.com/egyuttazuton){:target="_blank"}<br/>
 
-🌈 [Színelemzés applikáció](https://chroma-therapy.herokuapp.com/){:target="_blank"}
+🌈 [Színelemzés applikáció](http://apps.bolyosaniko.com/coloring){:target="_blank"}

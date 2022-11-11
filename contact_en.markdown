@@ -6,7 +6,6 @@ lang: en
 ref: contact
 ---
 
-
 ☎️ +44 785 797 8600 <br/>
 📧 bolyos.aniko@gmail.com
 
@@ -15,4 +14,4 @@ ref: contact
 
 <img id="fb-logo" src="/assets/img/facebook_logo_icon.png" /> [Együtt Az Úton on Facebook](https://www.facebook.com/egyuttazuton){:target="_blank"}<br/>
 
-🌈 [Colouring application](https://chroma-therapy.herokuapp.com/){:target="_blank"}
+🌈 [Colouring application](http://apps.bolyosaniko.com/coloring){:target="_blank"}
