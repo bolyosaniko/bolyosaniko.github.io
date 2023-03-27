@@ -21,6 +21,9 @@ feedback:
 - content: |
     I underwent the color analysis with Anikó and it was amazing it helped me to know more about myself. I totally recommend her services. She is highly professional and an incredible and lovely Woman.
   author: Maria Isabel Pinto
+- content: |
+    I recently had a colour analysis consultation with Aniko. This was a completely new experience for me so I was very excited about the results. Aniko gave me a detailed analysis which was fully explained. It was spot on and gave me a real insight into my personality and really helped me. I would fully recommend it to anyone.
+  author: Deborah Anne Beeson
 ---
 
 I am Anikó Bolyós. My beloved calling is to help and guide those who feel a little stuck on their journey. I believe that experience is essential to my work, so I learn a lot myself from everyone who honours me with their trust. We are all different, but we all have one thing in common: we all want to be loved and understood. I always do my work with all my heart, dedication and humility, and that is how I welcome my dear guests in person and online.
