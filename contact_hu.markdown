@@ -17,3 +17,29 @@ ref: contact
 <img id="fb-logo" src="/assets/img/facebook_logo_icon.png" /> [Együtt Az Úton a Facebookon](https://www.facebook.com/egyuttazuton){:target="_blank"}<br/>
 
 🌈 [Színelemzés applikáció](http://apps.bolyosaniko.com/coloring){:target="_blank"}
+
+## Áraim
+{: .pr-hdr}
+
+<table class="pr-table">
+    <colgroup>
+        <col width="70%" />
+        <col width="30%" />
+    </colgroup>
+    <tbody>
+        <tr>
+            <td markdown="span"><span class="pr-title">Színelemzés</span><br/><span class="pr-desc">60-90 perc konzultáció és az elemzés e-mailben elküldve</span></td>
+            <td markdown="span" class="pr-price">40 GBP</td>
+        </tr>
+        <tr>
+            <td markdown="span"><span class="pr-title">Spirituális coaching</span><br/><span class="pr-desc">60 perc kártyavetés és numerológia</span></td>
+            <td markdown="span" class="pr-price">30 GBP</td>
+        </tr>
+        <tr>
+            <td markdown="span"><span class="pr-title">Csomag ajánlat</span><br/><span class="pr-desc">színelemzés és spirituális coaching, 2 külön alkalom</span></td>
+            <td markdown="span" class="pr-price">60 GBP</td>
+        </tr>
+    </tbody>
+</table>
+
+> A feltüntetett árak angol fontban (GBP) értendőek. Magyar forintban történő fizetéskor a pontos összeget a Brit Adóhatóság (HMRC) által megállapított és közzétett átváltási ráta alapján számolom ki, amely [ezen a linken](https://www.gov.uk/government/collections/exchange-rates-for-customs-and-vat){:target="_blank"} érhető el.

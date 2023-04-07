@@ -17,3 +17,27 @@ ref: contact
 <img id="fb-logo" src="/assets/img/facebook_logo_icon.png" /> [Együtt Az Úton on Facebook](https://www.facebook.com/egyuttazuton){:target="_blank"}<br/>
 
 🌈 [Colouring application](http://apps.bolyosaniko.com/coloring){:target="_blank"}
+
+## Price list
+{: .pr-hdr}
+
+<table class="pr-table">
+    <colgroup>
+        <col width="70%" />
+        <col width="30%" />
+    </colgroup>
+    <tbody>
+        <tr>
+            <td markdown="span"><span class="pr-title">Colour analysis</span><br/><span class="pr-desc">60-90 mins consultancy and the analysis sent in e-mail</span></td>
+            <td markdown="span" class="pr-price">40 GBP</td>
+        </tr>
+        <tr>
+            <td markdown="span"><span class="pr-title">Spiritual coaching</span><br/><span class="pr-desc">60 mins card reading and numerology</span></td>
+            <td markdown="span" class="pr-price">30 GBP</td>
+        </tr>
+        <tr>
+            <td markdown="span"><span class="pr-title">Bundle</span><br/><span class="pr-desc">colour analysis and spiritual coaching, 2 separate sessions</span></td>
+            <td markdown="span" class="pr-price">60 GBP</td>
+        </tr>
+    </tbody>
+</table>
