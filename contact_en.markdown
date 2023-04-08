@@ -29,15 +29,15 @@ ref: contact
     <tbody>
         <tr>
             <td markdown="span"><span class="pr-title">Colour analysis</span><br/><span class="pr-desc">60-90 mins consultancy and the analysis sent in e-mail</span></td>
-            <td markdown="span" class="pr-price">40 GBP</td>
+            <td markdown="span" class="pr-price">£40</td>
         </tr>
         <tr>
             <td markdown="span"><span class="pr-title">Spiritual coaching</span><br/><span class="pr-desc">60 mins card reading and numerology</span></td>
-            <td markdown="span" class="pr-price">30 GBP</td>
+            <td markdown="span" class="pr-price">£30</td>
         </tr>
         <tr>
             <td markdown="span"><span class="pr-title">Bundle</span><br/><span class="pr-desc">colour analysis and spiritual coaching, 2 separate sessions</span></td>
-            <td markdown="span" class="pr-price">60 GBP</td>
+            <td markdown="span" class="pr-price">£60</td>
         </tr>
     </tbody>
 </table>
