@@ -28,7 +28,7 @@ feedback:
 
 If you feel that you can't find your place in the world, often don't understand yourself or have difficulty making decisions, then this is the place for you!
 
-Through self-awareness work you can learn more about yourself and your personality. This knowledge will make your everyday life easier by changing the way you see yourself. And this will affect all your human relationships.
+Through self-awareness work you can learn more about yourself and your personality. This knowledge will make your everyday life easier by changing the way you see yourself. And this will affect all your human relationships. It all starts from within you, and it's up to you what you want to bring out of yourself. I can help you, but you have to take the next steps to change.
 
 I am sure that you have your own unique life journey, and that the signposts have just pointed you in this direction. I welcome you here on my site!
 

@@ -34,10 +34,10 @@ feedback:
 
 Ha úgy érzed, hogy nem találod a helyed a világban, sokszor magadat sem érted, illetve nehezen hozol meg döntéseket, akkor itt a helyed!
 
-Önismereti munkával többet megtudhatsz magadról és a személyiségedről. Ez a tudás megkönnyíti a mindennapjaidat azáltal, hogy megváltoztatja a rólad kialakult képet saját magadban. Ez pedig az összes emberi kapcsolatodra hatással lesz.
+Önismereti munkával többet megtudhatsz magadról és a személyiségedről. Ez a tudás megkönnyíti a mindennapjaidat azáltal, hogy megváltoztatja a rólad kialakult képet saját magadban. Ez pedig az összes emberi kapcsolatodra hatással lesz. Minden belőled indul ki, és rajtad is múlik, hogy mit szeretnél felszínre hozni önmagadból. Én segíthetlek, viszont a további lépéseket Neked kell megtenned a változás érdekében.
 
 Biztos vagyok benne, hogy neked is van egy sajátos, egyedi életutad, amelynek útjelző táblája most éppen erre terelt téged. Szeretettel fogadlak itt az oldalamon!
 
 ![](/assets/img/aniko.jpg)
 
-Bolyós Anikó vagyok. Szeretett hivatásom a léleksegítés, illetve iránymutatás azoknak, akik egy kicsit elakadva érzik magukat az útjuk során. Abban hiszek, hogy a munkásságomhoz a folyamatos fejlődés mellett a tapasztalatok is elengedhetetlenek, ezért mindenkitől, aki megtisztel a bizalmával, magam is sokat tanulok. Mindannyian mások vagyunk, viszont egy a közös bennünk: szeretetre és megértésre vágyunk. Mindig teljes szívvel, odaadással és kellő alázattal végzem a munkám, és így is várom a kedves vendégeimet személyesen és az online térben.
+Bolyós Anikó vagyok. Szeretett hivatásom az irány megtalálása azoknak, akik egy kicsit elakadva érzik magukat az útjuk során. Abban hiszek, hogy a munkásságomhoz a folyamatos fejlődés mellett a tapasztalatok is elengedhetetlenek, ezért mindenkitől, aki megtisztel a bizalmával, magam is sokat tanulok. Mindannyian mások vagyunk, viszont egy a közös bennünk: szeretetre és megértésre vágyunk. Mindig teljes szívvel, odaadással és kellő alázattal végzem a munkám, és így is várom a kedves vendégeimet személyesen és az online térben.
