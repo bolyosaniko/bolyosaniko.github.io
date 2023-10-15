@@ -27,8 +27,17 @@ feedback:
 - content: |
     Bármilyen kérdéssel vagy kisebb-nagyobb problémával bizalommal lehet Anikóhoz fordulni. Ha szeretnék valamit tisztán látni vagy elbizonytalanodom valamiben, akkor segít rávezetni a helyes útra. Tanácsai nekem mindig sokat segítettek. Célja mások segítése, ami látszik is, hiszen szívvel-lélekkel csinálja. Kívánom, hogy maradj ilyen és sok örömöt találj ebben a hivatásban! Nagyon drukkolok a további sikereidhez. ❤️
   author: Kuti-Katona Szilvia
+- content: |
+    Nagyon rossz időszakon mentem keresztül, már-már felhagyva minden reménnyel, amikor egy nagyon kedves ismerősöm javaslatára felkerestem Anikót! Először kártyavetèst kértem, és Anikó már az első percben lenyűgözött tudásával, amikor a számokból és kártyából leírta a személyiségemet és életszínvonalamat! Hihetetlen, ahogy kiolvassa mindezt és mindezt örömmel, kedvességgel és türelemmel teszi. Nagy segítség volt számomra, hogy elmondta mit hogyan lát, és mit kellene tennem a boldogság irányába! Aztán megbeszéltük, hogy elvégez rajtam egy "tisztítást", ami sikeres volt. Követve az irányt, amiben segítségemre volt Anikó, hatalmas és hihetetlen fordulatot vett az életem a boldogság irányába! Nagyon hálás vagyok Anikónak mindezért és örömmel osztottam meg a pozitív tapasztalataimat.
+  author: Varga Viktória
 ---
 
-Bolyós Anikó vagyok. Szeretett hivatásom a léleksegítés, illetve iránymutatás azoknak, akik egy kicsit elakadva érzik magukat az útjuk során. Abban hiszek, hogy a munkásságomhoz a folyamatos fejlődés mellett a tapasztalatok is elengedhetetlenek, ezért mindenkitől, aki megtisztel a bizalmával, magam is sokat tanulok. Mindannyian mások vagyunk, viszont egy a közös bennünk: szeretetre és megértésre vágyunk. Mindig teljes szívvel, odaadással és kellő alázattal végzem a munkám, és így is várom a kedves vendégeimet személyesen és az online térben.
+Ha úgy érzed, hogy nem találod a helyed a világban, sokszor magadat sem érted, illetve nehezen hozol meg döntéseket, akkor itt a helyed!
+
+Önismereti munkával többet megtudhatsz magadról és a személyiségedről. Ez a tudás megkönnyíti a mindennapjaidat azáltal, hogy megváltoztatja a rólad kialakult képet saját magadban. Ez pedig az összes emberi kapcsolatodra hatással lesz.
+
+Biztos vagyok benne, hogy neked is van egy sajátos, egyedi életutad, amelynek útjelző táblája most éppen erre terelt téged. Szeretettel fogadlak itt az oldalamon!
 
 ![](/assets/img/aniko.jpg)
+
+Bolyós Anikó vagyok. Szeretett hivatásom a léleksegítés, illetve iránymutatás azoknak, akik egy kicsit elakadva érzik magukat az útjuk során. Abban hiszek, hogy a munkásságomhoz a folyamatos fejlődés mellett a tapasztalatok is elengedhetetlenek, ezért mindenkitől, aki megtisztel a bizalmával, magam is sokat tanulok. Mindannyian mások vagyunk, viszont egy a közös bennünk: szeretetre és megértésre vágyunk. Mindig teljes szívvel, odaadással és kellő alázattal végzem a munkám, és így is várom a kedves vendégeimet személyesen és az online térben.

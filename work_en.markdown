@@ -6,11 +6,18 @@ lang: en
 ref: work
 ---
 
-In my guidance, approached through a spiritual path, I offer help to my dear guests using Gypsy and Lenormand cards. Taking a more rational, yet intuitive approach, I also work with personalised colour analysis and the world of numbers also known as the science of numerology. Colours help to reveal our spiritual, physical and mental state. They show us what we brought with us, and the potential we have to consciously make our lives easier. Numerology also helps us to do this. It is one of the best ways of self-awareness to get a complete picture of our personality and the energies we bring with us from birth.
+Personally, I have been - and still am - on a journey of self-discovery. Thanks to this, I have found my vocation, my purpose in life - in other words, myself. That is why I emphasise self-awareness in my work: because that is where everything starts. You can really make a big step forward if you know where to go next.
 
-It is important to emphasize that the main goal is not only to map out the future, but also what decisions and steps we need to take in order to get to where we really want to be. Often we don't even see our human relationships clearly, although this is a very important part of our lives. The environment around us is crucial. We are in control of our lives and we have to make the right choices. This is where I can help, by using my objective perspective and insight to talk through what might be the optimal direction to take on a given issue. In many cases, the answer is already on the surface, just a confirmation, but very importantly, no prescription is needed. My main goal is to get people to see what they already really know and feel, but have not yet surfaced or are uncertain about the situation. Everyone has free will, the decision is in their own hands, and I respect that in all circumstances.
+Over the years, I've mastered a number of different methods and techniques, all of which I love to use in my face-to-face and online consultations, and I adapt them to the needs of my clients, depending on what they need most.
 
-![](/assets/img/ciganykartya.jpg)
+Whether it is a face-to-face or online consultation, it is important that it takes place in a relaxed environment. That hour and a half is the client's own time, and it's all about them. In the case of online consultations, I usually suggest that the client retreats to a separate small room where they can be comfortable. In a face-to-face consultation, I welcome everyone with a cup of tea or coffee and we start working together in a homely environment.
+
+A consultation may consist of the following services and activities:
+* Self-knowledge coaching with spiritual techniques for a full hour. I will assess my client's life areas to the best of my ability and together we will examine where there may be a blockage, a decision situation that may have caused the client to become emotionally unstable and in need of a confirmation, an absolute objective help. The work is done using numerology, Gypsy and Lenormand cards.
+* Personalised colour analysis, colour interpretation. This method gives us a deeper picture of what is going on inside us subconsciously and on the surface, on the level of thought. Colours can be a great help in our everyday life, not only in clothing and decoration, but also in spiritual and self-awareness work. A great inner transformation can be brought about with the support of colours, which after a while can also be seen in the way we wear our clothes. After all, if we feel good inside, it will radiate outwards.
+* I am currently still in the process of professional development in the background, but soon it will be available for all guests to receive energetic cleansing, transforming belief systems and deep blocks and obstructive thought patterns using the Spiritual Response Therapy (SRT).
+
+I have years of experience in all the techniques and methods listed above. I combine them, build on each other, but what is even more important is that I give my heart and soul to my dear guests, who can always feel at home, wherever they are: far away or close to me.
 
 
 #### What is colour analysis exactly?
@@ -25,7 +32,7 @@ Just getting started is difficult, but if we give ourselves the time and energy,
 
 ![](/assets/img/szinelemzes.jpg)
 
-Colouring can also be done remotely using a web application, which can be found [here](https://chroma-therapy.herokuapp.com/){:target="_blank"}.
+Colouring can also be done remotely using a web application, which can be found [here](https://apps.bolyosaniko.com/coloring){:target="_blank"}.
 
 I am at the disposal of my dear guests with confidence, who can find me in person in England or online through my website. I also undertake inquiries in English, in which case, based on pleasant experiences, the national border is not an obstacle either.
 

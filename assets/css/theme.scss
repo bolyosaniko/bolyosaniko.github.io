@@ -30,6 +30,11 @@ $primary: purple;
     src: url('/assets/fonts/Lora-Bold.ttf');
 }
 
+@font-face {
+    font-family: Montserrat;
+    src: url('/assets/fonts/Montserrat-Regular.ttf');
+}
+
 /* 
  * Variables
  */
@@ -105,6 +110,11 @@ blockquote {
 
 .header h1 {
     font-family: LovelyHome;
+}
+
+.header h5 {
+    font-family: Montserrat;
+    font-size: 75%;
 }
 
 .title {

@@ -26,6 +26,12 @@ feedback:
   author: Deborah Anne Beeson
 ---
 
-I am Anikó Bolyós. My beloved calling is to help and guide those who feel a little stuck on their journey. I believe that experience is essential to my work, so I learn a lot myself from everyone who honours me with their trust. We are all different, but we all have one thing in common: we all want to be loved and understood. I always do my work with all my heart, dedication and humility, and that is how I welcome my dear guests in person and online.
+If you feel that you can't find your place in the world, often don't understand yourself or have difficulty making decisions, then this is the place for you!
+
+Through self-awareness work you can learn more about yourself and your personality. This knowledge will make your everyday life easier by changing the way you see yourself. And this will affect all your human relationships.
+
+I am sure that you have your own unique life journey, and that the signposts have just pointed you in this direction. I welcome you here on my site!
 
 ![](/assets/img/aniko.jpg)
+
+I am Anikó Bolyós. My beloved calling is to help and guide those who feel a little stuck on their journey. I believe that experience is essential to my work, so I learn a lot myself from everyone who honours me with their trust. We are all different, but we all have one thing in common: we all want to be loved and understood. I always do my work with all my heart, dedication and humility, and that is how I welcome my dear guests in person and online.

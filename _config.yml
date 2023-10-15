@@ -48,8 +48,9 @@ defaults:
 t:
   hu:
     flag: hu_flag_64.png
+    subtitle: Önismereti coach és színtolmács
     home:
-      name: Bemutatkozás
+      name: Főoldal
       url: /
       greetings: Kedves látogató!
       feedback: Vendégeim írták...
@@ -67,6 +68,7 @@ t:
       url: /elerhetosegeim/
   en:
     flag: uk_flag_64.png
+    subtitle: Self-awareness coach and colour interpreter
     home:
       name: Home
       url: /home/

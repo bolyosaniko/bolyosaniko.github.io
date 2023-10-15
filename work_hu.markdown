@@ -6,11 +6,18 @@ lang: hu
 ref: work
 ---
 
-A spirituális úton megközelített iránymutatásom során cigány- és Lenormand kártyák használatával nyújtok segítséget a kedves vendégeimnek. Racionálisabb, ám mégis intuítív módon megközelítve pedig egyedi színelemzések készítésével, illetve a számok világának tudományával, a numerológiával is foglalkozom. A színek segítenek feltárni lelki, fizikai, illetve szellemi állapotunkat. Megmutatják, hogy vajon mit hozunk magunkkal, és hogy milyen képességek rejlenek bennünk, amelyekkel tudatos úton megkönnyíthetjük az életünket. A numerológia szintén ebben támogat bennünket. Az egyik legjobb önismereti út, amellyel teljes képet kaphatunk a személyiségünkről, illetve, hogy milyen energiákat hozunk magunkkal születésünk óta.
+Személy szerint én is nagy önismereti utat jártam - és még járok is - be. Ennek köszönhetően megtaláltam a hivatásomat, az életcélomat - vagyis önmagamat. Pontosan ezért fektetek hangsúlyt a munkásságomban az önismeretre: mert innen indul ki minden. Akkor tudunk igazán nagyot lépni előre, ha tudjuk, hogy merre is induljunk tovább.
 
-Fontos kiemelnem, hogy nem csak a jövő feltérképezése a fő cél, hanem, hogy milyen döntéseket, lépéseket szükséges megtenni azért, hogy eljuthassunk oda, ahova igazán szeretnénk. Sokszor nem látjuk tisztán az emberi kapcsolatainkat sem, pedig ez is nagyon fontos része az életünknek. Lényeges, hogy milyen a minket körülvevő környezet. Mi magunk irányítjuk az életünket és nekünk is kell meghoznunk az ehhez megfelelő döntéseket. Ebben nyújtok én segítséget, hogy objektív szemléletmódommal, rálátásommal átbeszéljük, mi lehetne az optimális irány az adott kérdést illetően. Sok esetben felszínen van már a válasz, csak egy megerősítés, de nagyon fontos, hogy nem megmondás szükséges. A fő célom az, hogy rávezessem az embereket arra, amit már valójában ők maguk is tudnak, éreznek, csak eddig még nem került felszínre, vagy bizonytalanok az adott helyzettel kapcsolatban. Mindenkinek ott van a szabad akarata, a döntés a saját kezében van, ezt minden körülmények között tiszteletben is tartom.
+Az elmúlt évek során több különféle módszert és technikát is elsajátítottam, amelyeket egytől egyig nagyon szeretek alkalmazni a személyes, illetve online konzultációim során.Ezeket a kedves vendég igényeihez igazítom aszerint, hogy éppen neki mire van szüksége a legjobban.
 
-![](/assets/img/ciganykartya.jpg)
+Akár személyes, akár online konzultációról legyen szó, fontos, hogy az nyugodt környezetben történjen. Az az egy-másfél óra a vendég saját énideje, ami csak róla szól. Online esetben azt szoktam javasolni, hogy a vendég vonuljon félre ez időre egy külön kis szobába, ahol kényelmesen el tud helyezkedni. Személyes konzultációnál mindenkit egy csésze teával vagy kávéval fogadok és otthoni környezetben vágunk neki a közös munkának.
+
+Egy konzultáció az alábbi szolgáltatásokból, tevékenységekből épülhet fel:
+* Önismereti coaching spirituális technikákkal egy teljes órában. A legjobb tudásom szerint felmérem a vendégem életterületeit, együtt megvizsgáljuk hol lehet elakadás, döntéshelyzet, amely miatt a vendég érzelmileg elbizonytalanodhatott és egy megerősítésre, egy abszolút objektív segítségre van szükség. A munka numerológia, cigány- és Lenormand kártyák felhasználásával zajlik.
+* Egyénre szabott színelemzés, színtolmácsolás. Ez a módszer egy mélyebb képet ad arról, hogy mi zajlik bennünk tudatalatti, illetve a felszínen, gondolati síkon. A színek nagy segítőink lehetnek a mindennapokban, nem csak viseletben, dekorációban, hanem lelki, önismereti munka során is. Nagy belső átalakulás vihető végbe a színek támogatásával, amely egy idő után már a viseletünkben is meglátszódhat. Hiszen, ha bent jól vagyunk, akkor ez kifelé is sugárzik.
+* Jelenleg még folyamatban lévő szakmai fejlődésben vagyok a hátterben, ám hamarosan elérhető lesz minden vendég számára az energetikai tisztítás, a hitrendszerek, illetve mély blokkok, akadályoztató gondolati minták átalakítása a spirituális válasz technika (SVT) segítségével.
+
+Minden fent felsorolt technikában, módszerben több éves gyakorlattal, tapasztalattal rendelkezem. Ezeket kombinálom, egymásra építem, de ami még ennél is fontosabb, hogy a szívemből-lelkemből adok a kedves vendégeimnek, akik hozzám mindig egy kicsit haza jönnek, ahol otthon érezhetik magukat, bárhol is legyenek: távol vagy közel hozzám.
 
 
 #### Mi is az a színelemzés?
@@ -25,9 +32,6 @@ Csak elindulni nehéz, de ha szánunk magunkra időt és energiát, akkor csodá
 
 ![](/assets/img/szinelemzes.jpg)
 
-A színezést egy webes alkalmazás segítségével is el lehet végezni távolról, ami [itt található](https://chroma-therapy.herokuapp.com/){:target="_blank"}.
+A színezést egy webes alkalmazás segítségével is el lehet végezni távolról, ami [itt található](https://apps.bolyosaniko.com/coloring){:target="_blank"}.
 
 Állok kedves vendégeim rendelkezésére bizalommal, akik személyesen Angliában, illetve online formában is megtalálhatnak engem az oldalamon keresztül. Angol nyelven is vállalok megkeresést, amely esetében, kellemes tapasztalatok alapján, az országhatár sem jelent akadályt.
-
-Szeretettel:<br/>
-Bolyós Anikó
