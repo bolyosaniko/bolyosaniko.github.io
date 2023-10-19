@@ -12,6 +12,8 @@ Az elmúlt évek során több különféle módszert és technikát is elsaját�
 
 Akár személyes, akár online konzultációról legyen szó, fontos, hogy az nyugodt környezetben történjen. Az az egy-másfél óra a vendég saját énideje, ami csak róla szól. Online esetben azt szoktam javasolni, hogy a vendég vonuljon félre ez időre egy külön kis szobába, ahol kényelmesen el tud helyezkedni. Személyes konzultációnál mindenkit egy csésze teával vagy kávéval fogadok és otthoni környezetben vágunk neki a közös munkának.
 
+![](/assets/img/colour_session.jpg)
+
 Egy konzultáció az alábbi szolgáltatásokból, tevékenységekből épülhet fel:
 * Önismereti coaching spirituális technikákkal egy teljes órában. A legjobb tudásom szerint felmérem a vendégem életterületeit, együtt megvizsgáljuk hol lehet elakadás, döntéshelyzet, amely miatt a vendég érzelmileg elbizonytalanodhatott és egy megerősítésre, egy abszolút objektív segítségre van szükség. A munka numerológia, cigány- és Lenormand kártyák felhasználásával zajlik.
 * Egyénre szabott színelemzés, színtolmácsolás. Ez a módszer egy mélyebb képet ad arról, hogy mi zajlik bennünk tudatalatti, illetve a felszínen, gondolati síkon. A színek nagy segítőink lehetnek a mindennapokban, nem csak viseletben, dekorációban, hanem lelki, önismereti munka során is. Nagy belső átalakulás vihető végbe a színek támogatásával, amely egy idő után már a viseletünkben is meglátszódhat. Hiszen, ha bent jól vagyunk, akkor ez kifelé is sugárzik.
