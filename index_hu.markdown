@@ -41,3 +41,12 @@ Biztos vagyok benne, hogy neked is van egy sajátos, egyedi életutad, amelynek 
 ![](/assets/img/aniko.jpg)
 
 Bolyós Anikó vagyok. Szeretett hivatásom az irány megtalálása azoknak, akik egy kicsit elakadva érzik magukat az útjuk során. Abban hiszek, hogy a munkásságomhoz a folyamatos fejlődés mellett a tapasztalatok is elengedhetetlenek, ezért mindenkitől, aki megtisztel a bizalmával, magam is sokat tanulok. Mindannyian mások vagyunk, viszont egy a közös bennünk: szeretetre és megértésre vágyunk. Mindig teljes szívvel, odaadással és kellő alázattal végzem a munkám, és így is várom a kedves vendégeimet személyesen és az online térben.
+
+<div class="row row-cols-2 justify-content-center ebook">
+  <div class="col-4 d-flex align-content-center flex-wrap">
+    <a href="/assets/files/szines_ebook_hun.pdf" target="_blank"><img id="ebook-thumb" src="/assets/img/ebook_hun_thumb.png" /></a>
+  </div>
+  <div class="col-8 d-flex align-content-center flex-wrap">
+    <p class="ebook-text">👈 Kattints a képre és töltsd le az ingyenes e-bookomat!</p>
+  </div>
+</div>

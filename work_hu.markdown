@@ -37,3 +37,12 @@ Csak elindulni nehéz, de ha szánunk magunkra időt és energiát, akkor csodá
 A színezést egy webes alkalmazás segítségével is el lehet végezni távolról, ami [itt található](https://apps.bolyosaniko.com/coloring){:target="_blank"}.
 
 Állok kedves vendégeim rendelkezésére bizalommal, akik személyesen Angliában, illetve online formában is megtalálhatnak engem az oldalamon keresztül. Angol nyelven is vállalok megkeresést, amely esetében, kellemes tapasztalatok alapján, az országhatár sem jelent akadályt.
+
+<div class="row row-cols-2 justify-content-center ebook">
+  <div class="col-4 d-flex align-content-center flex-wrap">
+    <a href="/assets/files/szines_ebook_hun.pdf" target="_blank"><img id="ebook-thumb" src="/assets/img/ebook_hun_thumb.png" /></a>
+  </div>
+  <div class="col-8 d-flex align-content-center flex-wrap">
+    <p class="ebook-text">👈 Kattints a képre és töltsd le az ingyenes e-bookomat!</p>
+  </div>
+</div>
