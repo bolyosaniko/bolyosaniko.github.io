@@ -38,6 +38,8 @@ A színezést egy webes alkalmazás segítségével is el lehet végezni távolr
 
 Állok kedves vendégeim rendelkezésére bizalommal, akik személyesen Angliában, illetve online formában is megtalálhatnak engem az oldalamon keresztül. Angol nyelven is vállalok megkeresést, amely esetében, kellemes tapasztalatok alapján, az országhatár sem jelent akadályt.
 
+> Az önismereti coaching, illetve a színtolmácsolás nem minősül egészségügyi szakképesítéshez kötött pszichoterápiás gyakorlatnak, terápiás tanácsadásnak, gyógyító vagy természetgyógyászati tevékenységnek.
+
 <div class="row row-cols-2 justify-content-center ebook">
   <div class="col-4 d-flex align-content-center flex-wrap">
     <a href="/assets/files/szines_ebook_hun.pdf" target="_blank"><img id="ebook-thumb" src="/assets/img/ebook_hun_thumb.png" /></a>

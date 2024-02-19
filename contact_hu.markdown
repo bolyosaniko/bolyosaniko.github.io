@@ -9,8 +9,10 @@ ref: contact
 ☎️ +44 785 797 8600 <br/>
 📧 bolyos.aniko@gmail.com
 
-<img id="fb-logo" src="/assets/img/facebook_logo_icon.png" /> <img id="msgr-logo" src="/assets/img/facebook_messenger_logo_icon.png" /> [Spiri Útjelző a Facebookon](https://www.facebook.com/spiriutjelzo){:target="_blank"} <br/>
-<img id="insta-logo" src="/assets/img/instagram_logo_icon.png" /> [Spiri Útjelző az Instagramon](https://www.instagram.com/spiriutjelzo/){:target="_blank"}
+<img id="fb-logo" src="/assets/img/facebook_logo_icon.png" /> <img id="msgr-logo" src="/assets/img/facebook_messenger_logo_icon.png" /> [Lélekszínező / Spiri Útjelző a Facebookon](https://www.facebook.com/spiriutjelzo){:target="_blank"} <br/>
+<img id="insta-logo" src="/assets/img/instagram_logo_icon.png" /> [Lélekszínező / Spiri Útjelző az Instagramon](https://www.instagram.com/spiriutjelzo/){:target="_blank"}
+
+<img id="yt-logo" src="/assets/img/youtube_logo_icon.png" /> [YouTube csatornám](https://www.youtube.com/@BolyosAniko){:target="_blank"}<br/>
 
 <img id="fb-logo" src="/assets/img/facebook_logo_icon.png" /> [Együtt Az Úton a Facebookon](https://www.facebook.com/egyuttazuton){:target="_blank"}<br/>
 
@@ -39,5 +41,7 @@ ref: contact
         </tr>
     </tbody>
 </table>
+
+> Az önismereti coaching, illetve a színtolmácsolás nem minősül egészségügyi szakképesítéshez kötött pszichoterápiás gyakorlatnak, terápiás tanácsadásnak, gyógyító vagy természetgyógyászati tevékenységnek.
 
 > A feltüntetett árak angol fontban (GBP) értendőek. Magyar forintban történő fizetéskor a pontos összeget a Brit Adóhatóság (HMRC) által megállapított és közzétett átváltási ráta alapján számolom ki, amely [ezen a linken](https://www.gov.uk/government/collections/exchange-rates-for-customs-and-vat){:target="_blank"} érhető el.
