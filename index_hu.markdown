@@ -6,6 +6,9 @@ lang: hu
 ref: home
 feedback:
 - content: |
+    2020 óta járok Anikóhoz, azóta több nehéz időszakon segített át és adott "útbaigazítást". Borzasztó szkeptikus voltam amikor az első alkalommal ültem le Anikó előtt kártyázni, viszont nagyon hamar rájöttem, hogy itt bizony nincs miben kételkedjek. Anikó személyisége elképesztően kedves, nyitott és befogadó, nagyon hamar megtaláltuk a közös hangot. Tudom, hogy bizalommal fordulhatok hozzá bármikor és soha nem éreztem magam kényelmetlenül, Anikó erről mindig gondoskodik. Voltam már sokszor kártyán, a színterápia világába is belementünk, amit évek után újra elővettünk összehasonlítani. Nagyon érdekes volt látni ott is a fejlődésem. Kipróbáltam valami számomra nagyon újat is, az SVT-t, ami nagyon sok dologra tárt fényt magammal kapcsolatban. Anikóhoz menni számomra mindig egy megújulás, feltöltődés lelkileg. Nekem a kártya a kedvencem, mindig segít amikor egy kicsit elakadva érzem magam az utamon. Tiszta szívből csak ajánlani tudom Anikót, nekem hihetetlenül sokat segített.
+  author: Szilágyi Anna
+- content: |
     Anikót a legjobb barátnőmön keresztül ismertem meg.<br/><br/>
     Sokszor van olyan helyzet, amikor hezitálok, bizonytalan vagyok dolgokban, és Anikó mindig megmutatja merre haladjak, mikor mire figyeljek. Mindig nagyon nagy bizalommal fordulok hozzá, hisz ő mindenkinek a legjobbat akarja, csupa szív és lélek. Nagyon örülök, hogy ismerhetem! 🤗
   author: Pap Tímea
