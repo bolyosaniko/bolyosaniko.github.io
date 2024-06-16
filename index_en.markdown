@@ -24,6 +24,9 @@ feedback:
 - content: |
     I recently had a colour analysis consultation with Aniko. This was a completely new experience for me so I was very excited about the results. Aniko gave me a detailed analysis which was fully explained. It was spot on and gave me a real insight into my personality and really helped me. I would fully recommend it to anyone.
   author: Deborah Anne Beeson
+- content: |
+    Aniko is an extraordinary lady with an excellent talent for colours. She changed my colour perception, which impacted my mood very positively. I always believed in energy healing, but I realised how much I underestimated the impact of colour on my life and well-being. I strongly recommend trying, and there is no way to regret it. Many thanks Aniko, for the positivity you bring to my life.
+  author: Nazli Burcu Kayir
 ---
 
 If you feel that you can't find your place in the world, often don't understand yourself or have difficulty making decisions, then this is the place for you!
