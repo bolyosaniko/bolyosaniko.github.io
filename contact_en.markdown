@@ -7,7 +7,7 @@ ref: contact
 ---
 
 ☎️ +44 785 797 8600 <br/>
-📧 bolyos.aniko@gmail.com
+📧 anikobolyos89@gmail.com
 
 <img id="fb-logo" src="/assets/img/facebook_logo_icon.png" /> <img id="msgr-logo" src="/assets/img/facebook_messenger_logo_icon.png" /> [Lélekszínező / Spiri Útjelző on Facebook](https://www.facebook.com/spiriutjelzo){:target="_blank"} <br/>
 <img id="insta-logo" src="/assets/img/instagram_logo_icon.png" /> [Lélekszínező / Spiri Útjelző on Instagram](https://www.instagram.com/spiriutjelzo/){:target="_blank"}
