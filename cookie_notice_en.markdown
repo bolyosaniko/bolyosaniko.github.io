@@ -6,7 +6,7 @@ lang: en
 ref: cookies
 ---
 
-Last updated: July 25, 2024
+Last updated: 1 August 2024
 
 This Cookies Policy explains what Cookies are and how We use them. You should read this policy so You can understand what type of cookies We use, or the information We collect using Cookies and how that information is used.
 

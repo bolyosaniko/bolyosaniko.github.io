@@ -6,7 +6,7 @@ lang: hu
 ref: cookies
 ---
 
-Utoljára frissítve: 2024. július 25.
+Utoljára frissítve: 2024. augusztus 1.
 
 Ez a Sütikre (Cookie) vonatkozó szabályzat elmagyarázza, hogy mik azok a Sütik és hogyan használjuk őket. Érdemes elolvasnia ezt a szabályzatot, hogy megértse, milyen típusú sütiket használunk, illetve milyen információkat gyűjtünk a Sütik segítségével, és hogyan használjuk fel ezeket az információkat.
 

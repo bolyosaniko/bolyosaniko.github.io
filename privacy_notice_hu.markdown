@@ -62,4 +62,4 @@ Kijelenti, hogy a szolgáltatáshoz kapcsolódó adatvédelmi szabályokat megis
 
 A személyes adatai kezeléséhez az Európai Parlament és a Tanács 2016. április 27-i (EU) 2016/679 Rendelet (GDPR) 6. cikk (1) bekezdés a) pontja hozzájárul, az Ön hozzájárulása önkéntes, minden feltételtől mentes, bármikor visszavonható.
 
-Southampton, 2024. június 1.
+Southampton, 2024. augusztus 1.

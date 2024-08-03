@@ -114,7 +114,7 @@ t:
         info_btn: More info
       privacy:
         text: I have read and understood the privacy notice
-        approve_btn: Approve
+        approve_btn: Accept
         info_btn: More info
 
 # Exclude from processing.

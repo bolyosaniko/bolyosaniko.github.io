@@ -6,7 +6,7 @@ lang: en
 ref: privacy_notice
 ---
 
-Last updated: 17 July 2024
+Last updated: 1 August 2024
 
 This privacy notice tells you what to expect us to do with your personal information.
 
@@ -20,20 +20,19 @@ This privacy notice tells you what to expect us to do with your personal informa
 
 anikobolyos89@gmail.com
 
-#### What information we collect, use, and why
+#### What information we collect or use, why, and how long we keep it
 
 We collect or use the following information to **provide services and goods, including delivery**:
 
-- Names and contact details
-- Dates of birth
-- Addresses
-- Website user information (including user journeys and cookie tracking)
+- Name - kept until the end of consultation
+- Date of birth - kept until the end of consultation
+- Website user information (including user journeys and cookie tracking, see our [Cookies Policy](/cookies/)) - kept for 31 days
 
 We collect or use the following information to **comply with legal requirements**:
 
-- Name
-- Contact information
-- Financial transaction information
+- Name and contact information - kept for 6 years from the end of the financial year
+- Address - kept for 6 years from the end of the financial year
+- Financial transaction information - kept for 6 years from the end of the financial year
 
 #### Lawful bases
 
@@ -48,10 +47,6 @@ Our lawful bases for collecting or using personal information for **legal requir
 #### Where we get personal information from
 
 - People directly
-
-#### How long we keep information
-
-[TODO: Retention schedule]
 
 #### Who we share information with
 
