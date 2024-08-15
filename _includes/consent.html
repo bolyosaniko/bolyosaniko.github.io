@@ -1,0 +1,76 @@
+<style>
+    .consent {padding: 0.5rem 1rem; border-radius: 15px 15px 0px 0px;; display: none; text-align: center; position: fixed; bottom: 0; left: 2rem; width: calc(100% - 4rem); background: #222; color: rgba(255,255,255,0.8);}
+    .consent a {display: inline-block; cursor: pointer; margin-left: 0.5rem;}
+    @media (max-width: 767px) {
+        .consent span {display: block; padding-top: 3px; margin-bottom: 1rem;}
+        .consent a {position: relative; bottom: 4px;}
+    }
+</style>
+<div class="consent" id="privacy-notice">
+    <span>{{ site.t[page.lang].consent.privacy.text }}</span>
+    <input type="checkbox" id="privacy-notice-checkbox" class="px-2">
+    <button type="button" id="privacy-notice-accept" class="btn btn-primary btn-sm" disabled>{{ site.t[page.lang].consent.privacy.approve_btn }}</button>
+    <a href="{{ site.t[page.lang].privacy.url }}" class="btn btn-secondary btn-sm">{{ site.t[page.lang].consent.privacy.info_btn }}</a>
+</div>
+<div class="consent" id="cookie-notice">
+    <span>{{ site.t[page.lang].consent.cookies.text }}</span>
+    <button type="button" id="cookie-notice-accept" class="btn btn-primary btn-sm">{{ site.t[page.lang].consent.cookies.approve_btn }}</button>
+    <a href="{{ site.t[page.lang].cookies.url }}" class="btn btn-secondary btn-sm">{{ site.t[page.lang].consent.cookies.info_btn }}</a>
+</div>
+<script>
+    // Functions
+    function createCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name, "", -1);
+    }
+
+    // Cookie consent
+    if (readCookie('cookie-notice-dismissed') == 'true') {
+        // Possible future 3rd party cookies/scripts includes.
+    } else {
+        document.getElementById('cookie-notice').style.display = 'block';
+    }
+    document.getElementById('cookie-notice-accept').addEventListener("click", function() {
+        createCookie('cookie-notice-dismissed', 'true', 31);
+        document.getElementById('cookie-notice').style.display = 'none';
+
+        // Reload is needed if includes are added after the consent.
+        // location.reload();
+    });
+
+    // Privacy notice consent
+    const pnBox = document.getElementById('privacy-notice-checkbox');
+    const pnBtn = document.getElementById('privacy-notice-accept');
+    if (readCookie('privacy-notice-consent') !== 'true') {
+        document.getElementById('privacy-notice').style.display = 'block';
+    }
+    pnBox.addEventListener("click", function() {
+        if (pnBox.checked) {
+            pnBtn.disabled = false;
+        } else {
+            pnBtn.disabled = true;
+        }
+    });
+    pnBtn.addEventListener("click", function() {
+        createCookie('privacy-notice-consent', 'true', 31);
+        document.getElementById('privacy-notice').style.display = 'none';
+    });
+</script>

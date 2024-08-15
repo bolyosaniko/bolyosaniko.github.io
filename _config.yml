@@ -66,6 +66,21 @@ t:
     contact:
       name: Elérhetőségeim
       url: /elerhetosegeim/
+    cookies:
+      name: Sütik
+      url: /sutik/
+    privacy:
+      name: Adatkezelés
+      url: /adatkezeles/
+    consent:
+      cookies:
+        text: 🍪 A weboldal sütiket (cookie) használ.
+        approve_btn: Megértettem
+        info_btn: Bővebben
+      privacy:
+        text: Az adatkezelési tájékoztatót megismertem és elfogadom
+        approve_btn: Elfogadom
+        info_btn: Bővebben
   en:
     flag: uk_flag_64.png
     subtitle: Self-awareness coach and colour interpreter
@@ -86,6 +101,21 @@ t:
     contact:
       name: Contact
       url: /contact/
+    cookies:
+      name: Cookies
+      url: /cookies/
+    privacy:
+      name: Privacy
+      url: /privacy-notice/
+    consent:
+      cookies:
+        text: 🍪 This website uses cookies.
+        approve_btn: Got it
+        info_btn: More info
+      privacy:
+        text: I have read and understood the privacy notice
+        approve_btn: Accept
+        info_btn: More info
 
 # Exclude from processing.
 # The following items will not be processed, by default.
