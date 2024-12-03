@@ -1,0 +1,73 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { Image } from "astro:assets";
+
+import Base from "../../layouts/base.astro";
+import LandingBlock from "../../components/landing_block.astro";
+import Boxes from "../../components/boxes.astro";
+
+import aniko2 from "../../assets/images/photos/aniko-2.jpg";
+import aniko3 from "../../assets/images/photos/aniko-3.jpg";
+
+const linkAnalysis = getRelativeLocaleUrl("hu", "colour-analysis");
+const linkInterpretation = getRelativeLocaleUrl("hu", "colour-interpretation");
+---
+
+<Base>
+    <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+        <LandingBlock title="Fedezd fel a színeid varázsát - kívül és belül!">
+            <p>Tudtad, hogy a színek nemcsak a külső megjelenésedre, hanem a belső világodra is hatással vannak?
+                Színtanácsadóként és színtolmácsolóként abban segítek, hogy megtaláld azokat az árnyalatokat, amelyek
+                nemcsak kiemelik természetes szépségedet, hanem összhangban vannak a személyiségeddel, támogatják
+                önismereted fejlődését, és segítik jóllétedet.</p>
+        </LandingBlock>
+        <Image class="min-h-full md:max-h-[700px] object-cover justify-self-center" src={aniko2} alt="" />
+    </div>
+    <LandingBlock title="Mi is az a színtípus?" bgClass="bg-pic-pantone">
+        <p>Az évszakok inspirálta színtípusok - Tavasz, Nyár, Ősz, Tél - mindegyike különböző színek kombinációját
+            foglalja magában, amelyek a bőröd tónusához, hajszínedhez és szemszínedhez igazodnak. A színtanácsadás
+            során speciális kendők segítségével meghatározzuk a te egyedi színtípusodat, hogy olyan ruhákat, sminkeket
+            és kiegészítőket választhass, amelyek tökéletesen passzolnak hozzád.</p>
+    </LandingBlock>
+    <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+        <LandingBlock title="Színek, amelyek többet mondanak...">
+            <p>A színtanácsadás és a színtolmácsolás két különálló, de egymást kiegészítő szolgáltatás. Míg a színtanácsadás
+                a külső megjelenésedre fókuszál, segít megtalálni a legelőnyösebb színeket az öltözködéshez, sminkhez és
+                kiegészítőkhöz, addig a színtolmácsolás egy mélyebb, önismereti módszer, amely a színek pszichológiai hatásain
+                keresztül térképezi fel az erősségeidet, gyengeségeidet, jelenlegi életszakaszod kihívásait és múltbeli
+                elakadásaidat.</p>
+        </LandingBlock>
+        <Image class="min-h-full md:max-h-[750px] object-cover justify-self-center md:order-first" src={aniko3} alt="" />
+    </div>
+    <LandingBlock title="Miért érdemes színtanácsadást és színtolmácsolást kérned?" bgClass="bg-pic-shop">
+        <Boxes items={[
+            { title: 'Önbizalom', text: 'A hozzád illő színek viselése növeli az önbizalmadat, és pozitív kisugárzást kölcsönöz.' },
+            { title: 'Pszichológiai előny', text: 'A megfelelő színek nemcsak kívül, hanem belül is harmonizálnak veled – növelik a jólét érzését és támogatják a pozitív gondolkodást.' },
+            { title: 'Stílus', text: 'Könnyebben összeállíthatod a gardróbodat, ha tudod, mely színek állnak jól.' },
+            { title: 'Színtolmácsolás', text: 'Térképezd fel az erősségeidet és elakadásaidat a színek segítségével, és találd meg a fejlődésed útját!' },
+            { title: 'Pozitív visszacsatolás', text: 'A harmonikus színek elismerő visszajelzéseket hoznak a környezetedtől.' },
+            { title: 'Tudatosság', text: 'Tudatosabban vásárolhatsz, ezáltal pénzt és időt spórolhatsz meg.' },
+        ]}/>
+    </LandingBlock>
+    <LandingBlock title="Válaszd a számodra megfelelő szolgáltatást vagy kérd csomagban!">
+        <Boxes items={[
+            { title: 'Színtanácsadás', text: 'Ha a külső megjelenésedet szeretnéd tudatosabban formálni, ez a szolgáltatás segít megtalálni a számodra legelőnyösebb színeket.' },
+            { title: 'Színtolmácsolás', text: 'Ha az önismeret és a belső fejlődés érdekel, a színek pszichológiai hatásain keresztül fedezheted fel erősségeidet és elakadásaidat.' },
+            { title: 'Szivárvány csomag', text: 'A két szolgáltatást egyben is kérheted, ha szeretnél átfogóbb képet kapni a külső és belső harmóniádról.' },
+        ]}/>
+    </LandingBlock>
+    <LandingBlock title="Hogyan működik?" bgClass="bg-pic-street">
+        <p>Egy személyes konzultáció során a választott szolgáltatásnak megfelelően meghatározzuk a színtípusodat,
+            vagy a színtolmácsolás segítségével feltárjuk, hogy mely színek támogatják legjobban a személyiségedet és
+            életszakaszodat. Ha mindkettőt szeretnéd, akkor a teljes folyamatot végigjárjuk, így harmonizálhatod a külső és
+            belső világodat.</p>
+    </LandingBlock>
+    <LandingBlock title="Tedd meg az első lépést!">
+        <p class="mb-8 md:mb-6">Fedezd fel, mely színek erősítenek téged, és teremts összhangot a külső megjelenésed és
+            belső világod között!</p>
+        <div class="flex flex-row justify-center gap-4 md:gap-8">
+            <a href={linkAnalysis} class="mt-6 px-4 py-4 mx-2 bg-bittersweet hover:bg-coral-pink text-white">Érdekel a színtanácsadás!</a>
+            <a href={linkInterpretation} class="mt-6 px-4 py-4 mx-2 bg-bittersweet hover:bg-coral-pink text-white">Érdekel a színtolmácsolás!</a>
+        </div>
+    </LandingBlock>
+</Base>

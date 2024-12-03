@@ -1,0 +1,31 @@
+---
+import { Image } from "astro:assets";
+import lighthouse from "../assets/images/lighthouse.svg";
+import rainbowLight from "../assets/images/rainbow_light.svg";
+
+export interface Props {
+    addSlogan?: boolean;
+};
+
+const {
+    addSlogan = false,
+} = Astro.props;
+
+const first = Astro.currentLocale === "hu" ? "Bolyós" : "Aniko";
+const second = Astro.currentLocale === "hu" ? "Anikó" : "Bolyos";
+const slogan = Astro.currentLocale === "hu" ? "Megvilágítom a színes utadat" : "Lighting your colourful path";
+---
+
+<div class="flex flex-col items-center relative text-black">
+    <div class="flex flex-row items-center">
+        <h1 class="relative left-5 md:left-8 font-abril text-base md:text-2xl">{first}</h1>
+        <div class="flex flex-col items-center">
+            <Image class="w-10 h-8 md:w-16 md:h-12" src={rainbowLight} alt="" />
+            <Image class="relative bottom-3 md:bottom-4 w-16 h-10 md:w-24 md:h-16" src={lighthouse} alt="" />
+        </div>
+        <h1 class="relative right-5 md:right-8 font-abril text-base md:text-2xl">{second}</h1>
+    </div>
+    <div class:list={[{ hidden: !addSlogan }, ""]}>
+        <h3 class="relative bottom-3 md:bottom-4 text-2xs md:text-sm font-sans">{slogan}</h3>
+    </div>
+</div>

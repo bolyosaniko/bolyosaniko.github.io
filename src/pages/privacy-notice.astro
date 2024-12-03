@@ -1,0 +1,111 @@
+---
+import Base from "../layouts/base.astro";
+import NormalBlock from "../components/normal_block.astro";
+import { getRelativeLocaleUrl } from "astro:i18n";
+
+const link = getRelativeLocaleUrl("en", "cookie-policy");
+---
+
+<Base>
+    <article>
+        <h2 class="py-4 md:py-6 font-lora text-xl md:text-4xl max-w-[75%] mx-auto text-center">Aniko Boleradszkine Bolyos (sole trader) customer privacy notice</h2>
+        <NormalBlock title="Last updated: 1 December 2024">
+            <p class="">This privacy notice tells you what to expect us to do with your personal information.</p>
+        </NormalBlock>
+        <NormalBlock title="Contact details">
+            <h4 class="">Telephone</h4>
+            <p class="">0785 797 8600</p>
+            <h4 class="">Email</h4>
+            <p class="">anikobolyos89@gmail.com</p>
+        </NormalBlock>
+        <NormalBlock title="What information we collect or use, why, and how long we keep it">
+            <p class="">We collect or use the following information to <strong>provide services and goods, including delivery</strong>:</p>
+            <ul class="list-outside list-disc relative left-4 md:left-5 mb-3 md:mb-6">
+                <li>Name - kept until the end of consultation</li>
+                <li>Date of birth - kept until the end of consultation</li>
+                <li>Website user information (including user journeys and cookie tracking, see our <a class="underline" href={link}>Cookies Policy</a> - kept for 31 days</li>
+            </ul>
+            <p class="">We collect or use the following information to <strong>comply with legal requirements</strong>:</p>
+            <ul class="list-outside list-disc relative left-4 md:left-5">
+                <li>Name and contact information - kept for 6 years from the end of the financial year</li>
+                <li>Address - kept for 6 years from the end of the financial year</li>
+                <li>Financial transaction information - kept for 6 years from the end of the financial year</li>
+            </ul>
+        </NormalBlock>
+        <NormalBlock title="Lawful bases">
+            <p class="">Our lawful bases for collecting or using personal information to <strong>provide services and goods</strong> are:</p>
+            <ul class="list-outside list-disc relative left-4 md:left-5 mb-3 md:mb-6">
+                <li>Contract</li>
+            </ul>
+            <p class="">Our lawful bases for collecting or using personal information to <strong>legal requirements</strong> are:</p>
+            <ul class="list-outside list-disc relative left-4 md:left-5">
+                <li>Legal obligation</li>
+            </ul>
+        </NormalBlock>
+        <NormalBlock title="Where we get personal information from">
+            <ul class="list-outside list-disc relative left-4 md:left-5">
+                <li>People directly</li>
+            </ul>
+        </NormalBlock>
+        <NormalBlock title="Who we share information with">
+            <h4 class="mb-3 md:mb-6">Data processors</h4>
+            <table class="table-auto border-collapse border border-onyx mb-3 md:mb-6">
+                <thead>
+                    <tr>
+                        <th class="border border-onyx px-2 py-2">Name</th>
+                        <th class="border border-onyx px-2 py-2">Reason</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-onyx px-2 py-2">QuickFile Ltd</td>
+                        <td class="border border-onyx px-2 py-2">They provide an accounting software for generating invoices for customers.</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-onyx px-2 py-2">Alphabet Inc.</td>
+                        <td class="border border-onyx px-2 py-2">They provide Google Drive cloud storage for storing backup copies of customer invoices. They also provide Google Mail which is the email service of our business.</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-onyx px-2 py-2">Meta Platforms Inc.</td>
+                        <td class="border border-onyx px-2 py-2">They provide various communication platforms (Facebook Messenger, WhatsApp) that we use to keep in touch with our customers.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4 class="">Others we share information with</h4>
+            <ul class="list-outside list-disc relative left-4 md:left-5">
+                <li>Professional or legal advisors</li>
+            </ul>
+        </NormalBlock>
+        <NormalBlock title="Sharing information outside the UK">
+            <p class="">Where necessary, our data processors may share personal information outside of the UK. When doing so, they comply with the UK GDPR, making sure appropriate safeguards are in place. Please contact us for more information.</p>
+        </NormalBlock>
+        <NormalBlock title="Your data protection rights">
+            <p class="mb-3 md:mb-6">Under data protection law, you have rights including:</p>
+            <ul class="list-outside list-disc relative left-4 md:left-5">
+                <li><strong>Your right of access</strong> - You have the right to ask us for copies of your personal data.</li>
+                <li><strong>Your right to rectification</strong> - You have the right to ask us to rectify personal data you think is inaccurate. You also have the right to ask us to complete information you think is incomplete.</li>
+                <li><strong>Your right to erasure</strong> - You have the right to ask us to erase your personal data in certain circumstances.</li>
+                <li><strong>Your right to restriction of processing</strong> - You have the right to ask us to restrict the processing of your personal data in certain circumstances.</li>
+                <li><strong>Your right to object to processing</strong> - You have the right to object to the processing of your personal data in certain circumstances.</li>
+                <li><strong>Your right to data portability</strong> - You have the right to ask that we transfer the personal data you gave us to another organisation, or to you, in certain circumstances.</li>
+                <li><strong>Your right to withdraw consent</strong> – When we use consent as our lawful basis you have the right to withdraw your consent.</li>
+            </ul>
+            <p class="mb-3 md:mb-6">You don’t usually need to pay a fee to exercise your rights. If you make a request, we have one calendar month to respond to you.</p>
+            <p class="mb-3 md:mb-6">To make a data protection rights request, please contact us using the contact details at the top of this privacy notice.</p>
+            <h4 class="mb-3 md:mb-6">How to complain</h4>
+            <p class="mb-3 md:mb-6">If you have any concerns about our use of your personal data, you can make a complaint to us using the contact details at the top of this privacy notice.</p>
+            <p class="mb-3 md:mb-6">If you remain unhappy with how we’ve used your data after raising a complaint with us, you can also complain to the ICO.</p>
+            <h4 class="mb-3 md:mb-6">The ICO's address</h4>
+            <p class="mb-3 md:mb-6">
+                Information Commissioner’s Office<br/>
+                Wycliffe House<br/>
+                Water Lane<br/>
+                Wilmslow<br/>
+                Cheshire<br/>
+                SK9 5AF
+            </p>
+            <p class="mb-3 md:mb-6">Helpline number: 0303 123 1113</p>
+            <p class="mb-3 md:mb-6">Website: <a class="underline" href="https://www.ico.org.uk/make-a-complaint" target="_blank">https://www.ico.org.uk/make-a-complaint</a></p>
+        </NormalBlock>
+    </article>
+</Base>

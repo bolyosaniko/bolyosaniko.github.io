@@ -1,0 +1,101 @@
+---
+const {
+    id,
+} = Astro.props;
+
+const idSlidesWrapper = "slides-wrapper-"+id;
+const idSlideBtnPrevious = "slide-btn-prev-"+id;
+const idSlideBtnNext = "slide-btn-next-"+id;
+const idSlidesContainer = "slides-container-"+id;
+const idSlidesDots = "slides-dots-"+id;
+---
+
+<section id={idSlidesWrapper} class="relative mx-auto w-[80%] overflow-hidden">
+    <div id={idSlidesContainer} class="slides-container flex h-auto transition-transform">
+        <slot />
+    </div>
+    <button id={idSlideBtnPrevious} class="inline-flex absolute rounded-full top-0 bottom-0 left-2 m-auto items-center justify-center bg-white size-8 md:size-16 opacity-50 hover:opacity-100 transition-opacity">
+        <svg class="size-4 md:size-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+        </svg>
+    <button id={idSlideBtnNext} class="inline-flex absolute rounded-full top-0 bottom-0 right-2 m-auto items-center justify-center bg-white size-8 md:size-16 opacity-50 hover:opacity-100 transition-opacity">
+        <svg class="size-4 md:size-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+        </svg>
+    </button>
+    <div id={idSlidesDots} class="dots-container flex items-center justify-center my-4">
+    </div>
+</section>
+
+<script is:inline define:vars={{idSlideBtnPrevious, idSlideBtnNext, idSlidesContainer, idSlidesDots}}>
+    const slidesContainer = document.getElementById(idSlidesContainer);
+    const prevButton = document.getElementById(idSlideBtnPrevious);
+    const nextButton = document.getElementById(idSlideBtnNext);
+
+    let currentIndex = 0;
+    let slides = [];
+    let dots = [];
+
+    function render() {
+        let offset = 0;
+        slides.forEach((slide, index) => {
+            if (index < currentIndex) {
+                offset += slide.offsetWidth;
+            }
+        });
+
+        slidesContainer.style.transform = `translateX(-${offset}px)`;
+        dots.forEach((dot, index) => {
+            if (index === currentIndex) {
+                dot.classList.remove("bg-onyx");
+                dot.classList.add("bg-bittersweet");
+            } else {
+                dot.classList.remove("bg-bittersweet");
+                dot.classList.add("bg-onyx");
+            }
+        });
+    }
+
+    function prev() {
+        if (currentIndex === 0) return;
+        currentIndex -= 1;
+        render();
+    }
+
+    function next() {
+        if (currentIndex === slides.length - 1) return;
+        currentIndex += 1;
+        render();
+    }
+
+    function goto(newIndex) {
+        if (newIndex < 0 || newIndex > slides.length - 1) return;
+        currentIndex = newIndex;
+        render();
+    }
+
+    prevButton.addEventListener("click", () => {
+        prev()
+    });    
+    nextButton.addEventListener("click", () => {
+        next();
+    });
+
+    const newSlides = document.querySelectorAll("div.slides-container > div");
+    slides = newSlides;
+
+    const dotsContainer = document.getElementById(idSlidesDots);
+    slides.forEach(() => {
+        const newDiv = document.createElement("div");
+        newDiv.classList.add("size-2", "mx-1", "cursor-pointer", "rounded-lg", "bg-onyx", "transition-colors");
+        dotsContainer.appendChild(newDiv);
+    });
+
+    const newDots = document.querySelectorAll("div.dots-container > div");
+    newDots.forEach((dot, index) => {
+        dot.onclick = () => goto(index);
+    });
+    dots = newDots;
+
+    render();
+</script>
