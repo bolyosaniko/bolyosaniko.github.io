@@ -1,0 +1,114 @@
+---
+import { Image } from "astro:assets";
+
+import Base from "../layouts/base.astro";
+import NormalBlock from "../components/normal_block.astro";
+import Note from "../components/note.astro";
+import Certificates from "../components/certificates.astro";
+
+import aniko from "../assets/images/photos/aniko.jpg";
+import podcast from "../assets/images/photos/podcast.jpg";
+---
+
+<Base>
+    <article>
+        <NormalBlock title="About me">
+            <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center">
+                <div>
+                    <p class="mb-3 md:mb-6">I am a 35-year-old wife, mother, and international self-discovery coach. Additionally,
+                        I work as a colour interpreter and consultant. I moved from Hungary to the UK in 2016, where I had the
+                        opportunity to explore new cultures and deepen my knowledge in supporting people on their personal journeys.</p>
+                    <p class="mb-3 md:mb-6">Since childhood, I have been drawn to working with people, offering emotional and
+                        spiritual support. I’ve also always had a strong connection to the world of fashion and personal style.
+                        Growing up with a mother who struggled with bipolar disorder taught me early on about the importance of
+                        self-awareness and nurturing our inner resources. I believe that even in challenging times and difficult
+                        emotional states, we can move forward if we’re willing to dig deep and find our unique paths.</p>
+                </div>
+                <Image class="min-h-full md:max-h-[700px] xl:max-h-[560px] object-cover justify-self-center pb-4" src={aniko} alt="" />
+            </div>
+            <p class="mb-3 md:mb-6">This commitment led me to the world of colours, an endless source of inspiration and
+                self-expression for me. In 2020, I completed a course in colour psychology, followed by a training in colour therapy,
+                enabling me to create personalised colour analyses for my clients. Later, I expanded my expertise by studying at the
+                London College of Style, blending colour consultancy with psychology in my work. Soon, I’ll begin my stylist training
+                to help my clients achieve their best selves inside and out.</p>
+            <Certificates />
+            <p class="mb-3 md:mb-6">Living in the UK taught me the importance of approaching other cultures with openness and
+                acceptance. I am deeply grateful for the opportunity to meet people from diverse backgrounds and form meaningful
+                friendships. These relationships have enriched my personal growth tremendously. Drawing from this experience, I
+                strive to support my clients with empathy, respect, and understanding.</p>
+            <p class="mb-3 md:mb-6">I believe each of us is unique, and our personal colours and styles not only enhance our
+                own lives but can also inspire others. Self-discovery starts from within, but caring for our outer appearance
+                can also help us become the best version of ourselves.</p>
+        </NormalBlock>
+        <NormalBlock title="My blog" bgClass="bg-pic-journal">
+            <p class="mb-3 md:mb-6">Through my blog, I share my writings, experiences, and reflections, aiming to inspire and
+                motivate my readers. Writing is not only a way to connect with others but also a form of self-healing for me.
+                My goal is to show that growth requires both theoretical knowledge and life experiences. True wisdom comes from
+                what we’ve lived through and the lessons we’ve drawn from those moments.</p>
+            <p class="mb-3 md:mb-6">I’ve always felt a calling to work with people, helping them with both heart and mind on
+                their personal journeys. Finding my purpose was a significant journey of its own, which led me to move to another
+                country with my husband in 2016. This decision was one of the most defining moments of my life, as I discovered
+                my inner strength outside of my comfort zone. I started with minimal English and gradually built my skills,
+                though there’s always room for improvement. Over time, I began working not only with Hungarian clients but also
+                with people from other cultures, learning from their different worldviews, attitudes, and mentalities.</p>
+            <p class="mb-3 md:mb-6">
+                One key lesson I’ve learned is that every soul is unique and deserves respect and love regardless of their
+                background. I am deeply grateful to my clients for the lessons they teach me, and I strive to honor their trust
+                and individuality.</p>
+            <div class="flex flex-row justify-center gap-2 md:gap-4 mb-3 md:mb-6">
+                <a href="https://www.facebook.com/spiriutjelzo" target="_blank">
+                    <svg class="size-8 md:size-12" xmlns="http://www.w3.org/2000/svg" x-bind:width="size" x-bind:height="size" viewBox="0 0 24 24" fill="none" stroke="currentColor" x-bind:stroke-width="stroke" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/spiriutjelzo/" target="_blank">
+                    <svg class="size-8 md:size-12" xmlns="http://www.w3.org/2000/svg" x-bind:width="size" x-bind:height="size" viewBox="0 0 24 24" fill="none" stroke="currentColor" x-bind:stroke-width="stroke" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                        <path d="M16.5 7.5l0 .01"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="mb-3 md:mb-6">
+                <Note>
+                    <p class="text-center">Please note that this content is only available in Hungarian.</p>
+                </Note>
+            </div>
+        </NormalBlock>
+        <NormalBlock title="My podcast">
+            <p class="mb-3 md:mb-6">For me, even small successes feel like great gifts. To truly appreciate all the blessings and
+                surprises life offers, I’ve learned to value every small step. This mindset fosters humility and joy throughout the long
+                journey of personal growth. It’s also important to genuinely celebrate others’ successes. Supporting and uplifting one
+                another can bring profound joy and help us navigate life’s challenges.</p>
+            <Image class="mb-3 md:mb-6" src={podcast} alt="" />
+            <p class="">With this in mind, my husband Milán and I decided to share our story through a podcast. Our goal is
+                to offer support to those considering a move abroad or already living abroad and to share insights from our own spiritual
+                growth. The podcast has two main themes:</p>
+            <ol class="list-decimal list-inside relative left-2 md:left-4 mb-3 md:mb-6">
+                <li>Our full story – from our move to the UK to the present day.</li>
+                <li>Shorter discussions – focused on independent topics related to my work, explored together.</li>
+            </ol>
+            <p class="mb-3 md:mb-6">If you’re curious, you can listen to our episodes on the following platforms:</p>
+            <div class="flex flex-row justify-center gap-2 md:gap-4 mb-3 md:mb-6">
+                <a href="https://podcasters.spotify.com/pod/show/egyutt-az-uton" target="_blank">
+                    <svg class="size-8 md:size-12" xmlns="http://www.w3.org/2000/svg" x-bind:width="size" x-bind:height="size" viewBox="0 0 24 24" fill="none" stroke="currentColor" x-bind:stroke-width="stroke" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                        <path d="M8 11.973c2.5 -1.473 5.5 -.973 7.5 .527"></path>
+                        <path d="M9 15c1.5 -1 4 -1 5 .5"></path>
+                        <path d="M7 9c2 -1 6 -2 10 .5"></path>
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com/egyuttazuton" target="_blank">
+                    <svg class="size-8 md:size-12" xmlns="http://www.w3.org/2000/svg" x-bind:width="size" x-bind:height="size" viewBox="0 0 24 24" fill="none" stroke="currentColor" x-bind:stroke-width="stroke" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="mb-3 md:mb-6">
+                <Note>
+                    <p class="text-center">Please note that this content is only available in Hungarian.</p>
+                </Note>
+            </div>
+        </NormalBlock>
+    </article>
+</Base>

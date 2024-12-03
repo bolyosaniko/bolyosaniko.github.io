@@ -1,0 +1,19 @@
+---
+import Base from "../layouts/base.astro";
+import LandingBlock from "../components/landing_block.astro";
+import ImageCreditsList from "../components/image_credits_list.astro";
+---
+
+<Base>
+    <article>
+        <LandingBlock title="Programming and design">
+            <p>by <a class="underline" href="https://milonoir.github.io" target="_blank">Milán Boleradszki</a></p>
+        </LandingBlock>
+        <LandingBlock title="Images">
+            <p>Photos by <a class="underline" href="https://www.instagram.com/domgelanyi/" target="_blank">Dominik Gelányi</a> and Milán Boleradszki.</p>
+        </LandingBlock>
+        <LandingBlock title="Background images">
+            <ImageCreditsList />
+        </LandingBlock>
+    </article>
+</Base>

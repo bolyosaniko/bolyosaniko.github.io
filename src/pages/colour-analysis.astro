@@ -1,0 +1,158 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { Image } from "astro:assets";
+
+import Base from "../layouts/base.astro";
+import NormalBlock from "../components/normal_block.astro";
+import ModelSlides from "../components/model_slides.astro";
+import Card from "../components/card.astro";
+
+import draping from "../assets/images/photos/draping.jpg";
+import colourChart from "../assets/images/photos/colour-chart.jpg";
+
+const link = getRelativeLocaleUrl("en", "colour-interpretation");
+---
+
+<Base>
+    <article>
+        <NormalBlock title="What happens during a colour analysis session?">
+            <p class="mb-3 md:mb-6">You arrive at the agreed time, and in a comfortable setting, we’ll start with a brief chat
+                to understand how I can help you. We’ll go over the basics of colour theory so you know what to expect, and
+                you’ll complete a personality quiz to guide us during the draping process. This quiz is not a rulebook but a
+                helpful reference to align your personality with the colours that best support your current life phase.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center">
+                <div>
+                    <p class="mb-3 md:mb-6">Next, we’ll move on to the practical part: the draping session. You’ll sit without
+                        makeup in natural light, with your hair and clothing covered to ensure the focus is entirely on your
+                        face. We’ll test various shades – warm and cool, vibrant and soft – to identify which colours enhance
+                        your natural glow and which may make you appear tired. This process reveals the shades that make you
+                        look youthful, fresh, and authentic, even without makeup.</p>
+                    <p class="mb-3 md:mb-6">We’ll also determine whether gold or silver suits you better and explore which
+                        jewellery and accessories complement your natural beauty. The goal isn’t to impose strict rules on
+                        your wardrobe but to give you the freedom to mix and match colours confidently while highlighting
+                        your personality.</p>
+                </div>
+                <Image class="min-h-full md:max-h-[700px] xl:max-h-[560px] object-cover justify-self-center pb-4 md:order-first" src={draping} alt="" />
+            </div>
+            <p class="mb-3 md:mb-6">Throughout the session, we’ll discuss the psychological effects of colours, which can
+                significantly influence your mood and emotions. The right colours boost confidence and positively impact
+                those around you, supporting both your external appearance and inner well-being.</p>
+            <p class="mb-3 md:mb-6">At the end of the consultation, you’ll receive tips on integrating your new colours into
+                your existing wardrobe. We’ll discuss how to pair them and select pieces that align with your style. These
+                new colours will not only enhance your growth journey but also inspire and uplift both you and those around
+                you.</p>
+        </NormalBlock>
+        <NormalBlock title="How long does it take?" bgClass="bg-pic-wardrobe">
+            <p class="mb-3 md:mb-6">A colour analysis consultation takes <strong>120 minutes</strong>.</p>
+        </NormalBlock>
+        <NormalBlock title="What is the cost?">
+            <p class="mb-3 md:mb-6">Colour analysis: <strong>£125</strong></p>
+            <p class="mb-3 md:mb-6">Rainbow package (colour analysis + <a class="underline" href={link}>colour interpretation</a>): <strong>£165</strong></p>
+        </NormalBlock>
+        <NormalBlock title="What’s included?" bgClass="bg-pic-dressing-room">
+            <ul class="list-image-checkmark-sm md:list-image-checkmark-md list-outside relative left-4 md:left-5 mb-3 md:mb-6">
+                <li>Determination of your colour type and discovery of colours beyond your palette that suit you best.</li>
+                <li>Practical tips for everyday dressing.</li>
+                <li>Advice on how to wear black effectively – if it’s an essential colour for you, I’ll show you how to make it work.</li>
+                <li>A colour palette tailored to your type, making shopping decisions easier.</li>
+                <!-- <li>An e-book summarising your colour type and its key features for easy reference.</li> -->
+                <li>A detailed email summary of the consultation, sent within 48 hours.</li>
+                <li>A follow-up consultation three months later to address questions and review how you’ve applied the advice.</li>
+                <li>Email support for any urgent questions before the follow-up session.</li>
+            </ul>
+        </NormalBlock>
+        <NormalBlock title="FAQs">
+            <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center">
+                <div>
+                    <div class="mb-3">
+                        <h4>Why should I avoid wearing makeup during the consultation?</h4>
+                        <p>We base the analysis on your natural skin tone for the most accurate results. This way, we can see
+                            which colours truly enhance your natural glow. You’re welcome to arrive with makeup, as you’ll have
+                            the opportunity to remove it at the start of the session – feel free to bring your own products for
+                            reapplication afterward. I’ll also share tips, especially for lipsticks.</p>
+                    </div>
+                    <div class="mb-3">
+                        <h4>Why do you only work in natural light?</h4>
+                        <p>Natural light ensures the most accurate results, as artificial lighting can distort colours. Therefore,
+                            I conduct consultations exclusively in natural light: between 9 a.m. and 3 p.m. during winter and from
+                            9 a.m. to 5 p.m. in spring, summer, and autumn.</p>
+                    </div>
+                    <div class="mb-3">
+                        <h4>How do I start using my new colour palette?</h4>
+                        <p>I’ll email you a summary of the consultation along with an e-book about your colour type. You’ll also
+                            have the chance to ask follow-up questions via email and attend a free follow-up session three months
+                            later. Don’t rush the process – take your time exploring colours and styles, and you’ll gradually
+                            become more confident. We can even incorporate your old favourite colours with small adjustments for
+                            a more harmonious look.</p>
+                    </div>
+                    <div class="mb-3 md:mb-6">
+                        <h4>Do I have to stick only to my colour palette and abandon other colours?</h4>
+                        <p>Not at all! The consultation aims to show you the shades that suit you best, but it’s not about
+                            restricting your style. I’ll teach you how to incorporate other colour types so they work for you.
+                            The ultimate goal is for you to feel confident and authentic in what you wear – and I’m here to
+                            help make that happen!</p>
+                    </div>
+                </div>
+                <Image class="min-h-full md:max-h-[500px] object-cover justify-self-center pb-4" src={colourChart} alt="" />
+            </div>
+        </NormalBlock>
+        <NormalBlock title="How can I book a session?" bgClass="bg-pic-jumpers">
+            <div class="mb-3 md:mb-6">
+                <p>I offer <strong>in-person</strong> colour analysis consultations in <strong>Southampton, UK</strong>. To book an
+                    appointment, please contact me using one of the options below:</p>
+                <div class="flex flex-rows relative left-4 md:left-8 mt-2">
+                    <svg class="size-6 md:size-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                        <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
+                        <path d="M3 7l9 6l9 -6"></path>
+                    </svg>
+                    <span class="ml-2"><a href="mailto:anikobolyos89@gmail.com">anikobolyos89@gmail.com</a></span>
+                </div>
+                <div class="flex flex-rows relative left-4 md:left-8 mt-2">
+                    <svg class="size-6 md:size-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                        <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
+                    </svg>
+                    <span class="ml-2">+44 785 797 8600</span>
+                </div>
+            </div>
+        </NormalBlock>
+        <NormalBlock title="Some photos of my clients">
+            <ModelSlides />
+        </NormalBlock>
+        <NormalBlock title="Testimonials" bgClass="bg-pic-glass">
+            <div class="mx-auto max-w-[80%]">
+                <Card author="Katie Belo Dos Santos">
+                    Today I carried out a colour analysis with Anikó. She concluded I looked best in Spring colours. It was so worth it. It's an informative & fun session.
+                </Card>
+                <Card author="Linda Dalton">
+                    Hi Anikó, I really enjoyed it this morning. I feel really inspired to try some new colour combinations. It was really helpful to see the colours working by using some of your own clothing, rather than just the swatches. And having the photos to refer to is absolutely brilliant. I appreciated your offer to help me with my wardrobe if I need it. Your suggestion about batching similar colours together in my wardrobe is a fantastic idea. I think I already had a reasonable idea of colours that suit me, but after today I’m definitely open to expanding my range. Thank you so much! You will undoubtedly be really successful when you start your own business as you are so warm, welcoming, enthusiastic and emotionally intelligent. 😘
+                </Card>
+                <Card author="Katiane Oliveira">
+                    Last Saturday, on 6th July, I had the lovely experience of learning a bit about the power of the colours and how they can boost my life. Anikó did an amazing job teaching and helping me to understand the impact of matching colours with my style.<br/>
+                    I’m looking forward to applying all those learnings to my daily basis, and I wish all the best to Anikó on this journey that for sure will bring a lot of joy to people’s lives.
+                </Card>
+                <Card author="Sonia Fernandez">
+                    I had my colour analysis done by Aniko. The session began by having a white drape placed over my neck to cover my body. Next, she draped several colour fabric swatches over the white drape. Based on the tone of your natural skin tone, Aniko explained about the seasonal categories: Spring, Summer, Autumn and Winter. Using different ranges of colours, based on a season, Aniko pointed out the colours that complement and harmonize my skin complexion, my eyes and my hair colour too. I was happily surprised by my result as an Autumn person, as I really love the brown palette.<br/>
+                    Not only has Aniko guided me on clothing, but she also showed me what jewellery colour choices and with very interesting information for makeup.<br/>
+                    I truly recommend her. She is a highly professional, kind and warm person. She really put her heart on helping me to get the best version of myself.<br/>
+                    I think a colour analysis with Aniko might be an awesome gift for someone too.
+                </Card>
+                <Card author="Anna Szilágyi">
+                    I have absolutely loved my color analysis with Aniko! I previously gravitated towards darker tones but she has shown me how they make me look older and how different tones can completely brighten up my complexion. I still wear my favourite colors just in the tones that suit me. We also determined that I suit gold jewellery better which I was really happy about because it was my preferred choice anyways. I am so happy I had the chance to try this out with Aniko, I definitely feel more confident dressing more colourful in my everyday life.
+                </Card>
+                <Card author="Angéla Jánvári">
+                    Aniko is the queen of colours!<br/>
+                    Her dedication to share her knowledge with others is outstanding.<br/>
+                    She is very professional and thorough with her job. Gives you tips and tricks on how to mix up the colours. Not the first time I used her services and definitely not the last!
+                </Card>
+                <Card author="Pippa Ankur">
+                    Thanks very much!<br/>
+                    <br/>
+                    I really enjoyed my colour analysis session. I wasn't confident in which colours suited me before. The session showed me that I should trust my instinct more. It was really striking to see examples of my best colours, which made me look more vibrant and alive, against other colours which just made me look tired. I am really looking forward to going through my wardrobe and experimenting with some colours I hadn't considered before. I would definitely recommend this service to anyone who wants to feel more confident in their colour choices.
+                </Card>
+                <Card author="Lujzi Jacsó">
+                    She did a lovely job on my colour analysis! It really helped me to elevate my style and my wardrobe and really allowed me to experiment with different makeup styles. Couldn’t have asked for a more welcoming and professional experience☺️
+                </Card>
+            </div>
+        </NormalBlock>
+    </article>
+</Base>

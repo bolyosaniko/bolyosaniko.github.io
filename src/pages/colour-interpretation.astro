@@ -1,0 +1,104 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { Image } from "astro:assets";
+
+import Base from "../layouts/base.astro";
+import NormalBlock from "../components/normal_block.astro";
+import Note from "../components/note.astro";
+import Card from "../components/card.astro";
+
+import colourSession from "../assets/images/photos/colour_session.jpg";
+
+const link = getRelativeLocaleUrl("en", "colour-analysis");
+---
+
+<Base>
+    <article>
+        <NormalBlock title="What is colour interpretation?" bgClass="bg-pic-umbrellas">
+            <p class="mb-3 md:mb-6">One day, I decided to bring more colour into my life by delving deeply into the world of
+                colours. Through learning, research, and personal experience, I discovered that this journey wasn’t just
+                inspiring for me but could also help others. I developed a method to uncover what’s happening within our
+                souls and identify the burdens we’ve been carrying for too long. Sometimes, our inner self simply needs
+                confirmation – a voice to articulate what we’ve sensed but haven’t yet acknowledged. Colours can guide us in
+                this process.</p>
+            <p class="mb-3 md:mb-6">In my everyday life, I let my intuition guide me to the colour I need most. I believe we
+                can form a deep connection with colours if we take the time to explore them. When a particular colour starts
+                drawing you in, even if it hasn’t been part of your life before, it often signals the need for change – the
+                time to bring a new hue into your days. Colours accompany us through our growth, so it’s worth noticing which
+                shades attract us during significant transitions or life stages. Every chapter of our lives has its unique
+                palette, guiding us toward the next phase.</p>
+        </NormalBlock>
+        <NormalBlock title="How can I help you with this?">
+            <p class="mb-3 md:mb-6">All it takes is a playful yet intuitive colouring activity. This can even be done remotely
+                via a custom-developed web application that has proven highly effective based on client feedback. Once you
+                complete your colouring, I’ll create a personalised colour analysis for you.</p>
+            <p class="mb-3 md:mb-6">We’ll then discuss the messages and suggestions behind your colours during a 60- to
+                90-minute session at a pre-arranged time. This conversation will help you explore where you currently stand
+                emotionally, mentally, and physically. I recommend taking notes during the consultation, as a lot of
+                information will be shared, and not all of it will immediately resonate. Sometimes, the insights will gain
+                clarity over time. Revisiting your notes months later can be incredibly revealing. Self-discovery is a long
+                and demanding process, requiring patience and persistence.</p>
+            <Image class="mb-3 md:mb-6" src={colourSession} alt="" />
+            <p class="mb-3 md:mb-6">The first step is always the hardest, but dedicating time and energy to yourself can lead
+                to remarkable changes. Give yourself time – it’s the most important gift. My role is to guide you, but the rest
+                is up to you: your effort and determination will determine how deeply you understand and transform yourself.</p>
+            <Note>
+                <p>I am not a licensed psychologist or specialist healthcare professional. My services do not replace the care
+                    of psychologists or other healthcare professionals.</p>
+            </Note>
+        </NormalBlock>
+        <NormalBlock title="How long does it take?" bgClass="bg-pic-scarves">
+            <p class="mb-3 md:mb-6">A colour interpretation session takes <strong>90 minutes</strong>.</p>
+        </NormalBlock>
+        <NormalBlock title="What is the cost?">
+            <p class="mb-3 md:mb-6">Colour interpretation: <strong>£50</strong></p>
+            <p class="mb-3 md:mb-6">Rainbow package (colour interpretation + <a class="underline" href={link}>colour analysis</a>): <strong>£165</strong></p>
+        </NormalBlock>
+        <NormalBlock title="What’s included?" bgClass="bg-pic-frames">
+            <ul class="list-image-checkmark-sm md:list-image-checkmark-md list-outside relative left-4 md:left-5 mb-3 md:mb-6">
+                <li>A clear and honest picture of yourself.</li>
+                <li>Guidance and affirmation regarding your current life situation.</li>
+                <li>Tips on incorporating supportive colours into your daily life.</li>
+                <li>A non-judgmental, supportive environment.</li>
+                <li>Profound insights and “aha” moments.</li>
+            </ul>
+        </NormalBlock>
+        <NormalBlock title="How can I book a session?">
+            <div class="mb-3 md:mb-6">
+                <p>You can schedule a colour interpretation session either <strong>online</strong> or <strong>in-person in Southampton, UK</strong>.
+                    To book, please contact me using one of the options below:</p>
+                <div class="flex flex-rows relative left-4 md:left-8 mt-2">
+                    <svg class="size-6 md:size-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                        <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
+                        <path d="M3 7l9 6l9 -6"></path>
+                    </svg>
+                    <span class="ml-2"><a href="mailto:anikobolyos89@gmail.com">anikobolyos89@gmail.com</a></span>
+                </div>
+                <div class="flex flex-rows relative left-4 md:left-8 mt-2">
+                    <svg class="size-6 md:size-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                        <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
+                    </svg>
+                    <span class="ml-2">+44 785 797 8600</span>
+                </div>
+            </div>
+        </NormalBlock>
+        <NormalBlock title="Testimonials" bgClass="bg-pic-paint">
+            <div class="mx-auto max-w-[80%]">
+                <Card author="Katie Belo Dos Santos">
+                    I underwent colour analysis with Anikó, and loved it. She was accurate, sensitive and very courteous.<br/>
+                    <br/>
+                    I had a bespoke experience, and, as a result, Anikó helped me both personally and professionally. I came out reenergised, and with useful advice. I totally recommend her services.
+                </Card>
+                <Card author="Maria Isabel Pinto">
+                    I underwent the color analysis with Anikó and it was amazing it helped me to know more about myself. I totally recommend her services. She is highly professional and an incredible and lovely Woman.
+                </Card>
+                <Card author="Deborah Anne Beeson">
+                    I recently had a colour analysis consultation with Aniko. This was a completely new experience for me so I was very excited about the results. Aniko gave me a detailed analysis which was fully explained. It was spot on and gave me a real insight into my personality and really helped me. I would fully recommend it to anyone.
+                </Card>
+                <Card author="Nazli Burcu Kayir">
+                    Aniko is an extraordinary lady with an excellent talent for colours. She changed my colour perception, which impacted my mood very positively. I always believed in energy healing, but I realised how much I underestimated the impact of colour on my life and well-being. I strongly recommend trying, and there is no way to regret it. Many thanks Aniko, for the positivity you bring to my life.
+                </Card>
+            </div>
+        </NormalBlock>
+    </article>
+</Base>

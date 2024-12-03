@@ -1,0 +1,126 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { Image } from "astro:assets";
+
+import Base from "../../layouts/base.astro";
+import NormalBlock from "../../components/normal_block.astro";
+import Note from "../../components/note.astro";
+import ModelSlides from "../../components/model_slides.astro";
+
+import draping from "../../assets/images/photos/draping.jpg";
+import colourChart from "../../assets/images/photos/colour-chart.jpg";
+
+const link = getRelativeLocaleUrl("hu", "colour-interpretation");
+---
+
+<Base>
+    <article>
+        <NormalBlock title="Mi történik a színtanácsadás során?">
+            <p class="mb-3 md:mb-6">Megérkezel a megbeszélt időpontra, ahol kényelmes környezetben beszélgetünk kicsit, hogy megismerjem, miben
+                szeretnél segítséget kérni. Átbeszéljük a színelmélet alapjait, hogy tudd, mire számíthatsz, és egy
+                személyiségtesztet is kitöltesz, ami segít majd a színkendőzés során. Ez nem szabály, inkább támpont a
+                személyiségedhez és ahhoz, milyen színek támogatják leginkább a jelenlegi életszakaszodat.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center">
+                <div>
+                    <p class="mb-3 md:mb-6">Ezután a gyakorlatra térünk: a színkendőzéshez smink nélkül foglalhatsz helyet természetes fénynél,
+                        letakarjuk a hajad és ruhád, hogy csak az arcodra koncentrálhass. Először különböző színárnyalatokat
+                        próbálunk ki – hideg és meleg, élénk és lágy árnyalatokat is –, hogy lásd, melyik színek emelik ki
+                        természetesen az arcod és melyek teszik fáradttá. Az eljárás segít felismerni, milyen árnyalatok
+                        fiatalítanak, tesznek üdévé és önazonossá smink nélkül is.</p>
+                    <p class="mb-3 md:mb-6">Ezen kívül megnézzük, hogy arany vagy ezüst áll-e jobban, mely ékszerek és kiegészítők támogatják
+                        természetes szépséged. A cél, hogy ne szabályokhoz kötött legyen az öltözködésed, hanem szabadon
+                        variálhasd a színeket, tudatosan kiemelve a személyiséged.</p>
+                </div>
+                <Image class="min-h-full md:max-h-[700px] xl:max-h-[560px] object-cover justify-self-center pb-4 md:order-first" src={draping} alt="" />
+            </div>
+            <p class="mb-3 md:mb-6">A tanácsadás során a színpszichológia is előtérbe kerül: a színek hangulatra, érzelmekre gyakorolt hatása
+                mindennapi eszköz lehet a tudatos öltözködéshez. A megfelelő színek önbizalmat adnak, és a környezetedre
+                is pozitív hatást gyakorolnak – támogatva mind a külső megjelenésed, mind a belső jólléted.</p>
+            <p class="mb-3 md:mb-6">A végén tippeket kapsz, hogyan építheted be az új színeket a meglévő ruhatáradba, miként párosíthatod azokat
+                egymással és az aktuális stílusodhoz igazítva választhatsz új kedvenceket. Az új színek végigkísérhetnek és
+                támogatnak a fejlődésed során, inspirálva téged és környezetedet is.</p>
+        </NormalBlock>
+        <NormalBlock title="Mennyi ideig tart?" bgClass="bg-pic-wardrobe">
+            <p class="mb-3 md:mb-6">A színtanácsadás időtartama: <strong>120 perc</strong></p>
+        </NormalBlock>
+        <NormalBlock title="Mennyibe kerül?">
+            <p class="mb-3 md:mb-6">A színtanácsadás díja: <strong>125 GBP</strong></p>
+            <p class="mb-3 md:mb-6">Ha <a class="underline" href={link}>színtolmácsolással</a> együtt kéred, akkor a szivárvány csomag díja: <strong>165 GBP</strong></p>
+            <div class="mb-3 md:mb-6">
+                <Note>
+                    <p>A feltüntetett árak angol fontban (GBP) értendőek. Magyar forintban (HUF) történő fizetéskor a pontos összeget a
+                        Brit Adóhatóság (HMRC) által megállapított és közzétett átváltási ráta alapján számolom ki, amely
+                        <a class="underline" href="https://www.trade-tariff.service.gov.uk/exchange_rates" target="_blank">ezen a linken</a> érhető el.</p>
+                </Note>
+            </div>
+        </NormalBlock>
+        <NormalBlock title="Mit tartalmaz az ár?" bgClass="bg-pic-dressing-room">
+            <ul class="list-image-checkmark-sm md:list-image-checkmark-md list-outside relative left-4 md:left-5 mb-3 md:mb-6">
+                <li>Színtípusod meghatározását és a színtípusodon kívül eső, számodra ideális színek felfedezését, valamint praktikus öltözködési tippeket a mindennapokra.</li>
+                <li>A "nagy mumus", azaz a fekete szín tudatos viselésének lehetőségeit – ha fontos számodra a fekete, nem kell lemondanod róla; segítek megtalálni a számodra előnyös módját.</li>
+                <li>Egy színpalettát, amely a színtípusodhoz passzoló színárnyalatokat tartalmazza, megkönnyítve ezzel a ruhaválasztást.</li>
+                <!-- <li>Egy e-bookot, amely összefoglalja a színtípusod legfontosabb jellemzőit, hogy könnyen felidézhesd a tanultakat.</li> -->
+                <li>A konzultáción elhangzottak összefoglalóját e-mailben, amit a találkozót követő 48 órán belül megkapsz.</li>
+                <li>Három hónappal a színtanácsadás után egy utólagos konzultációt, amely lehetőséget ad a felmerült kérdések átbeszélésére és a tanácsok gyakorlatba való átültetésének értékelésére.</li>
+                <li>Amennyiben az utólagos konzultáció előtt lenne pár sürgős kérdésed, e-mailben is elküldheted őket, és válaszolok rájuk.</li>
+            </ul>
+        </NormalBlock>
+        <NormalBlock title="Gyakran ismételt kérdések">
+            <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center">
+                <div>
+                    <div class="mb-3">
+                        <h4>Miért nem ajánlott sminket viselni a színtanácsadás alatt?</h4>
+                        <p>A színtanácsadás során a természetes bőrödre alapozunk, hogy tiszta eredményt kapjunk. Így látjuk meg
+                            igazán, mely színek emelik ki a bőröd természetes ragyogását. Nyugodtan érkezhetsz sminkben, mert a
+                            konzultáció elején le tudod mosni, és akár a saját termékeidet is hozhatod, hogy utána újra kisminkelhesd
+                            magad. Adok majd néhány tippet is, főként a rúzsokkal kapcsolatban.</p>
+                    </div>
+                    <div class="mb-3">
+                        <h4>Miért csak természetes fényben dolgozol?</h4>
+                        <p>A természetes fény a legpontosabb eredményt adja, hiszen mesterséges fényben torzulhatnak a színek.
+                            Ezért kizárólag természetes fényben végzem a színtanácsadást. Télen 9 és 15 óra között, míg tavasztól
+                            őszig 9 és 17 óra között érhető el a szolgáltatás.</p>
+                    </div>
+                    <div class="mb-3">
+                        <h4>Hogyan induljak el a színpalettával, amit kaptam?</h4>
+                        <p>A konzultáción sok új információ hangzik el, amit utólag e-mailben is összefoglalok, és küldök egy
+                            e-bookot a színtípusodról. Emellett lehetőséged van további kérdéseket feltenni e-mailben, valamint
+                            3 hónap múlva egy ingyenes, utólagos konzultációra. Ne siettesd a változást – a saját tempódban, a
+                            színek és stílusok felfedezésével egyre magabiztosabb leszel. Még a régi, megszokott színeidet is
+                            beépíthetjük apró trükkökkel, hogy harmonikusabb legyen a megjelenésed.</p>
+                    </div>
+                    <div class="mb-3 md:mb-6">
+                        <h4>Csak a színpalettám színeit hordhatom, és el kell engednem a többit?</h4>
+                        <p>Nem kell lemondanod a kedvenc színeidről! A színtanácsadás célja, hogy a számodra legelőnyösebb
+                            árnyalatokat mutassa meg, de nem kényszerít bele egyetlen stílusba. Megtanítalak, hogyan kombinálhatod
+                            a különböző színtípusokat, hogy azok illeszkedjenek hozzád. A cél az, hogy magabiztosan viseld azt,
+                            amit szeretsz, és önazonosan érezd magad – én ebben segítek!</p>
+                    </div>
+                </div>
+                <Image class="min-h-full md:max-h-[500px] object-cover justify-self-center pb-4" src={colourChart} alt="" />
+            </div>
+        </NormalBlock>
+        <NormalBlock title="Hogyan tudok időpontot kérni?" bgClass="bg-pic-jumpers">
+            <div class="mb-3 md:mb-6">
+                <p>Színtanácsadást <strong>kizárólag személyesen</strong> végzek, <strong>Southamptonban (Egyesült Királyság)</strong>. Ha
+                    szeretnél jönni, vedd fel velem a kapcsolatot az alábbi elérhetőségek egyikén:</p>
+                <div class="flex flex-rows relative left-4 md:left-8 mt-2">
+                    <svg class="size-6 md:size-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                        <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
+                        <path d="M3 7l9 6l9 -6"></path>
+                    </svg>
+                    <span class="ml-2"><a href="mailto:anikobolyos89@gmail.com">anikobolyos89@gmail.com</a></span>
+                </div>
+                <div class="flex flex-rows relative left-4 md:left-8 mt-2">
+                    <svg class="size-6 md:size-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                        <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
+                    </svg>
+                    <span class="ml-2">+44 785 797 8600</span>
+                </div>
+            </div>
+        </NormalBlock>
+        <NormalBlock title="Néhány kép a korábbi vendégeimről">
+            <ModelSlides />
+        </NormalBlock>
+    </article>
+</Base>

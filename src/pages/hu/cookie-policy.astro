@@ -1,0 +1,84 @@
+---
+import Base from "../../layouts/base.astro";
+import NormalBlock from "../../components/normal_block.astro";
+import { getRelativeLocaleUrl } from "astro:i18n";
+
+const link = getRelativeLocaleUrl("hu", "privacy-notice");
+---
+
+<Base>
+    <article>
+        <h2 class="py-4 md:py-6 font-lora text-xl md:text-4xl text-center">Sütik kezelése</h2>
+        <NormalBlock title="Utoljára frissítve: 2024. december 1.">
+            <p class="mb-3 md:mb-6">Ez a Sütikre (Cookie) vonatkozó szabályzat elmagyarázza, hogy mik azok a Sütik és hogyan használjuk őket. Érdemes elolvasnia ezt a szabályzatot, hogy megértse, milyen típusú sütiket használunk, illetve milyen információkat gyűjtünk a Sütik segítségével, és hogyan használjuk fel ezeket az információkat.</p>
+            <p class="mb-3 md:mb-6">A Sütik jellemzően nem tartalmaznak olyan információt, amely személyesen azonosítja a felhasználót, de az Önről tárolt személyes adatok összekapcsolhatók a Sütikben tárolt és a Sütikből nyert információkkal. További információkat arról, hogy hogyan használjuk, tároljuk és tartjuk biztonságban az Ön személyes adatait, az <a class="underline" href={link}>Adatkezelési tájékoztatónkban</a> talál.</p>
+            <p class="">Az általunk használt Sütikben nem tárolunk érzékeny személyes adatokat, például levelezési címeket, fiókjelszavakat stb.</p>
+        </NormalBlock>
+        <NormalBlock title="Értelmezés és fogalommeghatározások">
+            <h4 class="">Értelmezés</h4>
+            <p class="mb-3 md:mb-6">Azoknak a szavaknak, amelyeknek a kezdőbetűje nagybetűvel van írva, a következő feltételek szerint meghatározott jelentése van. Az alábbi fogalommeghatározások jelentése azonos, függetlenül attól, hogy egyes vagy többes számban szerepelnek.</p>
+            <h4 class="">Fogalommeghatározások</h4>
+            <p class="">A jelen Sütikre vonatkozó szabályzat alkalmazásában:</p>
+            <ul class="list-outside list-disc relative left-4 md:left-5">
+                <li>A <strong>Vállalat</strong> (a jelen Sütikre vonatkozó szabályzatban a "Vállalat", "Mi", "Minket" vagy "Miénk") Boleradszkiné Bolyós Anikóra (egyéni vállalkozó), Flat 10 Cadland Court, Channel Way, Southampton, SO14 3GP, Egyesült Királyság, vonatkozik.</li>
+                <li>A <strong>Sütik</strong> olyan kis fájlokat jelentenek, amelyeket egy weboldal helyez el az Ön számítógépén, mobileszközén vagy bármely más eszközön, és amelyek - számos egyéb felhasználási módja mellett - tartalmazzák az Ön böngészési előzményeinek adatait az adott weboldalon.</li>
+                <li>A <strong>Weboldal</strong> a "Bolyós Anikó"-ra, mint weboldalra utal, amely a <a href="https://www.bolyosaniko.com">https://www.bolyosaniko.com</a> webcímről érhető el.</li>
+                <li><strong>Ön</strong> a Weboldalhoz hozzáférő vagy azt használó magánszemélyt, vagy egy vállalatot, illetve bármely olyan jogi személyt, amelynek nevében az ilyen magánszemély a Weboldalhoz hozzáfér vagy azt használja.</li>
+            </ul>
+        </NormalBlock>
+        <NormalBlock title="A Sütik használata">
+            <h4 class="">A Sütik típusai</h4>
+            <p class="mb-3 md:mb-6">A Sütik lehetnek "állandó" vagy "munkamenet" Sütik. Az állandó Sütik akkor is az Ön számítógépén vagy mobileszközén maradnak, amikor Ön offline állapotba kerül, míg a munkamenet Sütik törlődnek, amint Ön bezárja a webböngészőt.</p>
+            <h5 class="">Funkcionális Sütik</h5>
+            <p class="mb-3 md:mb-6">A funkcionális Sütik lehetővé teszik számunkra, hogy a Weboldalt az Ön választásaival összhangban működtessük. Például emlékezni fogunk arra, hogy a jövőbeli látogatások során hogyan szabta testre a Weboldalt.</p>
+            <p class="mb-3 md:mb-6">Az alábbiakban meghatározott célokra használunk állandó Sütiket:</p>
+            <table class="table-auto border-collapse border border-onyx mb-3 md:mb-6">
+                <thead>
+                    <tr>
+                        <th class="border border-onyx px-2 py-2">Név</th>
+                        <th class="border border-onyx px-2 py-2">Típus</th>
+                        <th class="border border-onyx px-2 py-2">Kezelő</th>
+                        <th class="border border-onyx px-2 py-2">Lejárat</th>
+                        <th class="border border-onyx px-2 py-2">Cél</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-onyx px-2 py-2">cookie-consent</td>
+                        <td class="border border-onyx px-2 py-2">Funkcionális süti</td>
+                        <td class="border border-onyx px-2 py-2">Mi</td>
+                        <td class="border border-onyx px-2 py-2">31 nap</td>
+                        <td class="border border-onyx px-2 py-2">Lehetővé teszi számunkra, hogy emlékezzünk arra, hogy Ön elfogadta a Sütikre kezelésére vonatkozó tájékoztatónkat és bezárta az erre vonatkozó bannerünket.</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-onyx px-2 py-2">privacy-consent</td>
+                        <td class="border border-onyx px-2 py-2">Funkcionális süti</td>
+                        <td class="border border-onyx px-2 py-2">Mi</td>
+                        <td class="border border-onyx px-2 py-2">31 nap</td>
+                        <td class="border border-onyx px-2 py-2">Lehetővé teszi számunkra, hogy emlékezzünk arra, hogy Ön az Adatkezelési tájékoztató bannerünkön keresztül megadta hozzájárulását ahhoz, hogy az Ön adatait az Adatkezelési tájékoztatóban leírtak szerint gyűjthessük és feldolgozhassuk.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4 class="">Az Ön választási lehetőségei a sütikkel kapcsolatban</h4>
+            <p class="mb-3 md:mb-6">Ha Ön szeretné elkerülni a Sütik használatát a Weboldalon, először is ki kell kapcsolnia a Sütik használatát a böngészőjében, majd törölnie kell a böngészőjében elmentett, a Weboldalhoz kapcsolódó Sütiket. Ezt a lehetőséget bármikor használhatja a Sütik használatának megakadályozására.</p>
+            <p class="mb-3 md:mb-6">Ha Ön nem fogadja el a Sütiket, a Weboldal használata során kellemetlenségeket tapasztalhat, és előfordulhat, hogy egyes funkciók nem működnek megfelelően.</p>
+            <p class="mb-3 md:mb-6">Ha törölni szeretné a Sütiket, vagy utasítani szeretné webböngészőjét a Sütik törlésére vagy elutasítására, kérjük, látogasson el webböngészője súgó oldalaira.</p>
+            <p class="mb-3 md:mb-6">A Chrome webböngészőhöz kérjük, látogasson el a <a class="underline" href="https://support.google.com/accounts/answer/32050" target="_blank">Google ezen oldalára</a>.</p>
+            <p class="mb-3 md:mb-6">Az Edge webböngésző esetében kérjük, látogasson el a <a class="underline" href="https://support.microsoft.com/en-gb/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d" target="_blank">Microsoft ezen oldalára</a>.</p>
+            <p class="mb-3 md:mb-6">A Firefox webböngészőhöz látogasson el a <a class="underline" href="https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored" target="_blank">Mozilla ezen oldalára</a>.</p>
+            <p class="mb-3 md:mb-6">A Safari webböngésző esetében kérjük, látogasson el az <a class="underline" href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac" target="_blank">Apple ezen oldalára</a>.</p>
+            <p class="mb-3 md:mb-6">Bármely más webböngésző esetében kérjük, látogasson el a böngésző hivatalos weboldalára.</p>
+            <h4 class="">További információ a sütikről</h4>
+            <p class="mb-3 md:mb-6">A Sütikről <a class="underline" href="https://www.cookiesandyou.com/" target="_blank">itt</a> tudhat meg többet.</p>
+            <h4 class="">Kapcsolatfelétel</h4>
+            <p class="mb-3 md:mb-6">Ha bármilyen kérdése van ezzel a Sütikre vonatkozó irányelvvel kapcsolatban, kapcsolatba léphet velünk a következő email címen:</p>
+            <div class="flex flex-rows relative left-4 md:left-8 mt-2">
+                <svg class="size-6 md:size-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                    <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
+                    <path d="M3 7l9 6l9 -6"></path>
+                </svg>
+                <span class="ml-2"><a href="mailto:anikobolyos89@gmail.com">anikobolyos89@gmail.com</a></span>
+            </div>
+        </NormalBlock>
+    </article>
+</Base>

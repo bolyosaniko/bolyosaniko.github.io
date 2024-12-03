@@ -1,0 +1,71 @@
+---
+const {
+    id,
+    text,
+    acceptText,
+    infoText,
+    infoUrl,
+    withCheckbox,
+} = Astro.props;
+
+const idCheckbox = "checkbox-"+id;
+const idAcceptBtn = "accept-"+id;
+---
+
+<div id={id} class="flex justify-center items-center bg-black text-gray-400 text-sm py-2">
+    <p class="mx-2 text-center">{text}</p>
+    { withCheckbox && <input id={idCheckbox} type="checkbox" class="" /> }
+    <button type="button" id={idAcceptBtn} class="px-2 py-2 my-2 ml-2 transition-colors bg-teal-800 hover:bg-teal-500 text-white disabled:bg-teal-950 disabled:text-gray-400 text-center" disabled={withCheckbox}>{acceptText}</button>
+    <a href={infoUrl} class="px-2 py-2 mx-2 transition-colors bg-gray-800 hover:bg-gray-500 text-white text-center">{infoText}</a>
+</div>
+
+<script is:inline define:vars={{id, idCheckbox, idAcceptBtn}}>
+    function createCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name, "", -1);
+    }
+
+    // --- main --- //
+    window.addEventListener("DOMContentLoaded", (_) => {
+        const div = document.getElementById(id);
+        const cookie = id+"-consent";
+        const checkbox = document.getElementById(idCheckbox);
+        const accept = document.getElementById(idAcceptBtn);
+
+        if (readCookie(cookie) === "true") {
+            div.style.display = "none";
+            return;
+        }
+
+        checkbox?.addEventListener("click", function () {
+            if (checkbox.checked) {
+                accept.disabled = false;
+            } else {
+                accept.disabled = true;
+            }
+        });
+
+        accept.addEventListener("click", function () {
+            createCookie(cookie, "true", 31);
+            div.style.display = "none";
+        })
+    });
+</script>

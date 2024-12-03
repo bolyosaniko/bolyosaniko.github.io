@@ -1,0 +1,57 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+
+import "../assets/styles/tailwind.css";
+
+import Head from "../components/head.astro";
+import Header from "../components/header.astro";
+import Footer from "../components/footer.astro";
+import Scripts from "../components/scripts.astro";
+import Consent from "../components/consent.astro";
+
+const data = Astro.currentLocale === "hu" ?
+    {
+        cookie: {
+            text: "🍪 A weboldal sütiket (cookie) használ.",
+            accept: "Megértettem",
+            info: "Bővebben",
+            url: getRelativeLocaleUrl("hu", "cookie-policy"),
+        },
+        privacy: {
+            text: "Az adatkezelési tájékoztatót megismertem és elfogadom.",
+            accept: "Elfogadom",
+            info: "Bővebben",
+            url: getRelativeLocaleUrl("hu", "privacy-policy"),
+        }
+    } : {
+        cookie: {
+            text: "🍪 This website uses cookies.",
+            accept: "Got it",
+            info: "More info",
+            url: getRelativeLocaleUrl("en", "cookie-policy"),
+        },
+        privacy: {
+            text: "I have read and understood the privacy notice.",
+            accept: "Accept",
+            info: "More info",
+            url: getRelativeLocaleUrl("en", "privacy-policy"),
+        }
+    };
+---
+
+<!doctype html>
+<html lang={Astro.currentLocale}>
+    <Head />
+    <body class="antialiased bg-white text-onyx tracking-tight">
+        <Header />
+        <main>
+            <slot />
+        </main>
+        <Footer />
+        <div class="sticky bottom-0">
+            <Consent id="cookie" text={data.cookie.text} acceptText={data.cookie.accept} infoText={data.cookie.info} infoUrl={data.cookie.url} />
+            <Consent id="privacy" text={data.privacy.text} acceptText={data.privacy.accept} infoText={data.privacy.info} infoUrl={data.privacy.url} withCheckbox />
+        </div>
+        <Scripts />
+    </body>
+</html>

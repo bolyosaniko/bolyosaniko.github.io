@@ -1,0 +1,70 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { Image } from "astro:assets";
+
+import Base from "../layouts/base.astro";
+import LandingBlock from "../components/landing_block.astro";
+import Boxes from "../components/boxes.astro";
+
+import aniko2 from "../assets/images/photos/aniko-2.jpg";
+import aniko3 from "../assets/images/photos/aniko-3.jpg";
+
+const linkAnalysis = getRelativeLocaleUrl("en", "colour-analysis");
+const linkInterpretation = getRelativeLocaleUrl("en", "colour-interpretation");
+---
+
+<Base>
+    <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+        <LandingBlock title="Discover the Magic of Colours – Inside and Out!">
+            <p>Did you know that colours affect not only your appearance but also your inner world? As a colour consultant
+                and interpreter, I help you discover the shades that not only enhance your natural beauty but also align
+                with your personality, support your self-awareness journey, and help your well-being.</p>
+        </LandingBlock>
+        <Image class="min-h-full md:max-h-[700px] object-cover justify-self-center" src={aniko2} alt="" />
+    </div>
+    <LandingBlock title="What is a Colour Type?" bgClass="bg-pic-pantone">
+        <p>Colour types inspired by the seasons – Spring, Summer, Autumn, and Winter – encompass unique combinations of
+            shades that match your skin tone, hair colour, and eye colour. During a colour analysis, we use specialised
+            drapes to determine your individual colour type, so you can choose clothes, makeup, and accessories that suit
+            you perfectly.</p>
+    </LandingBlock>
+    <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+        <LandingBlock title="Colours That Speak Volumes...">
+            <p>Colour analysis and colour interpretation are two distinct yet complementary services. While colour
+                analysis focuses on your appearance, helping you identify the most flattering colours for clothing,
+                makeup, and accessories, colour interpretation delves deeper. It’s a self-awareness method that uses the
+                psychological effects of colours to explore your strengths, weaknesses, challenges in your current life
+                phase, and unresolved issues from the past.</p>
+        </LandingBlock>
+        <Image class="min-h-full md:max-h-[750px] object-cover justify-self-center md:order-first" src={aniko3} alt="" />
+    </div>
+    <LandingBlock title="Why Choose Colour Analysis and Interpretation?" bgClass="bg-pic-shop">
+        <Boxes items={[
+            { title: 'Confidence', text: 'Wearing colours that suit you boosts your confidence and enhances your aura.' },
+            { title: 'Psychological Benefits', text: 'The right colours harmonise with your inner self, fostering well-being and positive thinking.' },
+            { title: 'Style', text: 'Knowing your best colours makes it easier to curate your wardrobe.' },
+            { title: 'Colour Interpretation', text: 'Discover your strengths and overcome challenges with the guidance of colours, finding your path to personal growth.' },
+            { title: 'Positive Feedback', text: 'Harmonious colours attract compliments and positive recognition from others.' },
+            { title: 'Mindful Choices', text: 'Shop more consciously, saving time and money in the process.' },
+        ]}/>
+    </LandingBlock>
+    <LandingBlock title="Choose the Service That Suits You – or Bundle Them Together!">
+        <Boxes items={[
+            { title: 'Colour Analysis', text: 'If you’d like to focus on refining your outward appearance, this service helps you identify your most flattering colours.' },
+            { title: 'Colour Interpretation', text: 'For those interested in self-discovery and inner growth, uncover your strengths and challenges through the psychological effects of colours.' },
+            { title: 'Rainbow Package', text: 'Combine both services for a comprehensive understanding of your inner and outer harmony.' },
+        ]}/>
+    </LandingBlock>
+    <LandingBlock title="How Does It Work?" bgClass="bg-pic-street">
+        <p>During a one-on-one consultation, we tailor the process to your chosen service. Whether determining your colour type
+            or uncovering the shades that best support your personality and current life phase through colour interpretation,
+            we guide you through the journey. Opt for both services to harmonise your inner and outer worlds.</p>
+    </LandingBlock>
+    <LandingBlock title="Take the First Step!">
+        <p class="mb-8 md:mb-6">Discover the colours that empower you and create harmony between your outer appearance and inner self!</p>
+        <div class="flex flex-row justify-center gap-4 md:gap-8">
+            <a href={linkAnalysis} class="mt-6 px-4 py-4 mx-2 bg-bittersweet hover:bg-coral-pink text-white">Interested in Colour Analysis!</a>
+            <a href={linkInterpretation} class="mt-6 px-4 py-4 mx-2 bg-bittersweet hover:bg-coral-pink text-white">Interested in Colour Interpretation!</a>
+        </div>
+    </LandingBlock>
+</Base>

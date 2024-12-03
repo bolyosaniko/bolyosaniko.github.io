@@ -1,0 +1,22 @@
+---
+const {
+    title,
+    pattern = false,
+    bgClass = "",
+} = Astro.props;
+
+const extra = bgClass !== "" ? [bgClass, "bg-cover", "bg-center"] : [];
+---
+
+<section class:list={[
+    { pattern: pattern },
+    extra,
+    "py-4 md:py-8"
+]}>
+    <div class="px-8 mx-auto md:max-w-[75%]">
+        <h3 class="py-4 md:py-6 font-lora text-lg md:text-2xl">{title}</h3>
+        <div class="font-myriad text-base md:text-xl">
+            <slot />
+        </div>
+    </div>
+</section>
