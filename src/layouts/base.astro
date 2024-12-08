@@ -53,5 +53,10 @@ const data = Astro.currentLocale === "hu" ?
             <Consent id="privacy" text={data.privacy.text} acceptText={data.privacy.accept} infoText={data.privacy.info} infoUrl={data.privacy.url} withCheckbox />
         </div>
         <Scripts />
+        <style is:global>
+            img {
+              content-visibility: auto;
+            }
+          </style>
     </body>
 </html>
