@@ -1,4 +1,6 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
+
 import Favicons from "./favicons.astro"
 ---
 
@@ -6,4 +8,5 @@ import Favicons from "./favicons.astro"
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <Favicons />
+    <ViewTransitions fallback="swap" />
 </head>

@@ -44,7 +44,7 @@ const idAcceptBtn = "accept-"+id;
     }
 
     // --- main --- //
-    window.addEventListener("DOMContentLoaded", (_) => {
+    document.addEventListener("astro:page-load", (_) => {
         const div = document.getElementById(id);
         const cookie = id+"-consent";
         const checkbox = document.getElementById(idCheckbox);
