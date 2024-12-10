@@ -26,6 +26,19 @@ export default {
 				"checkmark-sm": "url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" width=\"12\" height=\"12\" stroke-width=\"2\"> <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"></path> <path d=\"M9 12l2 2l4 -4\"></path></svg>')",
 				"checkmark-md": "url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" width=\"16\" height=\"16\" stroke-width=\"2\"> <path d=\"M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"></path> <path d=\"M9 12l2 2l4 -4\"></path></svg>')",
 			},
+			keyframes: {
+				appear: {
+					"0%": {
+						opacity: "0",
+					},
+					"100%": {
+						opacity: "1",
+					},
+				},
+				animation: {
+					appear: "appear 0.5s ease-in-out",
+				},
+			},
 		},
 	},
 	plugins: [],
