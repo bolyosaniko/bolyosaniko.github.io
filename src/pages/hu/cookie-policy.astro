@@ -4,9 +4,14 @@ import NormalBlock from "../../components/normal_block.astro";
 import { getRelativeLocaleUrl } from "astro:i18n";
 
 const link = getRelativeLocaleUrl("hu", "privacy-notice");
+const metadata = {
+    title: "Sütikezelési tájékoztató",
+    description: "Tudd meg, hogyan használjuk a sütiket az optimális böngészési élmény érdekében.",
+    type: "article",
+};
 ---
 
-<Base>
+<Base metadata={metadata}>
     <article>
         <h2 class="py-4 md:py-6 font-lora text-xl md:text-4xl text-center">Sütik kezelése</h2>
         <NormalBlock title="Utoljára frissítve: 2024. december 1.">

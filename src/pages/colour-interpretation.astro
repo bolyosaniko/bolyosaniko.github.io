@@ -10,9 +10,14 @@ import Card from "../components/card.astro";
 import colourSession from "../assets/images/photos/colour_session.jpg";
 
 const link = getRelativeLocaleUrl("en", "colour-analysis");
+const metadata = {
+    title: "Colour Interpretation | Uncover the Message of Colours!",
+    description: "Intuitive colour interpretation for emotional balance. Learn the messages colours hold for you and how they can support your journey.",
+    type: "article",
+};
 ---
 
-<Base>
+<Base metadata={metadata}>
     <article>
         <NormalBlock title="What is colour interpretation?" bgClass="bg-pic-umbrellas">
             <p class="mb-3 md:mb-6">One day, I decided to bring more colour into my life by delving deeply into the world of

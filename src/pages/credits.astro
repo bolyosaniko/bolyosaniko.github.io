@@ -2,9 +2,15 @@
 import Base from "../layouts/base.astro";
 import LandingBlock from "../components/landing_block.astro";
 import ImageCreditsList from "../components/image_credits_list.astro";
+
+const metadata = {
+    title: "Creators and Resources Used",
+    description: "Discover the contributors and resources behind this website. Sources for images and other materials.",
+    type: "article",
+};
 ---
 
-<Base>
+<Base metadata={metadata}>
     <article>
         <LandingBlock title="Programming and design">
             <p>by <a class="underline" href="https://milonoir.github.io" target="_blank">Milán Boleradszki</a></p>

@@ -7,9 +7,15 @@ import Certificates from "../../components/certificates.astro";
 
 import aniko from "../../assets/images/photos/aniko.jpg";
 import podcast from "../../assets/images/photos/podcast.jpg";
+
+const metadata = {
+    title: "Színelemzés, coaching és színtolmácsolás szakértő",
+    description: "Ismerd meg történetemet és módszereimet! Színtolmácsolás, coaching és színtanácsadás nemzetközi tapasztalattal.",
+    type: "article",
+};
 ---
 
-<Base>
+<Base metadata={metadata}>
     <article>
         <NormalBlock title="Rólam">
             <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center">

@@ -11,9 +11,14 @@ import EbookBanner from "../../components/ebook_banner.astro";
 import colourSession from "../../assets/images/photos/colour_session.jpg";
 
 const link = getRelativeLocaleUrl("hu", "colour-analysis");
+const metadata = {
+    title: "Színtolmácsolás | Fedezd fel a színek üzenetét!",
+    description: "Intuitív színtolmácsolás a lelki egyensúlyért. Tudd meg, milyen üzenetet hordoznak számodra a színek, és hogyan segíthetik utadat!",
+    type: "article",
+};
 ---
 
-<Base>
+<Base metadata={metadata}>
     <article>
         <EbookBanner />
         <NormalBlock title="Mi az a színtolmácsolás?" bgClass="bg-pic-umbrellas">

@@ -11,9 +11,14 @@ import draping from "../../assets/images/photos/draping.jpg";
 import colourChart from "../../assets/images/photos/colour-chart.jpg";
 
 const link = getRelativeLocaleUrl("hu", "colour-interpretation");
+const metadata = {
+    title: "Színelemzés | Találd meg a támogató színeidet!",
+    description: "Fedezd fel, mely színek támogatnak a mindennapokban! Személyre szabott színelemzés Southamptonban a harmónikusabb megjelenésért és belső egyensúlyért.",
+    type: "article",
+};
 ---
 
-<Base>
+<Base metadata={metadata}>
     <article>
         <NormalBlock title="Mi történik a színtanácsadás során?">
             <p class="mb-3 md:mb-6">Megérkezel a megbeszélt időpontra, ahol kényelmes környezetben beszélgetünk kicsit, hogy megismerjem, miben
