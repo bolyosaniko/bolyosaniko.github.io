@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^5.1.0",
     "@astrolib/seo": "^1.0.0-beta.8",
     "astro": "^4.14.5",
