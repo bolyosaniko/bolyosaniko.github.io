@@ -11,9 +11,14 @@ import aniko3 from "../assets/images/photos/aniko-3.jpg";
 
 const linkAnalysis = getRelativeLocaleUrl("en", "colour-analysis");
 const linkInterpretation = getRelativeLocaleUrl("en", "colour-interpretation");
+
+const metadata = {
+    title: "Personalised colour analysis and self-discovery coaching in Southampton, UK",
+    description: "Discover personalised colour analysis and self-discovery coaching in Southampton, UK. I offer intuitive colour interpretation and styling guidance to help you understand yourself, embrace change, and shine inside and out. Book a session today for a transformative journey through the power of colours!",
+};
 ---
 
-<Base>
+<Base metadata={metadata}>
     <div class="grid grid-cols-1 md:grid-cols-2 items-center">
         <LandingBlock title="Discover the Magic of Colours – Inside and Out!">
             <p>Did you know that colours affect not only your appearance but also your inner world? As a colour consultant

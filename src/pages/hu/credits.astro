@@ -2,9 +2,15 @@
 import Base from "../../layouts/base.astro";
 import LandingBlock from "../../components/landing_block.astro";
 import ImageCreditsList from "../../components/image_credits_list.astro";
+
+const metadata = {
+    title: "Készítők és felhasznált források",
+    description: "Tekintsd meg, kik és milyen források járultak hozzá a weboldal elkészítéséhez. Képek és egyéb tartalmak forrásai.",
+    type: "article",
+};
 ---
 
-<Base>
+<Base metadata={metadata}>
     <article>
         <LandingBlock title="Programozás és dizájn">
             <p><a class="underline" href="https://milonoir.github.io" target="_blank">Boleradszki Milán</a></p>

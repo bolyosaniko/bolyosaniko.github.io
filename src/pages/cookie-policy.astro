@@ -4,9 +4,14 @@ import NormalBlock from "../components/normal_block.astro";
 import { getRelativeLocaleUrl } from "astro:i18n";
 
 const link = getRelativeLocaleUrl("en", "privacy-notice");
+const metadata = {
+    title: "Cookies Policy",
+    description: "Learn how we use cookies to enhance your browsing experience. Detailed information on cookie management.",
+    type: "article",
+};
 ---
 
-<Base>
+<Base metadata={metadata}>
     <article>
         <h2 class="py-4 md:py-6 font-lora text-xl md:text-4xl text-center">Cookies policy</h2>
         <NormalBlock title="Last updated: 1 December 2024">

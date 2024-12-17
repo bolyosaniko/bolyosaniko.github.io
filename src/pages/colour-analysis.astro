@@ -11,9 +11,14 @@ import draping from "../assets/images/photos/draping.jpg";
 import colourChart from "../assets/images/photos/colour-chart.jpg";
 
 const link = getRelativeLocaleUrl("en", "colour-interpretation");
+const metadata = {
+    title: "Colour Analysis | Discover Your Supporting Colours!",
+    description: "Find out which colours support you every day! Personalised color analysis for a harmonious appearance and inner balance in Southampton, UK.",
+    type: "article",
+};
 ---
 
-<Base>
+<Base metadata={metadata}>
     <article>
         <NormalBlock title="What happens during a colour analysis session?">
             <p class="mb-3 md:mb-6">You arrive at the agreed time, and in a comfortable setting, we’ll start with a brief chat

@@ -1,9 +1,15 @@
 ---
 import Base from "../../layouts/base.astro";
 import NormalBlock from "../../components/normal_block.astro";
+
+const metadata = {
+    title: "Adatkezelési tájékoztató",
+    description: "Részletes tájékoztatás arról, hogyan kezeljük és védjük az adataidat. Tudd meg, milyen jogok illetnek meg adatkezelés kapcsán!",
+    type: "article",
+};
 ---
 
-<Base>
+<Base metadata={metadata}>
     <article>
         <h2 class="py-4 md:py-6 font-lora text-xl md:text-4xl text-center">Adatkezelési tájékoztató</h2>
         <NormalBlock title="Utoljára frissítve: 2024. december 1.">

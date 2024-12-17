@@ -8,9 +8,15 @@ import Certificates from "../components/certificates.astro";
 
 import aniko from "../assets/images/photos/aniko.jpg";
 import podcast from "../assets/images/photos/podcast.jpg";
+
+const metadata = {
+    title: "Colour consultant, coach, and colour interpreter",
+    description: "Discover my story and methods! Colour interpretation, coaching, and colour consultancy with international experience.",
+    type: "article",
+};
 ---
 
-<Base>
+<Base metadata={metadata}>
     <article>
         <NormalBlock title="About me">
             <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center">
