@@ -1,0 +1,44 @@
+---
+import { AstroSeo } from '@astrolib/seo';
+
+const {
+    title,
+    description,
+    type,
+} = Astro.props;
+
+const canonical = "https://www.bolyosaniko.com/";
+const meta = Astro.currentLocale === "hu" ? {
+    locale: "hu_HU",
+    siteName: "Bolyós Anikó",
+    imageUrl: canonical+"img/logo_hu.png",
+} : {
+    locale: "en_GB",
+    siteName: "Aniko Bolyos",
+    imageUrl: canonical+"img/logo_en.png",
+};
+const pageTitle = `${meta.siteName} | ${title}`
+---
+
+<AstroSeo
+    title={pageTitle}
+    description={description}
+    canonical={canonical}
+    openGraph={{
+        url: canonical,
+        title: pageTitle,
+        description: description,
+        locale: meta.locale,
+        type: type || "website",
+        site_name: meta.siteName,
+        images: [
+            {
+                url: meta.imageUrl,
+                width: 840,
+                height: 472,
+                alt: "logo",
+                type: "image/png",
+            }
+        ],
+    }}
+/>

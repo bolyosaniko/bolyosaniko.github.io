@@ -9,6 +9,8 @@ import Footer from "../components/footer.astro";
 import Scripts from "../components/scripts.astro";
 import Consent from "../components/consent.astro";
 
+const { metadata } = Astro.props;
+
 const data = Astro.currentLocale === "hu" ?
     {
         cookie: {
@@ -41,7 +43,7 @@ const data = Astro.currentLocale === "hu" ?
 
 <!doctype html>
 <html lang={Astro.currentLocale}>
-    <Head />
+    <Head metadata={metadata} />
     <body class="antialiased bg-white text-onyx tracking-tight">
         <Header />
         <main>
