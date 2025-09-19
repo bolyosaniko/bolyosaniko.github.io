@@ -1,0 +1,17 @@
+---
+import { Image } from "astro:assets";
+
+import Note from "./note.astro";
+
+import bookThumbnail from "../assets/images/ebook_eng_thumb.png";
+---
+
+<div class="px-8 py-4 md:py-6 mx-auto md:max-w-[75%] font-myriad">
+    <Note>
+        <div class="flex flex-row justify-center items-center">
+            <a href="/colours_ebook_eng.pdf" download><Image class="w-16 h-auto hover:shadow-lg" src={bookThumbnail} alt="" /></a>
+            <p class="pl-4 md:pl-8 text-xl md:text-2xl text-center">👈</p>
+            <p class="pl-2 text-base md:text-2xl text-center">Click on the picture to download my free e-book!</p>
+        </div>
+    </Note>
+</div>
