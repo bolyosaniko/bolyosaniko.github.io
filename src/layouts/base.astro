@@ -23,7 +23,7 @@ const data = Astro.currentLocale === "hu" ?
             text: "Az adatkezelési tájékoztatót megismertem és elfogadom.",
             accept: "Elfogadom",
             info: "Bővebben",
-            url: getRelativeLocaleUrl("hu", "privacy-policy"),
+            url: getRelativeLocaleUrl("hu", "privacy-notice"),
         }
     } : {
         cookie: {
@@ -33,10 +33,10 @@ const data = Astro.currentLocale === "hu" ?
             url: getRelativeLocaleUrl("en", "cookie-policy"),
         },
         privacy: {
-            text: "I have read and understood the privacy notice.",
-            accept: "Accept",
+            text: "I have read and understood the Privacy Notice and agree to the processing of my personal data as described.",
+            accept: "I agree",
             info: "More info",
-            url: getRelativeLocaleUrl("en", "privacy-policy"),
+            url: getRelativeLocaleUrl("en", "privacy-notice"),
         }
     };
 ---
