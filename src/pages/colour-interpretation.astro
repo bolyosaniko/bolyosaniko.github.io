@@ -1,16 +1,15 @@
 ---
-import { getRelativeLocaleUrl } from "astro:i18n";
 import { Image } from "astro:assets";
 
 import Base from "../layouts/base.astro";
 import NormalBlock from "../components/normal_block.astro";
 import Note from "../components/note.astro";
 import Card from "../components/card.astro";
-import EbookBannerEn from "../components/ebook_banner_en.astro";
+import EbookBanner from "../components/ebook_banner.astro";
 
 import colourSession from "../assets/images/photos/colour_session.jpg";
 
-const link = getRelativeLocaleUrl("en", "colour-analysis");
+const link = "/colour-analysis";
 const metadata = {
     title: "Colour Interpretation | Uncover the Message of Colours!",
     description: "Intuitive colour interpretation for emotional balance. Learn the messages colours hold for you and how they can support your journey.",
@@ -20,7 +19,7 @@ const metadata = {
 
 <Base metadata={metadata}>
     <article>
-        <EbookBannerEn />
+        <EbookBanner />
         <NormalBlock title="What is colour interpretation?" bgClass="bg-pic-umbrellas">
             <p class="mb-3 md:mb-6">One day, I decided to bring more colour into my life by delving deeply into the world of
                 colours. Through learning, research, and personal experience, I discovered that this journey wasn’t just

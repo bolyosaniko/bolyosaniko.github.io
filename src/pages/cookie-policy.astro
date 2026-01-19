@@ -1,9 +1,8 @@
 ---
 import Base from "../layouts/base.astro";
 import NormalBlock from "../components/normal_block.astro";
-import { getRelativeLocaleUrl } from "astro:i18n";
 
-const link = getRelativeLocaleUrl("en", "privacy-notice");
+const link = "/privacy-notice";
 const metadata = {
     title: "Cookies Policy",
     description: "Learn how we use cookies to enhance your browsing experience. Detailed information on cookie management.",

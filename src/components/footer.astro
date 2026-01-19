@@ -1,25 +1,13 @@
 ---
-import { getRelativeLocaleUrl } from "astro:i18n";
-
-const names = Astro.currentLocale === "hu" ?
-    {
-        content: "Bolyós Anikó",
-        cookies: "Sütik",
-        cookiesUrl: getRelativeLocaleUrl("hu", "cookie-policy"),
-        privacy: "Adatkezelés",
-        privacyUrl: getRelativeLocaleUrl("hu", "privacy-notice"),
-        credits: "Források",
-        creditsUrl: getRelativeLocaleUrl("hu", "credits"),
-    } :
-    {
-        content: "Aniko Bolyos",
-        cookies: "Cookies",
-        cookiesUrl: getRelativeLocaleUrl("en", "cookie-policy"),
-        privacy: "Privacy",
-        privacyUrl: getRelativeLocaleUrl("en", "privacy-notice"),
-        credits: "Credits",
-        creditsUrl: getRelativeLocaleUrl("en", "credits"),
-    };
+const names = {
+    content: "Aniko Bolyos",
+    cookies: "Cookies",
+    cookiesUrl: "/cookie-policy",
+    privacy: "Privacy",
+    privacyUrl: "/privacy-notice",
+    credits: "Credits",
+    creditsUrl: "/credits",
+};
 ---
 
 <footer id="footer" class="relative bottom-0 px-8 md:px-12 py-8 bg-onyx text-white">

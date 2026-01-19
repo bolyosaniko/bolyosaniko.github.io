@@ -8,11 +8,7 @@ const {
 } = Astro.props;
 
 const canonical = "https://www.bolyosaniko.com/";
-const meta = Astro.currentLocale === "hu" ? {
-    locale: "hu_HU",
-    siteName: "Bolyós Anikó",
-    imageUrl: canonical+"img/logo_hu.png",
-} : {
+const meta = {
     locale: "en_GB",
     siteName: "Aniko Bolyos",
     imageUrl: canonical+"img/logo_en.png",
