@@ -1,6 +1,4 @@
 ---
-import { getRelativeLocaleUrl } from "astro:i18n";
-
 import "../assets/styles/tailwind.css";
 
 import Head from "../components/head.astro";
@@ -11,38 +9,24 @@ import Consent from "../components/consent.astro";
 
 const { metadata } = Astro.props;
 
-const data = Astro.currentLocale === "hu" ?
-    {
-        cookie: {
-            text: "🍪 A weboldal sütiket (cookie) használ.",
-            accept: "Megértettem",
-            info: "Bővebben",
-            url: getRelativeLocaleUrl("hu", "cookie-policy"),
-        },
-        privacy: {
-            text: "Az adatkezelési tájékoztatót megismertem és elfogadom.",
-            accept: "Elfogadom",
-            info: "Bővebben",
-            url: getRelativeLocaleUrl("hu", "privacy-notice"),
-        }
-    } : {
-        cookie: {
-            text: "🍪 This website uses cookies.",
-            accept: "Got it",
-            info: "More info",
-            url: getRelativeLocaleUrl("en", "cookie-policy"),
-        },
-        privacy: {
-            text: "I have read and understood the Privacy Notice and agree to the processing of my personal data as described.",
-            accept: "I agree",
-            info: "More info",
-            url: getRelativeLocaleUrl("en", "privacy-notice"),
-        }
-    };
+const data = {
+    cookie: {
+        text: "🍪 This website uses cookies.",
+        accept: "Got it",
+        info: "More info",
+        url: "/cookie-policy",
+    },
+    privacy: {
+        text: "I have read and understood the Privacy Notice and agree to the processing of my personal data as described.",
+        accept: "I agree",
+        info: "More info",
+        url: "/privacy-notice",
+    }
+};
 ---
 
 <!doctype html>
-<html lang={Astro.currentLocale}>
+<html lang="en">
     <Head metadata={metadata} />
     <body class="antialiased bg-white text-onyx tracking-tight">
         <Header />

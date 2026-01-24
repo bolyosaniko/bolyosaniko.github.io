@@ -1,5 +1,4 @@
 ---
-import { getRelativeLocaleUrl } from "astro:i18n";
 import { Image } from "astro:assets";
 
 import Base from "../layouts/base.astro";
@@ -9,8 +8,8 @@ import Boxes from "../components/boxes.astro";
 import aniko2 from "../assets/images/photos/aniko-2.jpg";
 import aniko3 from "../assets/images/photos/aniko-3.jpg";
 
-const linkAnalysis = getRelativeLocaleUrl("en", "colour-analysis");
-const linkInterpretation = getRelativeLocaleUrl("en", "colour-interpretation");
+const linkAnalysis = "/colour-analysis";
+const linkInterpretation = "/colour-interpretation";
 
 const metadata = {
     title: "Personalised colour analysis and self-discovery coaching in Southampton, UK",

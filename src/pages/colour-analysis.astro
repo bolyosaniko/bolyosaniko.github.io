@@ -1,5 +1,4 @@
 ---
-import { getRelativeLocaleUrl } from "astro:i18n";
 import { Image } from "astro:assets";
 
 import Base from "../layouts/base.astro";
@@ -10,7 +9,7 @@ import Card from "../components/card.astro";
 import draping from "../assets/images/photos/draping.jpg";
 import colourChart from "../assets/images/photos/colour-chart.jpg";
 
-const link = getRelativeLocaleUrl("en", "colour-interpretation");
+const link = "/colour-interpretation";
 const metadata = {
     title: "Colour Analysis | Discover Your Supporting Colours!",
     description: "Find out which colours support you every day! Personalised color analysis for a harmonious appearance and inner balance in Southampton, UK.",
