@@ -6,14 +6,14 @@ import NormalBlock from "../components/normal_block.astro";
 import Note from "../components/note.astro";
 import Card from "../components/card.astro";
 import EbookBanner from "../components/ebook_banner.astro";
+import { commonData } from "../components/common_data.astro";
 
 import colourSession from "../assets/images/photos/colour_session.jpg";
 
-const link = "/colour-analysis";
 const metadata = {
-    title: "Colour Interpretation | Uncover the Message of Colours!",
-    description: "Intuitive colour interpretation for emotional balance. Learn the messages colours hold for you and how they can support your journey.",
-    type: "article",
+    title: "Colour Interpretation | Explore the Meaning of Colour",
+    description: "Explore the emotional and symbolic meaning of colour through intuitive colour interpretation. Discover new insights into yourself and your current journey.",
+    type: "website",
 };
 ---
 
@@ -57,8 +57,8 @@ const metadata = {
             <p class="mb-3 md:mb-6">A colour interpretation session takes <strong>90 minutes</strong>.</p>
         </NormalBlock>
         <NormalBlock title="What is the cost?">
-            <p class="mb-3 md:mb-6">Colour interpretation: <strong>£50</strong></p>
-            <p class="mb-3 md:mb-6">Rainbow package (colour interpretation + <a class="underline" href={link}>colour analysis</a>): <strong>£165</strong></p>
+            <p class="mb-3 md:mb-6">Colour interpretation: <strong>{commonData.prices.colourInterpretation}</strong></p>
+            <p class="mb-3 md:mb-6">Rainbow package (colour interpretation + <a class="underline" href={commonData.links.colourAnalysis}>colour analysis</a>): <strong>{commonData.prices.rainbowPackage}</strong></p>
         </NormalBlock>
         <NormalBlock title="What’s included?" bgClass="bg-pic-frames">
             <ul class="list-image-checkmark-sm md:list-image-checkmark-md list-outside relative left-4 md:left-5 mb-3 md:mb-6">
@@ -96,7 +96,7 @@ const metadata = {
                     I had a bespoke experience, and, as a result, Anikó helped me both personally and professionally. I came out reenergised, and with useful advice. I totally recommend her services.
                 </Card>
                 <Card author="Maria Isabel Pinto">
-                    I underwent the color analysis with Anikó and it was amazing it helped me to know more about myself. I totally recommend her services. She is highly professional and an incredible and lovely Woman.
+                    I underwent the colour analysis with Anikó and it was amazing it helped me to know more about myself. I totally recommend her services. She is highly professional and an incredible and lovely Woman.
                 </Card>
                 <Card author="Deborah Anne Beeson">
                     I recently had a colour analysis consultation with Aniko. This was a completely new experience for me so I was very excited about the results. Aniko gave me a detailed analysis which was fully explained. It was spot on and gave me a real insight into my personality and really helped me. I would fully recommend it to anyone.

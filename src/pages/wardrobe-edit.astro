@@ -3,22 +3,129 @@ import { Image } from "astro:assets";
 
 import Base from "../layouts/base.astro";
 import NormalBlock from "../components/normal_block.astro";
-import ModelSlides from "../components/model_slides.astro";
-import Card from "../components/card.astro";
+import Boxes from "../components/boxes.astro";
+import { commonData } from "../components/common_data.astro";
 
 import draping from "../assets/images/photos/draping.jpg";
 import colourChart from "../assets/images/photos/colour-chart.jpg";
 
 const metadata = {
-    title: "Wardrobe Edit | <TODO>",
-    description: "<TODO>",
-    type: "article",
+    title: "Wardrobe Edit | Personal Styling in Glasgow",
+    description: "Transform your wardrobe with a personalised wardrobe edit in Glasgow. Declutter, create outfits and learn how to dress with confidence using what you already own",
+    type: "website",
 };
 ---
 
 <Base metadata={metadata}>
     <article>
         <NormalBlock title="What if getting dressed could feel easy, enjoyable and truly like you?">
+            <p class="mb-3 md:mb-6">Do you ever look into your wardrobe and feel that you have plenty of clothes,
+                yet somehow nothing to wear?</p>
+            <p class="mb-3 md:mb-6">Perhaps your style no longer reflects who you are. Maybe your body, lifestyle or 
+                taste has changed, and your wardrobe simply hasn't caught up.</p>
+            <p class="mb-3 md:mb-6">Or perhaps you already have many beautiful pieces, but you are not sure how to combine
+                them, what works for you, or how to make the most of what you already own.</p>
+            <p class="mb-3 md:mb-6">If any of this sounds familiar, a <strong>Wardrobe Edit</strong> could be the fresh
+                start you need.</p>
+            <p class="mb-3 md:mb-6">This is not about telling you what you should or shouldn't wear. It is a collaborative
+                process in which we work together to create a wardrobe that feels authentic to you, works for your lifestyle
+                and makes getting dressed easier.</p>
+            <p class="mb-3 md:mb-6">My role is to give you the knowledge, guidance and confidence to make your own choices –
+                not only while we are working together, but long after our sessions have finished.</p>
+        </NormalBlock>
+        <NormalBlock title="A wardrobe that works for you" bgClass="bg-pic-jumpers">
+            <p class="mb-3 md:mb-6">Every Wardrobe Edit is tailored to your individual needs. Depending on your goals,
+                we may focus on one or both of the following:</p>
+            <div class="mb-3">
+                <h4>Wardrobe Editing & Decluttering</h4>
+                <p>Together, we identify the pieces that no longer serve you – whether they no longer fit, no longer reflect
+                    your personality, or simply haven't been worn in years. Creating space allows us to see your wardrobe
+                    with fresh eyes and discover what is already there.</p>
+            </div>
+            <div class="mb-3">
+                <h4>Outfit Creation</h4>
+                <p>We use your existing clothes to create practical, versatile outfits for your everyday life, work, special
+                    occasions or particular seasons. You may be surprised by how many possibilities are already hiding in
+                    your wardrobe.</p>
+            </div>
+            <p class="mb-3 md:mb-6">During the process, we will also create a personalised <strong>wishlist</strong> of pieces
+                or accessories that could genuinely enhance your wardrobe. The aim is not to encourage unnecessary shopping,
+                but to help you make more intentional choices in the future.</p>
+        </NormalBlock>
+        <NormalBlock title="How does it work?">
+            <p class="mb-3 md:mb-6">The Wardrobe Edit is designed as a three-step journey.</p>
+            <div class="mb-3">
+                <h4>1. Discovery Consultation – approximately 45 minutes</h4>
+                <p>We begin with an online or in-person consultation to get to know each other and understand what you would
+                    like to change. We will talk about your lifestyle, current wardrobe, personal style, challenges and goals.
+                    You will also receive a questionnaire to complete, helping me build a more detailed picture of your needs.</p>
+            </div>
+            <div class="mb-3">
+                <h4>2. Style & Body Shape Consultation – approximately 45 minutes</h4>
+                <p>In our second session, we look more closely at your body shape, lifestyle and style preferences. We will
+                    review your questionnaire together and explore what currently works for you – and what doesn't. This session
+                    can take place in person or online. We will then plan your Wardrobe Edit and agree on the date for our
+                    practical session.</p>
+            </div>
+            <div class="mb-3">
+                <h4>3. The Wardrobe Edit – approximately 3 hours</h4>
+                <p>This is where everything comes together. In your own home, we will go through your wardrobe, organise your
+                    clothes and create new combinations from the pieces you already own. I will show you how to use your wardrobe
+                    more intentionally and how to choose clothes that work with your body shape, lifestyle and personality.
+                    We will also create your personal wishlist, identifying any key pieces or accessories that would fill genuine
+                    gaps in your wardrobe. The goal is simple: to open your wardrobe in the morning and feel inspired rather than
+                    overwhelmed.</p>
+            </div>
+        </NormalBlock>
+        <NormalBlock title="What you will take away" bgClass="bg-pic-scarves">
+            <p class="mb-3 md:mb-6">A Wardrobe Edit is not simply about having a tidier wardrobe. You will gain:</p>
+        <Boxes items={[
+            { title: 'A better understanding of your body shape', text: 'So you can recognise why certain cuts and silhouettes work particularly well for you.'},
+            { title: 'Practical styling knowledge', text: 'You will learn how to combine your existing clothes and create outfits with confidence.'},
+            { title: 'A more intentional wardrobe', text: 'Instead of constantly looking for something new, you will learn to make better use of what you already have.'},
+            { title: 'Greater confidence', text: 'The aim is for your clothes to support how you want to feel – comfortable, confident and authentically yourself.'},
+            { title: 'A personalised wardrobe wishlist', text: 'A clear guide to what is genuinely missing, helping you shop with more purpose in the future.'},
+        ]}/>
+        </NormalBlock>
+        <NormalBlock title="This is a journey, not a quick makeover">
+            <p class="mb-3 md:mb-6">Real change takes time.</p>
+            <p class="mb-3 md:mb-6">My approach is not about giving you a list of rules or creating a completely different version
+                of you overnight. It is about helping you understand yourself better and giving you practical tools that you can
+                continue using independently.</p>
+            <p class="mb-3 md:mb-6">You may have some unexpected discoveries and plenty of "aha" moments along the way – but most
+                importantly, I want you to enjoy the process.</p>
+            <p class="mb-3 md:mb-6">Your wardrobe should never ask you to become someone you are not.</p>
+            <p class="mb-3 md:mb-6">It should help you express who you already are.</p>
+        </NormalBlock>
+        <NormalBlock title="Investment" bgClass="bg-pic-dressing-room">
+            <p class="mb-3 md:mb-6"><strong>Wardrobe Edit: £120</strong></p>
+            <p class="mb-3 md:mb-6">The service includes:</p>
+            <ul class="list-image-checkmark-sm md:list-image-checkmark-md list-outside relative left-4 md:left-5 mb-3 md:mb-6">
+                <li>a 45-minute discovery consultation</li>
+                <li>a 45-minute style and body shape consultation</li>
+                <li>a 3-hour practical Wardrobe Edit in your home</li>
+                <li>personalised styling guidance</li>
+                <li>outfit creation using your existing wardrobe</li>
+                <li>a personalised wardrobe wishlist</li>
+            </ul>
+            <p class="mb-3 md:mb-6">A <strong>50% deposit</strong> is required to secure your Wardrobe Edit appointment.</p>
+        </NormalBlock>
+        <NormalBlock title="A little extra for your colour journey">
+            <p class="mb-3 md:mb-6">Have you not yet experienced a Colour Analysis with me?</p>
+            <p class="mb-3 md:mb-6">After completing your Wardrobe Edit, you can receive <strong>20% off a Colour Analysis</strong>,
+                provided you book it within six months.</p>
+            <p class="mb-3 md:mb-6">Colour is an important part of creating a wardrobe that truly works for you. Once you understand
+                which colours enhance your natural appearance, we can bring that knowledge into your wardrobe and make your outfit
+                choices even more effortless.</p>
+        </NormalBlock>
+        <NormalBlock title="Ready to open your wardrobe with fresh eyes?" bgClass="bg-pic-shop">
+            <p class="mb-3 md:mb-6">Book your <strong>free 15-minute consultation</strong> and let's talk about what you would like to change,
+                what is currently not working for you, and how I can help.</p>
+            <p class="mb-3 md:mb-6">Your wardrobe doesn't need to be bigger.</p>
+            <p class="mb-3 md:mb-6">It simply needs to work better for you.</p>
+            <div class="flex flex-row justify-center gap-4 md:gap-8 mb-3 md:mb-6">
+                <a href={commonData.links.book15mins} class="mt-6 px-4 py-4 mx-2 bg-bittersweet hover:bg-coral-pink text-white">Book a free 15-minute consultation</a>
+            </div>
         </NormalBlock>
     </article>
 </Base>

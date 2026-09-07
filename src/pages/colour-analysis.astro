@@ -5,15 +5,15 @@ import Base from "../layouts/base.astro";
 import NormalBlock from "../components/normal_block.astro";
 import ModelSlides from "../components/model_slides.astro";
 import Card from "../components/card.astro";
+import { commonData } from "../components/common_data.astro";
 
 import draping from "../assets/images/photos/draping.jpg";
 import colourChart from "../assets/images/photos/colour-chart.jpg";
 
-const link = "/colour-interpretation";
 const metadata = {
-    title: "Colour Analysis | Discover Your Supporting Colours!",
-    description: "Find out which colours support you every day! Personalised color analysis for a harmonious appearance and inner balance in Glasgow, UK.",
-    type: "article",
+    title: "Colour Analysis | Personal Colour Analysis in Glasgow",
+    description: "Discover the colours that enhance your natural features with a personalised colour analysis in Glasgow. Learn your best colours and dress with confidence.",
+    type: "website",
 };
 ---
 
@@ -50,8 +50,8 @@ const metadata = {
             <p class="mb-3 md:mb-6">A colour analysis consultation takes <strong>120 minutes</strong>.</p>
         </NormalBlock>
         <NormalBlock title="What is the cost?">
-            <p class="mb-3 md:mb-6">Colour analysis: <strong>£125</strong></p>
-            <p class="mb-3 md:mb-6">Rainbow package (colour analysis + <a class="underline" href={link}>colour interpretation</a>): <strong>£165</strong></p>
+            <p class="mb-3 md:mb-6">Colour analysis: <strong>{commonData.prices.colourAnalysis}</strong></p>
+            <p class="mb-3 md:mb-6">Rainbow package (colour analysis + <a class="underline" href={commonData.links.colourInterpretation}>colour interpretation</a>): <strong>{commonData.prices.rainbowPackage}</strong></p>
         </NormalBlock>
         <NormalBlock title="What’s included?" bgClass="bg-pic-dressing-room">
             <ul class="list-image-checkmark-sm md:list-image-checkmark-md list-outside relative left-4 md:left-5 mb-3 md:mb-6">
@@ -149,7 +149,7 @@ const metadata = {
                     I think a colour analysis with Aniko might be an awesome gift for someone too.
                 </Card>
                 <Card author="Anna Szilágyi">
-                    I have absolutely loved my color analysis with Aniko! I previously gravitated towards darker tones but she has shown me how they make me look older and how different tones can completely brighten up my complexion. I still wear my favourite colors just in the tones that suit me. We also determined that I suit gold jewellery better which I was really happy about because it was my preferred choice anyways. I am so happy I had the chance to try this out with Aniko, I definitely feel more confident dressing more colourful in my everyday life.
+                    I have absolutely loved my colour analysis with Aniko! I previously gravitated towards darker tones but she has shown me how they make me look older and how different tones can completely brighten up my complexion. I still wear my favourite colours just in the tones that suit me. We also determined that I suit gold jewellery better which I was really happy about because it was my preferred choice anyways. I am so happy I had the chance to try this out with Aniko, I definitely feel more confident dressing more colourful in my everyday life.
                 </Card>
                 <Card author="Angéla Jánvári">
                     Aniko is the queen of colours!<br/>
