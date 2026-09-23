@@ -7,8 +7,9 @@ import Boxes from "../components/boxes.astro";
 import PageHeader from "../components/page_header.astro";
 import { commonData } from "../components/common_data.astro";
 
-import draping from "../assets/images/photos/draping.jpg";
-import colourChart from "../assets/images/photos/colour-chart.jpg";
+import wardrobe1 from "../assets/images/photos/wardrobe_1.jpg";
+import wardrobe2 from "../assets/images/photos/wardrobe_2.jpg";
+import wardrobe3 from "../assets/images/photos/wardrobe_3.jpg";
 
 const metadata = {
     title: "Wardrobe Edit | Personal Styling in Glasgow",
@@ -20,19 +21,24 @@ const metadata = {
 <Base metadata={metadata}>
     <PageHeader title="Wardrobe Edit" />
     <NormalBlock title="What if getting dressed could feel easy, enjoyable and truly like you?">
-        <p class="mb-3 md:mb-6">Do you ever look into your wardrobe and feel that you have plenty of clothes,
-            yet somehow nothing to wear?</p>
-        <p class="mb-3 md:mb-6">Perhaps your style no longer reflects who you are. Maybe your body, lifestyle or 
-            taste has changed, and your wardrobe simply hasn't caught up.</p>
-        <p class="mb-3 md:mb-6">Or perhaps you already have many beautiful pieces, but you are not sure how to combine
-            them, what works for you, or how to make the most of what you already own.</p>
-        <p class="mb-3 md:mb-6">If any of this sounds familiar, a <strong>Wardrobe Edit</strong> could be the fresh
-            start you need.</p>
-        <p class="mb-3 md:mb-6">This is not about telling you what you should or shouldn't wear. It is a collaborative
-            process in which we work together to create a wardrobe that feels authentic to you, works for your lifestyle
-            and makes getting dressed easier.</p>
-        <p class="mb-3 md:mb-6">My role is to give you the knowledge, guidance and confidence to make your own choices –
-            not only while we are working together, but long after our sessions have finished.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center">
+            <div>
+                <p class="mb-3 md:mb-6">Do you ever look into your wardrobe and feel that you have plenty of clothes,
+                    yet somehow nothing to wear?</p>
+                <p class="mb-3 md:mb-6">Perhaps your style no longer reflects who you are. Maybe your body, lifestyle or 
+                    taste has changed, and your wardrobe simply hasn't caught up.</p>
+                <p class="mb-3 md:mb-6">Or perhaps you already have many beautiful pieces, but you are not sure how to combine
+                    them, what works for you, or how to make the most of what you already own.</p>
+                <p class="mb-3 md:mb-6">If any of this sounds familiar, a <strong>Wardrobe Edit</strong> could be the fresh
+                    start you need.</p>
+                <p class="mb-3 md:mb-6">This is not about telling you what you should or shouldn't wear. It is a collaborative
+                    process in which we work together to create a wardrobe that feels authentic to you, works for your lifestyle
+                    and makes getting dressed easier.</p>
+                <p class="mb-3 md:mb-6">My role is to give you the knowledge, guidance and confidence to make your own choices –
+                    not only while we are working together, but long after our sessions have finished.</p>
+            </div>
+            <Image class="min-h-full md:max-h-[700px] xl:max-h-[560px] object-cover justify-self-center pb-4 md:order-first" src={wardrobe1} alt="" />
+        </div>
     </NormalBlock>
     <NormalBlock title="A wardrobe that works for you" bgClass="bg-pic-jumpers">
         <p class="mb-3 md:mb-6">Every Wardrobe Edit is tailored to your individual needs. Depending on your goals,
@@ -54,28 +60,33 @@ const metadata = {
             but to help you make more intentional choices in the future.</p>
     </NormalBlock>
     <NormalBlock title="How does it work?">
-        <p class="mb-3 md:mb-6">The Wardrobe Edit is designed as a three-step journey.</p>
-        <div class="mb-3">
-            <h4>1. Discovery Consultation – approximately 45 minutes</h4>
-            <p>We begin with an online or in-person consultation to get to know each other and understand what you would
-                like to change. We will talk about your lifestyle, current wardrobe, personal style, challenges and goals.
-                You will also receive a questionnaire to complete, helping me build a more detailed picture of your needs.</p>
-        </div>
-        <div class="mb-3">
-            <h4>2. Style & Body Shape Consultation – approximately 45 minutes</h4>
-            <p>In our second session, we look more closely at your body shape, lifestyle and style preferences. We will
-                review your questionnaire together and explore what currently works for you – and what doesn't. This session
-                can take place in person or online. We will then plan your Wardrobe Edit and agree on the date for our
-                practical session.</p>
-        </div>
-        <div class="mb-3">
-            <h4>3. The Wardrobe Edit – approximately 3 hours</h4>
-            <p>This is where everything comes together. In your own home, we will go through your wardrobe, organise your
-                clothes and create new combinations from the pieces you already own. I will show you how to use your wardrobe
-                more intentionally and how to choose clothes that work with your body shape, lifestyle and personality.
-                We will also create your personal wishlist, identifying any key pieces or accessories that would fill genuine
-                gaps in your wardrobe. The goal is simple: to open your wardrobe in the morning and feel inspired rather than
-                overwhelmed.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center">
+            <div>
+                <p class="mb-3 md:mb-6">The Wardrobe Edit is designed as a three-step journey.</p>
+                <div class="mb-3">
+                    <h4>1. Discovery Consultation – approximately 45 minutes</h4>
+                    <p>We begin with an online or in-person consultation to get to know each other and understand what you would
+                        like to change. We will talk about your lifestyle, current wardrobe, personal style, challenges and goals.
+                        You will also receive a questionnaire to complete, helping me build a more detailed picture of your needs.</p>
+                </div>
+                <div class="mb-3">
+                    <h4>2. Style & Body Shape Consultation – approximately 45 minutes</h4>
+                    <p>In our second session, we look more closely at your body shape, lifestyle and style preferences. We will
+                        review your questionnaire together and explore what currently works for you – and what doesn't. This session
+                        can take place in person or online. We will then plan your Wardrobe Edit and agree on the date for our
+                        practical session.</p>
+                </div>
+                <div class="mb-3">
+                    <h4>3. The Wardrobe Edit – approximately 3 hours</h4>
+                    <p>This is where everything comes together. In your own home, we will go through your wardrobe, organise your
+                        clothes and create new combinations from the pieces you already own. I will show you how to use your wardrobe
+                        more intentionally and how to choose clothes that work with your body shape, lifestyle and personality.
+                        We will also create your personal wishlist, identifying any key pieces or accessories that would fill genuine
+                        gaps in your wardrobe. The goal is simple: to open your wardrobe in the morning and feel inspired rather than
+                        overwhelmed.</p>
+                </div>
+            </div>
+            <Image class="min-h-full md:max-h-[700px] xl:max-h-[560px] object-cover justify-self-center pb-4" src={wardrobe2} alt="" />
         </div>
     </NormalBlock>
     <NormalBlock title="What you will take away" bgClass="bg-pic-scarves">
@@ -89,16 +100,21 @@ const metadata = {
     ]}/>
     </NormalBlock>
     <NormalBlock title="This is a journey, not a quick makeover">
-        <p class="mb-3 md:mb-6">Real change takes time.</p>
-        <p class="mb-3 md:mb-6">My approach is not about giving you a list of rules or creating a completely different version
-            of you overnight. It is about helping you understand yourself better and giving you practical tools that you can
-            continue using independently.</p>
-        <p class="mb-3 md:mb-6">You may have some unexpected discoveries and plenty of "aha" moments along the way – but most
-            importantly, I want you to enjoy the process.</p>
-        <p class="mb-3 md:mb-6">Your wardrobe should never ask you to become someone you are not.</p>
-        <p class="mb-3 md:mb-6">It should help you express who you already are.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center">
+            <div>
+                <p class="mb-3 md:mb-6">Real change takes time.</p>
+                <p class="mb-3 md:mb-6">My approach is not about giving you a list of rules or creating a completely different version
+                    of you overnight. It is about helping you understand yourself better and giving you practical tools that you can
+                    continue using independently.</p>
+                <p class="mb-3 md:mb-6">You may have some unexpected discoveries and plenty of "aha" moments along the way – but most
+                    importantly, I want you to enjoy the process.</p>
+                <p class="mb-3 md:mb-6">Your wardrobe should never ask you to become someone you are not.</p>
+                <p class="mb-3 md:mb-6">It should help you express who you already are.</p>
+            </div>
+            <Image class="min-h-full md:max-h-[700px] xl:max-h-[560px] object-cover justify-self-center pb-4 md:order-first" src={wardrobe3} alt="" />
+        </div>
     </NormalBlock>
-    <NormalBlock title="Investment" bgClass="bg-pic-dressing-room">
+    <NormalBlock title="Investment" bgClass="bg-pic-street">
         <p class="mb-3 md:mb-6"><strong>Wardrobe Edit: {commonData.prices.wardrobeEdit}</strong></p>
         <p class="mb-3 md:mb-6">The service includes:</p>
         <ul class="list-image-checkmark-sm md:list-image-checkmark-md list-outside relative left-4 md:left-5 mb-3 md:mb-6">
