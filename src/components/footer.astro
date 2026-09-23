@@ -11,14 +11,14 @@ const names = {
 ---
 
 <footer id="footer" class="relative bottom-0 px-8 md:px-12 py-8 bg-onyx text-white">
-    <div class="flex flex-row items-center justify-center pb-4">
-        <a class="px-4 hover:underline" href={names.cookiesUrl}>{names.cookies}</a>
-        <a class="px-4 hover:underline" href={names.privacyUrl}>{names.privacy}</a>
-        <a class="px-4 hover:underline" href={names.creditsUrl}>{names.credits}</a>
-    </div>
     <div class="flex flex-col md:flex-row items-center justify-between gap-4">
         <div class="flex justify-center">
             <p class="">&copy; 2021-2026 {names.content}</p>
+        </div>
+        <div class="flex flex-row justify-center">
+            <a class="px-4 hover:underline" href={names.cookiesUrl}>{names.cookies}</a>
+            <a class="px-4 hover:underline" href={names.privacyUrl}>{names.privacy}</a>
+            <a class="px-4 hover:underline" href={names.creditsUrl}>{names.credits}</a>
         </div>
         <ul class="flex flex-row gap-1 md:gap-4">
             <li>
