@@ -5,6 +5,9 @@ import Base from "../layouts/base.astro";
 import NormalBlock from "../components/normal_block.astro";
 import Boxes from "../components/boxes.astro";
 import PageHeader from "../components/page_header.astro";
+import Card from "../components/card.astro";
+import BookButton from "../components/book_button.astro";
+
 import { commonData } from "../components/common_data.astro";
 
 import wardrobe1 from "../assets/images/photos/wardrobe_1.jpg";
@@ -138,10 +141,56 @@ const metadata = {
     <NormalBlock title="Ready to open your wardrobe with fresh eyes?" bgClass="bg-pic-shop">
         <p class="mb-3 md:mb-6">Book your <strong>free 15-minute consultation</strong> and let's talk about what you would like to change,
             what is currently not working for you, and how I can help.</p>
-        <p class="mb-3 md:mb-6">Your wardrobe doesn't need to be bigger.</p>
-        <p class="mb-3 md:mb-6">It simply needs to work better for you.</p>
-        <div class="flex flex-row justify-center gap-4 md:gap-8 mb-3 md:mb-6">
-            <a href={commonData.links.book15mins} class="mt-6 px-4 py-4 mx-2 bg-bittersweet hover:bg-coral-pink text-white">Book a free 15-minute consultation</a>
+        <p class="mb-3 md:mb-6">Your wardrobe doesn't need to be bigger. It simply needs to work better for you.</p>
+        <p class="mb-3 md:mb-6 italic">Initial consultations can be online or in person. The 3-hour Wardrobe Edit takes place in your home.</p>
+        <BookButton />
+    </NormalBlock>
+    <NormalBlock title="Testimonials" bgClass="">
+        <div class="mx-auto max-w-[80%]">
+            <Card author="Pippa">
+                I had a fantastic wardrobe edit session with Aniko. My goal for the session was to learn to mix and match existing pieces, and combine
+                different aspects of my style into new outfits. We definitely achieved this!  She used her expertise from a previous colour analysis,
+                combined with a body shape analysis, to look at my wardrobe with fresh eyes. With my personal style in mind, she created bold new
+                combinations I never would've thought of.<br/><br/>
+
+                She encouraged me not to hide my figure in oversized clothes. One of her best styling tips was tucking in t-shirts to complement my
+                hourglass shape, a simple trick that has made a big difference.<br/><br/>
+
+                As a mum, it was such a luxury to take some time to focus on myself and my style. Aniko put me at ease straight away and really focused
+                on my own style and goals. I highly recommend Aniko for anyone looking to refresh their wardrobe and style with expert guidance.
+            </Card>
+            <Card author="Lujzi">
+                She was very good at listening to my needs and my opinions throughout the consultation. She helped me piece things together I never
+                thought I’d be able to, and was very supportive in my decisions and stayed within my comfort zone.
+            </Card>
+            <Card author="Amelia">
+                I had the chance to have a styling session with Anikó. This is made up of 2 sessions, the first one was introductory where she explained
+                the process, measured my body shape and understood more my profile and preferences via a test.<br/><br/>
+
+                The second session was a wardrobe restyling. I had the opportunity to tell her which were the clothes that I struggled to wear and did not
+                make me feel comfortable. She used her time and expertise to match them with new other pieces of clothing that could be suitable and let me
+                try different options.<br/><br/>
+
+                The outcome was unexpected and she succeeded in combining the right colours of clothings with my body shape in order to give value to my
+                figure and make me feel more attractive and confident. She also created a digital portfolio with my clothes, my pictures and the different
+                combinations of clothes for me to check every time I need.<br/><br/>
+
+                Since this meeting, I started following her suggestions and changed my dressing approach at work and in social life. My husband and many
+                friends and colleagues were very appreciative of my renewed appearance and each compliment made my day.<br/><br/>
+
+                Thanks Aniko, your counselling was professional and respectful and made me feel at ease giving me a boost of confidence for my professional
+                and personal life. This is something that every woman should do.
+            </Card>
+            <Card author="Irina">
+                I had a chance to do a colour analysis with Aniko, and it was a very interesting experience for me, as I thought I knew my style and my colours…<br/>
+                But there was some surprise for myself. She showed me how some colours really can be suitable for my skin tone, and some are against my skin.
+                I will definitely use new skills in my next shopping trip.
+            </Card>
+            <Card author="Debbie">
+                It was an amazing experience. After reviewing my wardrobe she found 10 different and exciting new outfits for me to wear out of my existing
+                collection too which I hadn’t considered before. She carefully colour matched the outfits and accessorised them with jewellery and scarves to
+                create a new me! I really enjoyed the whole experience and would recommend it to anyone!
+            </Card>
         </div>
     </NormalBlock>
 </Base>

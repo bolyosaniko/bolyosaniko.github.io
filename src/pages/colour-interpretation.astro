@@ -7,6 +7,7 @@ import Note from "../components/note.astro";
 import Card from "../components/card.astro";
 import EbookBanner from "../components/ebook_banner.astro";
 import PageHeader from "../components/page_header.astro";
+import BookButton from "../components/book_button.astro";
 import { commonData } from "../components/common_data.astro";
 
 import colourSession from "../assets/images/photos/colour_session.jpg";
@@ -70,39 +71,25 @@ const metadata = {
             <li>Profound insights and “aha” moments.</li>
         </ul>
     </NormalBlock>
-    <NormalBlock title="How can I book a session?">
-        <div class="mb-3 md:mb-6">
-            <p>You can schedule a colour interpretation session either <strong>online</strong> or <strong>in-person in Glasgow, UK</strong>.
-                To book, please contact me using one of the options below:</p>
-            <div class="flex flex-rows relative left-4 md:left-8 mt-2">
-                <svg class="size-6 md:size-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
-                    <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
-                    <path d="M3 7l9 6l9 -6"></path>
-                </svg>
-                <span class="ml-2"><a href="mailto:anikobolyos89@gmail.com">anikobolyos89@gmail.com</a></span>
-            </div>
-            <div class="flex flex-rows relative left-4 md:left-8 mt-2">
-                <svg class="size-6 md:size-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
-                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
-                </svg>
-                <span class="ml-2">+44 785 797 8600</span>
-            </div>
-        </div>
+    <NormalBlock title="Curious about what your colours might be telling you?">
+        <p class="mb-3 md:mb-6">Book a <strong>free 15-minute consultation</strong> and let’s talk about what you’d like to explore, what questions you may have, and how a Colour Interpretation session could support you.</p>
+        <p class="mb-3 md:mb-6 italic">Available online or in person in Glasgow, UK.</p>
+        <BookButton />
     </NormalBlock>
     <NormalBlock title="Testimonials" bgClass="bg-pic-paint">
         <div class="mx-auto max-w-[80%]">
-            <Card author="Katie Belo Dos Santos">
+            <Card author="Katie">
                 I underwent colour analysis with Anikó, and loved it. She was accurate, sensitive and very courteous.<br/>
                 <br/>
                 I had a bespoke experience, and, as a result, Anikó helped me both personally and professionally. I came out reenergised, and with useful advice. I totally recommend her services.
             </Card>
-            <Card author="Maria Isabel Pinto">
+            <Card author="Isabel">
                 I underwent the colour analysis with Anikó and it was amazing it helped me to know more about myself. I totally recommend her services. She is highly professional and an incredible and lovely Woman.
             </Card>
-            <Card author="Deborah Anne Beeson">
+            <Card author="Debbie">
                 I recently had a colour analysis consultation with Aniko. This was a completely new experience for me so I was very excited about the results. Aniko gave me a detailed analysis which was fully explained. It was spot on and gave me a real insight into my personality and really helped me. I would fully recommend it to anyone.
             </Card>
-            <Card author="Nazli Burcu Kayir">
+            <Card author="Burcu">
                 Aniko is an extraordinary lady with an excellent talent for colours. She changed my colour perception, which impacted my mood very positively. I always believed in energy healing, but I realised how much I underestimated the impact of colour on my life and well-being. I strongly recommend trying, and there is no way to regret it. Many thanks Aniko, for the positivity you bring to my life.
             </Card>
         </div>

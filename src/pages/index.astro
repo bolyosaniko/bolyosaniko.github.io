@@ -5,6 +5,7 @@ import Base from "../layouts/base.astro";
 import LandingBlock from "../components/landing_block.astro";
 import Boxes from "../components/boxes.astro";
 import Slides from "../components/slides.astro";
+import BookButton from "../components/book_button.astro";
 import { commonData } from "../components/common_data.astro";
 
 import aniko2 from "../assets/images/photos/aniko-2.jpg";
@@ -26,9 +27,7 @@ import aniko3 from "../assets/images/photos/aniko-3.jpg";
             <p class="mb-3 md:mb-6">Through personalised colour analysis, colour interpretation and wardrobe styling, I help you understand what
                 truly works for you – so you can make choices that feel natural, confident and authentically yours.</p>
             <p><strong>Discover your colours. Understand yourself. Create a wardrobe that feels like you.</strong></p>
-            <div class="flex flex-row justify-center gap-4 md:gap-8">
-                <a href={commonData.links.book15mins} class="mt-6 px-4 py-4 mx-2 bg-bittersweet hover:bg-coral-pink text-white">Book a free 15-minute consultation</a>
-            </div>
+            <BookButton />
         </LandingBlock>
         <Image class="min-h-full md:max-h-[700px] object-cover justify-self-center" src={aniko2} alt="" />
     </div>
@@ -131,9 +130,7 @@ import aniko3 from "../assets/images/photos/aniko-3.jpg";
         <p class="mb-3 md:mb-6">Book a <strong>15-minute consultation</strong> and tell me what you would like to change, what currently feels difficult and
             what you would love to get out of the process.</p>
         <p>We will talk through your options and find the most suitable place to begin.</p>
-        <div class="flex flex-row justify-center gap-4 md:gap-8 mb-3 md:mb-6">
-            <a href={commonData.links.book15mins} class="mt-6 px-4 py-4 mx-2 bg-bittersweet hover:bg-coral-pink text-white">Book a free 15-minute consultation</a>
-        </div>
+        <BookButton />
         <h4 class="mb-3 md:mb-6">Colour. Self-discovery. Style.</h4>
         <p><strong>Discover what works for you.<br/>
             Learn how to use it.<br/>

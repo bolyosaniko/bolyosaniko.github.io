@@ -6,6 +6,7 @@ import NormalBlock from "../components/normal_block.astro";
 import ModelSlides from "../components/model_slides.astro";
 import Card from "../components/card.astro";
 import PageHeader from "../components/page_header.astro";
+import BookButton from "../components/book_button.astro";
 import { commonData } from "../components/common_data.astro";
 
 import draping from "../assets/images/photos/draping.jpg";
@@ -101,68 +102,54 @@ const metadata = {
             <Image class="min-h-full md:max-h-[500px] object-cover justify-self-center pb-4" src={colourChart} alt="" />
         </div>
     </NormalBlock>
-    <NormalBlock title="How can I book a session?" bgClass="bg-pic-jumpers">
-        <div class="mb-3 md:mb-6">
-            <p>I offer <strong>in-person</strong> colour analysis consultations in <strong>Glasgow, UK</strong>. To book an
-                appointment, please contact me using one of the options below:</p>
-            <div class="flex flex-rows relative left-4 md:left-8 mt-2">
-                <svg class="size-6 md:size-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
-                    <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
-                    <path d="M3 7l9 6l9 -6"></path>
-                </svg>
-                <span class="ml-2"><a href="mailto:anikobolyos89@gmail.com">anikobolyos89@gmail.com</a></span>
-            </div>
-            <div class="flex flex-rows relative left-4 md:left-8 mt-2">
-                <svg class="size-6 md:size-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
-                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
-                </svg>
-                <span class="ml-2">+44 785 797 8600</span>
-            </div>
-        </div>
+    <NormalBlock title="Ready to discover your colours?" bgClass="bg-pic-jumpers">
+        <p class="mb-3 md:mb-6">Book a <strong>free 15-minute consultation</strong> to ask your questions, talk through your needs and find out what to expect from your Colour Analysis.</p>
+        <p class="mb-3 md:mb-6 italic">In-person in Glasgow, UK.</p>
+        <BookButton />
     </NormalBlock>
     <NormalBlock title="Some photos of my clients">
         <ModelSlides />
     </NormalBlock>
     <NormalBlock title="Testimonials" bgClass="bg-pic-glass">
         <div class="mx-auto max-w-[80%]">
-            <Card author="Amelia Pietropaolo">
+            <Card author="Amelia">
                 I discovered colour analysis recently. I initially did not know what it was. I then met Aniko and I immediately became interested into this unique field. The experience is special, it blends psychological traits to colours giving a customised flavour of each and everyone’s preference. Colours become alive with Aniko and start matching mood, job and daily commitments. I immediately found myself adapting her suggestions to my daily life and finding the benefit of it. Not only I now feel better in myself but I also receive many good feedbacks from other people that helps to boost my mood.<br/>
                 This is highly recommended for everyone who wants to discover more about themselves and to give new shades to their lives.
             </Card>
-            <Card author="Jing Lu">
+            <Card author="Jing">
                 Aniko is brilliant and professional. The colour journey I experienced with her was full of fun and inspiration. The suggestion I took from her gave me a positive feedback from my friends and colleagues, especially I changed my hair colour. It helps to build up confidence and bright up yourself.<br/>
                 Highly recommended without a doubt. It’s definitely a worthy session if you look to change yourself in a better way.
             </Card>
-            <Card author="Katie Belo Dos Santos">
+            <Card author="Katie">
                 Today I carried out a colour analysis with Anikó. She concluded I looked best in Spring colours. It was so worth it. It's an informative & fun session.
             </Card>
-            <Card author="Linda Dalton">
+            <Card author="Linda">
                 Hi Anikó, I really enjoyed it this morning. I feel really inspired to try some new colour combinations. It was really helpful to see the colours working by using some of your own clothing, rather than just the swatches. And having the photos to refer to is absolutely brilliant. I appreciated your offer to help me with my wardrobe if I need it. Your suggestion about batching similar colours together in my wardrobe is a fantastic idea. I think I already had a reasonable idea of colours that suit me, but after today I’m definitely open to expanding my range. Thank you so much! You will undoubtedly be really successful when you start your own business as you are so warm, welcoming, enthusiastic and emotionally intelligent. 😘
             </Card>
-            <Card author="Katiane Oliveira">
+            <Card author="Katiane">
                 Last Saturday, on 6th July, I had the lovely experience of learning a bit about the power of the colours and how they can boost my life. Anikó did an amazing job teaching and helping me to understand the impact of matching colours with my style.<br/>
                 I’m looking forward to applying all those learnings to my daily basis, and I wish all the best to Anikó on this journey that for sure will bring a lot of joy to people’s lives.
             </Card>
-            <Card author="Sonia Fernandez">
+            <Card author="Sonia">
                 I had my colour analysis done by Aniko. The session began by having a white drape placed over my neck to cover my body. Next, she draped several colour fabric swatches over the white drape. Based on the tone of your natural skin tone, Aniko explained about the seasonal categories: Spring, Summer, Autumn and Winter. Using different ranges of colours, based on a season, Aniko pointed out the colours that complement and harmonize my skin complexion, my eyes and my hair colour too. I was happily surprised by my result as an Autumn person, as I really love the brown palette.<br/>
                 Not only has Aniko guided me on clothing, but she also showed me what jewellery colour choices and with very interesting information for makeup.<br/>
                 I truly recommend her. She is a highly professional, kind and warm person. She really put her heart on helping me to get the best version of myself.<br/>
                 I think a colour analysis with Aniko might be an awesome gift for someone too.
             </Card>
-            <Card author="Anna Szilágyi">
+            <Card author="Anna">
                 I have absolutely loved my colour analysis with Aniko! I previously gravitated towards darker tones but she has shown me how they make me look older and how different tones can completely brighten up my complexion. I still wear my favourite colours just in the tones that suit me. We also determined that I suit gold jewellery better which I was really happy about because it was my preferred choice anyways. I am so happy I had the chance to try this out with Aniko, I definitely feel more confident dressing more colourful in my everyday life.
             </Card>
-            <Card author="Angéla Jánvári">
+            <Card author="Angéla">
                 Aniko is the queen of colours!<br/>
                 Her dedication to share her knowledge with others is outstanding.<br/>
                 She is very professional and thorough with her job. Gives you tips and tricks on how to mix up the colours. Not the first time I used her services and definitely not the last!
             </Card>
-            <Card author="Pippa Ankur">
+            <Card author="Pippa">
                 Thanks very much!<br/>
                 <br/>
                 I really enjoyed my colour analysis session. I wasn't confident in which colours suited me before. The session showed me that I should trust my instinct more. It was really striking to see examples of my best colours, which made me look more vibrant and alive, against other colours which just made me look tired. I am really looking forward to going through my wardrobe and experimenting with some colours I hadn't considered before. I would definitely recommend this service to anyone who wants to feel more confident in their colour choices.
             </Card>
-            <Card author="Lujzi Jacsó">
+            <Card author="Lujzi">
                 She did a lovely job on my colour analysis! It really helped me to elevate my style and my wardrobe and really allowed me to experiment with different makeup styles. Couldn’t have asked for a more welcoming and professional experience☺️
             </Card>
         </div>
