@@ -10,19 +10,19 @@ const idSlidesContainer = "slides-container-"+id;
 const idSlidesDots = "slides-dots-"+id;
 ---
 
-<section id={idSlidesWrapper} class="relative mx-auto w-[80%] overflow-hidden">
+<section id={idSlidesWrapper} class="relative mx-auto w-[80%] overflow-hidden" data-slides>
     <div id={idSlidesContainer} class="slides-container flex h-auto transition-transform">
         <slot />
     </div>
     <div class="flex items-center justify-center gap-4 my-4">
-        <button id={idSlideBtnPrevious} class="inline-flex rounded-full items-center justify-center bg-white size-8 md:size-16 opacity-50 hover:opacity-100 transition-opacity">
+        <button id={idSlideBtnPrevious} type="button" aria-label="Previous slide" class="inline-flex rounded-full items-center justify-center bg-white size-8 md:size-16 opacity-50 hover:opacity-100 transition-opacity">
             <svg class="size-4 md:size-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
             </svg>
         </button>
         <div id={idSlidesDots} class="dots-container flex items-center justify-center">
         </div>
-        <button id={idSlideBtnNext} class="inline-flex rounded-full items-center justify-center bg-white size-8 md:size-16 opacity-50 hover:opacity-100 transition-opacity">
+        <button id={idSlideBtnNext} type="button" aria-label="Next slide" class="inline-flex rounded-full items-center justify-center bg-white size-8 md:size-16 opacity-50 hover:opacity-100 transition-opacity">
             <svg class="size-4 md:size-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
             </svg>
@@ -30,75 +30,82 @@ const idSlidesDots = "slides-dots-"+id;
     </div>
 </section>
 
-<script is:inline define:vars={{idSlideBtnPrevious, idSlideBtnNext, idSlidesContainer, idSlidesDots}}>
-    const slidesContainer = document.getElementById(idSlidesContainer);
-    const prevButton = document.getElementById(idSlideBtnPrevious);
-    const nextButton = document.getElementById(idSlideBtnNext);
+<script>
+    // @ts-nocheck
+    function initializeSlide(slidesWrapper) {
+        if (slidesWrapper.dataset.initialized === "true") return;
 
-    let currentIndex = 0;
-    let slides = [];
-    let dots = [];
+        const slidesContainer = slidesWrapper.querySelector(".slides-container");
+        const prevButton = slidesWrapper.querySelector("button:first-of-type");
+        const nextButton = slidesWrapper.querySelector("button:last-of-type");
+        const dotsContainer = slidesWrapper.querySelector(".dots-container");
 
-    function render() {
-        let offset = 0;
-        slides.forEach((slide, index) => {
-            if (index < currentIndex) {
-                offset += slide.offsetWidth;
-            }
+        if (!(slidesContainer instanceof HTMLElement) || !(prevButton instanceof HTMLButtonElement) ||
+            !(nextButton instanceof HTMLButtonElement) || !(dotsContainer instanceof HTMLElement)) {
+            return;
+        }
+
+        slidesWrapper.dataset.initialized = "true";
+        const slides = Array.from(slidesContainer.children);
+        let currentIndex = 0;
+        const dots = [];
+
+        function render() {
+            let offset = 0;
+            slides.forEach((slide, index) => {
+                if (index < currentIndex) {
+                    offset += slide.offsetWidth;
+                }
+            });
+
+            slidesContainer.style.transform = `translateX(-${offset}px)`;
+            dots.forEach((dot, index) => {
+                dot.classList.toggle("bg-bittersweet", index === currentIndex);
+                dot.classList.toggle("bg-onyx", index !== currentIndex);
+            });
+        }
+
+        function goto(newIndex) {
+            if (newIndex < 0 || newIndex > slides.length - 1) return;
+            currentIndex = newIndex;
+            render();
+        }
+
+        slides.forEach((_, index) => {
+            const dot = document.createElement("button");
+            dot.type = "button";
+            dot.classList.add("size-2", "mx-1", "cursor-pointer", "rounded-lg", "bg-onyx", "transition-colors");
+            dot.setAttribute("aria-label", `Go to slide ${index + 1}`);
+            dot.addEventListener("click", () => goto(index));
+            dotsContainer.appendChild(dot);
+            dots.push(dot);
         });
 
-        slidesContainer.style.transform = `translateX(-${offset}px)`;
-        dots.forEach((dot, index) => {
-            if (index === currentIndex) {
-                dot.classList.remove("bg-onyx");
-                dot.classList.add("bg-bittersweet");
-            } else {
-                dot.classList.remove("bg-bittersweet");
-                dot.classList.add("bg-onyx");
+        prevButton.addEventListener("click", () => {
+            goto(currentIndex - 1);
+        });
+        nextButton.addEventListener("click", () => {
+            goto(currentIndex + 1);
+        });
+
+        if (typeof ResizeObserver !== "undefined") {
+            new ResizeObserver(render).observe(slidesContainer);
+        } else {
+            window.addEventListener("resize", render);
+        }
+
+        requestAnimationFrame(render);
+        window.addEventListener("load", render, { once: true });
+    }
+
+    function initializeSlides() {
+        document.querySelectorAll("[data-slides]").forEach((slidesWrapper) => {
+            if (slidesWrapper instanceof HTMLElement) {
+                initializeSlide(slidesWrapper);
             }
         });
     }
 
-    function prev() {
-        if (currentIndex === 0) return;
-        currentIndex -= 1;
-        render();
-    }
-
-    function next() {
-        if (currentIndex === slides.length - 1) return;
-        currentIndex += 1;
-        render();
-    }
-
-    function goto(newIndex) {
-        if (newIndex < 0 || newIndex > slides.length - 1) return;
-        currentIndex = newIndex;
-        render();
-    }
-
-    prevButton.addEventListener("click", () => {
-        prev()
-    });    
-    nextButton.addEventListener("click", () => {
-        next();
-    });
-
-    const newSlides = document.querySelectorAll("div.slides-container > div");
-    slides = newSlides;
-
-    const dotsContainer = document.getElementById(idSlidesDots);
-    slides.forEach(() => {
-        const newDiv = document.createElement("div");
-        newDiv.classList.add("size-2", "mx-1", "cursor-pointer", "rounded-lg", "bg-onyx", "transition-colors");
-        dotsContainer.appendChild(newDiv);
-    });
-
-    const newDots = document.querySelectorAll("div.dots-container > div");
-    newDots.forEach((dot, index) => {
-        dot.onclick = () => goto(index);
-    });
-    dots = newDots;
-
-    render();
+    initializeSlides();
+    document.addEventListener("astro:page-load", initializeSlides);
 </script>

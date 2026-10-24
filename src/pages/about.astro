@@ -6,6 +6,9 @@ import NormalBlock from "../components/normal_block.astro";
 import Note from "../components/note.astro";
 import Certificates from "../components/certificates.astro";
 import PageHeader from "../components/page_header.astro";
+import InstaSlides from "../components/insta_slides.astro";
+import BHFSlides from "../components/bhf_slides.astro";
+import WorkshopSlides from "../components/workshop_slides.astro";
 
 import aniko from "../assets/images/photos/aniko.jpg";
 import podcast from "../assets/images/photos/podcast.jpg";
@@ -21,7 +24,7 @@ const metadata = {
 <Base metadata={metadata}>
     <PageHeader title="About me" />
     <NormalBlock title="Who am I?">
-        <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8 items-center mb-3 md:mb-6">
             <div>
                 <p class="mb-3 md:mb-6">I am a wife, mother, Personal Stylist and Colour Consultant, passionate about helping
                     women discover themselves through colour, fashion and personal style.</p>
@@ -33,28 +36,29 @@ const metadata = {
                     taught me early on about the importance of self-awareness, emotional resilience and nurturing our inner
                     resources. Alongside this, I have always loved fashion and colour, gradually discovering how beautifully
                     these passions connect with self-expression and personal growth.</p>
-                <p class="mb-3 md:mb-6">In 2020, I immersed myself in the world of colour psychology and the deeper emotional
-                    meanings colours can hold for each of us. I became fascinated by how our personal connection with colour
-                    goes far beyond fashion, influencing our emotions, self-expression and the way we experience the world
-                    around us. And that's how I fell in love with the world of colour, a passion that continues to inspire
-                    me every day.</p>
-                <p class="mb-3 md:mb-6">To deepen my knowledge, I studied at the London College of Style (LCS), completing
-                    the Colour Analysis course and later the Personal Style course. These experiences allowed me to bring
-                    together my love of colour, fashion and self-expression, and explore how our appearance can reflect our
-                    individuality and support our confidence.</p>
-                <p class="mb-3 md:mb-6">For me, personal style has never been just about clothes. It is about discovering
-                    who we are, expressing our individuality and finding the confidence to be ourselves.</p>
             </div>
             <Image class="min-h-full md:max-h-[700px] xl:max-h-[560px] object-cover justify-self-center pb-4" src={aniko4} alt="" />
         </div>
+        <p class="mb-3 md:mb-6">In 2020, I immersed myself in the world of colour psychology and the deeper emotional
+            meanings colours can hold for each of us. I became fascinated by how our personal connection with colour
+            goes far beyond fashion, influencing our emotions, self-expression and the way we experience the world
+            around us. And that's how I fell in love with the world of colour, a passion that continues to inspire
+            me every day.</p>
+        <p class="mb-3 md:mb-6">To deepen my knowledge, I studied at the London College of Style (LCS), completing
+            the Colour Analysis course and later the Personal Style course. These experiences allowed me to bring
+            together my love of colour, fashion and self-expression, and explore how our appearance can reflect our
+            individuality and support our confidence.</p>
+        <p class="mb-3 md:mb-6">For me, personal style has never been just about clothes. It is about discovering
+            who we are, expressing our individuality and finding the confidence to be ourselves.</p>
         <Certificates />
     </NormalBlock>
-    <NormalBlock title="Creativity, Fashion and My Instagram Journey">
+    <NormalBlock title="Creativity, Fashion and My Instagram Journey" bgClass="bg-pic-frames">
         <p class="mb-3 md:mb-6">One of the most valuable experiences in my journey was volunteering as a window dresser at
             the British Heart Foundation in Southampton for around a year and a half. This experience allowed me to develop
             my creativity, experiment with colour combinations and explore a wide range of fashion and personal styles,
             including those very different from my own taste. I learned to appreciate different styles objectively and create
             eye-catching window displays that reflected the seasons and the shop's ever-changing selection.</p>
+        <BHFSlides />
         <p class="mb-3 md:mb-6">During this time, I also started my Instagram account, initially sharing outfit inspiration
             created using pieces available in the charity shop, including items featured in my window displays. Today,
             Instagram remains an important creative space for me, where I share colourful outfit ideas every day, often
@@ -63,6 +67,7 @@ const metadata = {
             I believe that different colour combinations and styling ideas can inspire others to experiment, discover their
             own style and express themselves more confidently. I am incredibly grateful for the kind and encouraging feedback
             I have received so far.</p>
+        <InstaSlides />
         <p class="mb-3 md:mb-6">Alongside fashion, I also enjoy sharing everyday experiences and more personal, emotional
             topics that I believe many people can relate to. Being able to connect with others through both creativity and
             honest conversations means a great deal to me. I want my content to be about more than beautiful outfits; I want
@@ -97,6 +102,7 @@ const metadata = {
             then worked in teams to create their own outfits using clothing and accessories I had carefully selected for them.
             It was wonderful to see everyone sharing ideas, experimenting with different combinations and enjoying the creative
             process before moving on to the wine tasting hosted by my friend.</p>
+        <WorkshopSlides />
         <p class="mb-3 md:mb-6">These experiences taught me so much and strengthened my desire to organise similar events in
             Glasgow, creating welcoming spaces where women can connect, explore their creativity and learn from one another
             through fashion.</p>
@@ -121,7 +127,7 @@ const metadata = {
             </Note>
         </div> -->
     </NormalBlock>
-    <NormalBlock title="My Philosophy">
+    <NormalBlock title="My Philosophy" bgClass="bg-pic-journal">
         <p class="mb-3 md:mb-6">My experiences have taught me the importance of openness, empathy and curiosity when it comes
             to people and personal style. I believe there is no single right way to dress, just as there is no single way we
             should be. Our differences are what make us truly interesting.</p>

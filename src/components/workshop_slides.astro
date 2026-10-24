@@ -1,0 +1,33 @@
+---
+import { Image } from "astro:assets";
+
+import Slides from "./slides.astro";
+
+import workshop1 from "../assets/images/photos/workshop_1.jpg";
+import workshop2 from "../assets/images/photos/workshop_2.jpg";
+import workshop3 from "../assets/images/photos/workshop_3.jpg";
+import workshop4 from "../assets/images/photos/workshop_4.jpg";
+import workshop5 from "../assets/images/photos/workshop_5.jpg";
+import workshop6 from "../assets/images/photos/workshop_6.jpg";
+---
+
+<Slides id="workshop-slides">
+    <div class="min-w-full w-full justify-items-center">
+        <Image class="max-h-[500px] w-auto" src={workshop2} alt="" />
+    </div>
+    <div class="min-w-full w-full justify-items-center">
+        <Image class="max-h-[500px] w-auto" src={workshop1} alt="" />
+    </div>
+    <div class="min-w-full w-full justify-items-center">
+        <Image class="max-h-[500px] w-auto" src={workshop5} alt="" />
+    </div>
+    <div class="min-w-full w-full justify-items-center">
+        <Image class="max-h-[500px] w-auto" src={workshop4} alt="" />
+    </div>
+    <div class="min-w-full w-full justify-items-center">
+        <Image class="max-h-[500px] w-auto" src={workshop6} alt="" />
+    </div>
+    <div class="min-w-full w-full justify-items-center">
+        <Image class="max-h-[500px] w-auto" src={workshop3} alt="" />
+    </div>
+</Slides>
