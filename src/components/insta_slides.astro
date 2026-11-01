@@ -1,0 +1,25 @@
+---
+import { Image } from "astro:assets";
+
+import Slides from "./slides.astro";
+
+import insta1 from "../assets/images/photos/insta_slide_1.jpg";
+import insta1b from "../assets/images/photos/insta_slide_1b.jpg";
+import insta2 from "../assets/images/photos/insta_slide_2.jpg";
+import insta2b from "../assets/images/photos/insta_slide_2b.jpg";
+---
+
+<Slides id="insta-slides">
+    <div class="min-w-full w-full justify-items-center">
+        <Image class="max-h-[500px] w-auto" src={insta1} alt="" />
+    </div>
+    <div class="min-w-full w-full justify-items-center">
+        <Image class="max-h-[500px] w-auto" src={insta1b} alt="" />
+    </div>
+    <div class="min-w-full w-full justify-items-center">
+        <Image class="max-h-[500px] w-auto" src={insta2} alt="" />
+    </div>
+    <div class="min-w-full w-full justify-items-center">
+        <Image class="max-h-[500px] w-auto" src={insta2b} alt="" />
+    </div>
+</Slides>
